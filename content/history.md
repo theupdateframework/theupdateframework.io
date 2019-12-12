@@ -8,7 +8,7 @@ in a [paper](https://theupdateframework.github.io/papers/survivable-key-compromi
 Samuel and Cappos coauthored with Nick Mathewson and Roger
 Dingledine, researchers from [The Tor Project,
 Inc](https://www.torproject.org/).  Since 2011, TUF has been based at [New York
-University Tandon School of Engineering](http://engineering.nyu.edu/), where
+University Tandon School of Engineering](https://engineering.nyu.edu/), where
 Cappos is a tenured associate professor of computer science and engineering.
 There he works with a team of Ph.D. students, including Trishank Karthik Kuppusamy,
 who graduated in 2017, and developers,

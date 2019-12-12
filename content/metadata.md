@@ -16,7 +16,7 @@ that outdated metadata will be detected and that
 clients can refuse to accept metadata older than that which they've already seen.
 
 All TUF metadata uses a subset of the JSON object format. When calculating the
-digest of an object, we use the [Canonical JSON](http://wiki.laptop.org/go/Canonical_JSON) format. Implementation-level detail about the metadata can be found in the [spec](https://github.com/theupdateframework/specification/blob/master/tuf-spec.md).
+digest of an object, we use the [Canonical JSON](https://wiki.laptop.org/go/Canonical_JSON) format. Implementation-level detail about the metadata can be found in the [spec](https://github.com/theupdateframework/specification/blob/master/tuf-spec.md).
 
 There are four required top-level roles, each with their own metadata file.
 

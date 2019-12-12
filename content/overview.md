@@ -8,7 +8,7 @@ A quick look at what TUF does and how it works.
 
 There are literally thousands of different software update systems in common
 use today. (In fact the computer of an average Windows user probably contains about [two
-dozen](http://secunia.com/gfx/pdf/Secunia_RSA_Software_Portfolio_Security_Exposure.pdf)
+dozen](https://secunia.com/gfx/pdf/Secunia_RSA_Software_Portfolio_Security_Exposure.pdf)
 different software updaters!)
 
 What these very different systems have in common is that they all identify,

@@ -8,13 +8,13 @@ title: Press
 
 * [Container Journal-October 2017: CNCF Adds 2 Projects to Better Secure Containers](https://containerjournal.com/2017/10/24/cncf-adds-projects-better-secure-containers/)
 
-* [Enterprise Cloud News-October 2017: Cloud Native Computing Foundation Adopts 2 Security Projects](http://www.enterprisecloudnews.com/author.asp?section_id=571&doc_id=737560)
+* [Enterprise Cloud News-October 2017: Cloud Native Computing Foundation Adopts 2 Security Projects](https://www.enterprisecloudnews.com/author.asp?section_id=571&doc_id=737560)
 
 * [The New Stack-October 2017: CNCF Brings Security to the Cloud Native Stack with Notary, TUF Adoption](https://thenewstack.io/cncf-brings-security-cloud-native-stack-notary-tuf-adoption/)
 
 * [Popular Science-October 2017: The Year's Most Important Innovations in Security](https://www.popsci.com/top-security-innovations-2017)
 
-* [eWeek-April 2017: How The Update Framework Improves Security of Software Updates](http://www.eweek.com/security/how-the-update-framework-improves-security-of-software-updates)
+* [eWeek-April 2017: How The Update Framework Improves Security of Software Updates](https://www.eweek.com/security/how-the-update-framework-improves-security-of-software-updates)
 
 * [Python Podcast.init-March 2017: Securing your Software Updates with Justin Cappos-Episode 99, March 2017](https://www.podcastinit.com/episode-99-the-update-framework-with-justin-cappos/)
 

@@ -8,13 +8,13 @@ title: News
 
 >
 Justin Cappos and David Lawrence, senior security engineer at Docker, jointly
-chaired the TUF/Notary Salon at [KubeCon + CloudNativeCon North America](http://events17.linuxfoundation.org/events/kubecon-and-cloudnativecon-north-america/program/schedule). The flagship conference of the Cloud Native Computing Foundation
+chaired the TUF/Notary Salon at [KubeCon + CloudNativeCon North America](https://events17.linuxfoundation.org/events/kubecon-and-cloudnativecon-north-america/program/schedule). The flagship conference of the Cloud Native Computing Foundation
 was held in Austin, Texas, December 6-8, 2017.
 
 **October 24, 2017**
 
 >
-[The Linux Foundation](http://www.linuxfoundation.org/) announced at Open Source
+[The Linux Foundation](https://www.linuxfoundation.org/) announced at Open Source
 Summit Europe that TUF would become the [latest hosted project](https://www.linuxfoundation.org/cloud-containers-virtualization/cncf-host-two-security-projects-notary-tuf-specification/) of the Cloud Native Computing Foundation.
 TUF and Notary are the first security projects to be adopted by CNCF.
 
@@ -46,9 +46,9 @@ DockerCon 2017.
 >
 Lily Guo and Riyaz Faizullabhoy from Docker gave a
 [talk](https://linuxconcontainerconeurope2016.sched.org/event/7oI1/software-update-security-when-the-going-gets-tough-get-tuf-going-riyaz-faizullabhoy-lily-guo-docker?iframe=no&w=i:100;&sidebar=yes&bg=no)
-on TUF and Notary at LinuxCon+ContainerCon Europe 2016.  Slides of their talk
+on TUF and Notary at LinuxCon+ContainerCon Europe 2016. Slides of their talk
 are available
-[here](http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf).
+[here](https://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf).
 
 **September 22, 2016**
 
