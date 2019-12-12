@@ -1,8 +1,9 @@
+{{ $hasToc := gt (len .TableOfContents) 32 }}
 <section class="section">
   <div class="container">
-    <div class="columns">
+    <div class="columns is-variable is-8">
       <div class="column">
-        <article class="is-narrow-desktop">
+        <article{{ if not $hasToc }} class="is-narrow-desktop"{{ end }}>
           <div class="content is-medium has-bottom-padding">
             {{ .Content }}
           </div>
@@ -11,6 +12,7 @@
         {{ partial "page/pagination.html" . }}
       </div>
 
+      {{ if $hasToc  }}
       <div class="column is-one-third is-hidden-mobile">
         <p class="title">
           Contents
@@ -20,6 +22,7 @@
           {{ .TableOfContents }}
         </div>
       </div>
+      {{ end }}
     </div>
   </div>
 </section>
