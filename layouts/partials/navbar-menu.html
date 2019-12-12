@@ -11,7 +11,7 @@
 
   <div class="navbar-dropdown is-boxed is-right">
     {{ range .Children }}
-    <a class="navbar-item">
+    <a class="navbar-item" href="{{ .URL }}">
       {{ .Name }}
     </a>
     {{ end }}

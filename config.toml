@@ -1,5 +1,5 @@
 title = "The Update Framework"
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["section", "taxonomy", "taxonomyTerm"]
 copyright = "The Update Framework authors"
 
 [params]

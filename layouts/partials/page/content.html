@@ -1,0 +1,25 @@
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <article class="is-narrow-desktop">
+          <div class="content is-medium has-bottom-padding">
+            {{ .Content }}
+          </div>
+        </article>
+
+        {{ partial "page/pagination.html" . }}
+      </div>
+
+      <div class="column is-one-third is-hidden-mobile">
+        <p class="title">
+          Contents
+        </p>
+
+        <div class="toc">
+          {{ .TableOfContents }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
