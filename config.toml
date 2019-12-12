@@ -1,30 +1,19 @@
-title = "Hugo Netlify Starter"
+title = "The Update Framework"
 disableKinds = ["taxonomy", "taxonomyTerm"]
-copyright = "Cloud Native Computing Foundation"
-
-[markup.highlight]
-style = "paraiso-dark"
+copyright = "The Update Framework authors"
 
 [params]
 font_awesome_version = "5.12.0"
-description = "Boilerplate for building beautiful websites"
+description = "A framework for securing software update systems"
 favicon = "favicon.png"
 
 [params.logos]
-navbar = "cncf-color.png"
-
-[[params.colors.extra]]
-name = "twitter-blue"
-hex = "#00aced"
-
-[[params.social]]
-name = "Twitter"
-color = "twitter-blue"
-url = "https://twitter.com/CloudNativeFdn"
-icon = "fab fa-twitter"
+navbar = "tuf-horizontal-white.png"
+hero = "tuf-stacked-color.png"
+cncf = "cncf-color.png"
 
 [[params.fonts]]
-name = "Fira Sans"
+name = "Alata"
 sizes = [300, 400, 600, 700]
 type = "sans_serif"
 
@@ -34,11 +23,12 @@ sizes = [300, 400, 600, 700]
 type = "monospace"
 
 [[menu.main]]
-name = "Home"
-url = "/"
+name = "About"
+identifier = "about"
 weight = 1
 
 [[menu.main]]
-name = "CNCF"
-url = "https://cncf.io"
-weight = 2
+name = "Overview"
+parent = "about"
+url = "/overview"
+

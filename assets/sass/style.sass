@@ -19,8 +19,7 @@
 {{ end }}
 
 // Site-specific variables here
-$cncf-blue: #426cab
-$cncf-green: #76c5d5
+$tuf-blue: #0082ca
 
 // Extra colors specified in config
 {{ with $extraColors }}
@@ -34,7 +33,8 @@ ${{ .name }}: '{{ .hex }}'
 @import "bulma/sass/utilities/functions"
 
 // Bulma-specific overrides
-$primary: $cncf-blue
+$primary: $tuf-blue
+$navbar-dropdown-boxed-radius: 0
 
 // Font overrides
 {{ if $fonts }}
@@ -53,7 +53,8 @@ $family-monospace: "{{ . }}", monospace
 @import "bulma/sass/utilities/derived-variables"
 
 // Bulma variable overrdides that require derived variables like $dark
-$footer-background-color: $dark
+$footer-background-color: $black
+$link: $primary
 
 {{ with $extraColors }}
 {{ range . }}

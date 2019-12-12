@@ -1,0 +1,22 @@
+{{ $here := .here }}
+{{ range .menu }}
+{{ $isHere := eq .URL $here }}
+{{ $isExternal := hasPrefix .URL "http" }}
+
+{{ if .HasChildren }}
+<div class="navbar-item has-dropdown is-hoverable">
+  <a class="navbar-link is-arrowless"{{ with .URL }} href="{{ . }}"{{ end }}{{ if $isExternal }} target="_blank"{{ end }}>
+    {{ .Name }}
+  </a>
+
+  <div class="navbar-dropdown is-boxed is-right">
+    {{ range .Children }}
+    <a class="navbar-item">
+      {{ .Name }}
+    </a>
+    {{ end }}
+  </div>
+</div>
+{{ else }}
+{{ end }}
+{{ end }}

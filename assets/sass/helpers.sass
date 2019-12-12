@@ -6,3 +6,15 @@
 
   .is-main
     flex: 1
+
+=logo($d, $m)
+  +desktop
+    width: $d
+  +touch
+    width: $m
+
+.hero-logo
+  +logo(70%, 30%)
+
+.cncf-logo
+  +logo(40%, 70%)

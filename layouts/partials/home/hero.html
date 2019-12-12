@@ -1,17 +1,26 @@
 {{ $title := site.Title }}
 {{ $desc  := site.Params.description | markdownify }}
-<section class="hero is-primary is-medium">
+{{ $logo  := printf "img/logos/%s" site.Params.logos.hero | relURL }}
+<section class="hero is-medium">
   <div class="hero-body">
     <div class="container">
-      <p class="title is-size-1 is-size-2-mobile has-text-weight-light{{ if $desc }} is-spaced{{ end }}">
-        {{ $title }}
-      </p>
+      <div class="columns is-vcentered is-variable is-8">
+        <div class="column is-one-quarter">
+          <img class="hero-logo" src="{{ $logo }}" alt="{{ $title }} hero logo">
+        </div>
 
-      {{ with $desc }}
-      <p class="subtitle is-size-2 is-size-3-mobile has-text-weight-light">
-        {{ . }}
-      </p>
-      {{ end }}
+        <div class="column">
+          <p class="title is-size-1 is-size-2-mobile has-text-weight-bold{{ if $desc }} is-spaced{{ end }}">
+            {{ $title }}
+          </p>
+          
+          {{ with $desc }}
+          <p class="subtitle is-size-2 is-size-3-mobile has-text-weight-light">
+            {{ . }}
+          </p>
+          {{ end }}
+        </div>
+      </div>
     </div>
   </div>
 </section>
