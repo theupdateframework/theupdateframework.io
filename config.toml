@@ -31,4 +31,108 @@ weight = 1
 name = "Overview"
 parent = "about"
 url = "/overview"
+weight = 1
 
+[[menu.main]]
+name = "History"
+parent = "about"
+url = "/history"
+weight = 2
+
+[[menu.main]]
+name = "Timeline"
+parent = "about"
+url = "/timeline"
+weight = 3
+
+[[menu.main]]
+name = "Publications"
+parent = "about"
+url = "/publications"
+weight = 5
+
+[[menu.main]]
+name = "People"
+parent = "about"
+url = "/people"
+weight = 5
+
+[[menu.main]]
+name = "Getting started"
+identifier = "getting-started"
+weight = 2
+
+[[menu.main]]
+name = "Security"
+parent = "getting-started"
+url = "/security"
+weight = 1
+
+[[menu.main]]
+name = "Roles and metadata"
+parent = "getting-started"
+url = "/metadata"
+weight = 2
+
+[[menu.main]]
+name = "Specification"
+parent = "getting-started"
+url = "https://github.com/theupdateframework/specification/blob/master/tuf-spec.md#the-update-framework-specification"
+weight = 3
+
+[[menu.main]]
+name = "Implementation"
+parent = "getting-started"
+url = "https://github.com/theupdateframework/tuf/blob/develop/docs/GETTING_STARTED.rst#getting-started"
+weight = 4
+
+[[menu.main]]
+name = "Videos"
+parent = "getting-started"
+url = "/videos"
+weight = 5
+
+[[menu.main]]
+name = "Community"
+identifier = "community"
+weight = 3
+
+[[menu.main]]
+name = "Adoptions"
+parent = "community"
+url = "/adoptions"
+weight = 1
+
+[[menu.main]]
+name = "Reporting issues"
+parent = "community"
+url = "/reporting"
+weight = 2
+
+[[menu.main]]
+name = "Security audits"
+parent = "community"
+url = "/audits"
+weight = 3
+
+[[menu.main]]
+name = "Enhancement proposals"
+parent = "community"
+url = "/taps"
+weight = 4
+
+[[menu.main]]
+name = "Contribute"
+parent = "community"
+url = "https://github.com/theupdateframework/tuf"
+weight = 5
+
+[[menu.main]]
+name = "News"
+url = "/news"
+weight = 4
+
+[[menu.main]]
+name = "Contact"
+url = "/contact"
+weight = 5

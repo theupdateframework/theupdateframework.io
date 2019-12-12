@@ -18,5 +18,8 @@
   </div>
 </div>
 {{ else }}
+<a class="navbar-item" href="{{ .URL }}"{{ if $isExternal }} target="_blank"{{ end }}>
+  {{ .Name }}
+</a>
 {{ end }}
 {{ end }}
