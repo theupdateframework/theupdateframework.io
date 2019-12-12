@@ -1,16 +1,18 @@
 {{ with .Content }}
 <section class="section">
-  <div class="container">
-    <div class="columns">
-      <div class="column is-one-third">
-        <p>
-          TODO
-        </p>
-      </div>
-      <div class="column">
-        <div class="content is-medium">
+  <div class="container has-extra-padding">
+    <div class="columns is-variable is-8">
+      <div class="column is-two-thirds">
+        <div class="content is-large is-narrow-desktop">
           {{ . }}
         </div>
+      </div>
+
+      <br class="is-hidden-desktop" />
+      <br class="is-hidden-desktop" />
+
+      <div class="column">
+        {{ partial "home/cncf.html" . }}
       </div>
     </div>
   </div>

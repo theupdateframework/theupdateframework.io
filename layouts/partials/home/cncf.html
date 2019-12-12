@@ -1,10 +1,9 @@
 {{ $logo := printf "img/logos/%s" site.Params.logos.cncf | relURL }}
-<section class="section"> 
-  <div class="container has-text-centered">
-    <p class="title is-size-3 is-size-4-mobile has-text-weight-light">
-      The Update Framework is a <a href="https://cncf.io" target="_blank">CNCF</a> incubating project
-    </p>
 
-    <img class="cncf-logo" src="{{ $logo }}" alt="CNCF project logo">
-  </div>
-</section>
+<p class="title">
+  The Update Framework is a <a href="https://cncf.io" target="_blank">CNCF</a> incubating project
+</p>
+
+<br />
+
+<img class="cncf-logo" src="{{ $logo }}" alt="CNCF project logo">
