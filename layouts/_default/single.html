@@ -22,8 +22,8 @@
       {{ if $hasToc }}
       <div class="column is-one-third is-hidden-mobile">
         <div class="toc">
-          <p class="title">
-            <span class="icon has-text-grey-light">
+          <p class="is-size-4 has-text-weight-bold">
+            <span class="icon has-text-grey">
               <i class="fas fa-list-ul"></i>
             </span>
             &nbsp;
@@ -31,6 +31,8 @@
               Contents
             </span>
           </p>
+
+          <br />
       
           <div class="toc-content">
             {{ .TableOfContents }}
