@@ -3,7 +3,7 @@
 {{ $logo  := printf "img/logos/%s" site.Params.logos.hero | relURL }}
 <section class="hero is-medium">
   <div class="hero-body">
-    <div class="container">
+    <div class="container is-paddingless">
       <div class="columns is-vcentered is-variable is-8">
         <div class="column is-one-quarter">
           <img class="hero-logo" src="{{ $logo }}" alt="{{ $title }} hero logo">

@@ -16,7 +16,7 @@ hero = "tuf-stacked-color.png"
 cncf = "cncf-color.png"
 
 [[params.fonts]]
-name = "Alata"
+name = "Nunito"
 sizes = [300, 400, 600, 700]
 type = "sans_serif"
 
