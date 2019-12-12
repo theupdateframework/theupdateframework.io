@@ -11,8 +11,16 @@
 
   <div class="navbar-dropdown is-boxed is-right">
     {{ range .Children }}
-    <a class="navbar-item" href="{{ .URL }}">
-      {{ .Name }}
+    {{ $isExternal := hasPrefix .URL "http" }}
+    <a class="navbar-item" href="{{ .URL }}"{{ if $isExternal }} target="_blank"{{ end }}>
+      <span>
+        {{ .Name }}
+      </span>
+      {{ if $isExternal }}
+      <span class="icon is-medium has-text-primary">
+        <i class="fas fa-external-link-alt"></i>
+      </span>
+      {{ end }}
     </a>
     {{ end }}
   </div>

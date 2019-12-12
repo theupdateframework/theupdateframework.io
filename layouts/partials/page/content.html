@@ -3,6 +3,8 @@
   <div class="container">
     <div class="columns is-variable is-8">
       <div class="column">
+        {{ partial "page/hero.html" . }}
+
         <article{{ if not $hasToc }} class="is-narrow-desktop"{{ end }}>
           <div class="content is-medium has-bottom-padding">
             {{ .Content }}

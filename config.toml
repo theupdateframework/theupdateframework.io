@@ -2,6 +2,9 @@ title = "The Update Framework"
 disableKinds = ["section", "taxonomy", "taxonomyTerm"]
 copyright = "The Update Framework authors"
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [params]
 font_awesome_version = "5.12.0"
 description = "A framework for securing software update systems"
