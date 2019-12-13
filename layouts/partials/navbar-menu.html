@@ -5,7 +5,7 @@
 
 {{ if .HasChildren }}
 <div class="navbar-item has-dropdown is-hoverable">
-  <a class="navbar-link has-text-weight-bold is-arrowless"{{ with .URL }} href="{{ . }}"{{ end }}{{ if $isExternal }} target="_blank"{{ end }}>
+  <a class="navbar-link is-size-5 has-text-weight-bold is-arrowless"{{ with .URL }} href="{{ . }}"{{ end }}{{ if $isExternal }} target="_blank"{{ end }}>
     {{ .Name }}
   </a>
 
@@ -26,7 +26,7 @@
   </div>
 </div>
 {{ else }}
-<a class="navbar-item has-text-weight-bold{{ if $isHere }} is-active{{ end }}" href="{{ .URL }}"{{ if $isExternal }} target="_blank"{{ end }}>
+<a class="navbar-item is-size-5 has-text-weight-bold{{ if $isHere }} is-active{{ end }}" href="{{ .URL }}"{{ if $isExternal }} target="_blank"{{ end }}>
   {{ .Name }}
 </a>
 {{ end }}
