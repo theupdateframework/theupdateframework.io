@@ -1,0 +1,32 @@
+{{ $isHome        := .IsHome }}
+{{ $isDoc         := eq .Section "docs" }}
+{{ $title         := .Title }}
+{{ $description   := cond $isHome site.Params.description .Params.description }}
+{{ $pageType      := cond $isHome "website" "article" }}
+{{ $imageUrl      := "img/logos/tuf-horizontal-color.png" | absURL }}
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+{{ with $description }}
+<meta name="description" content="{{ . }}" />
+{{ end }}
+
+<!-- OpenGraph metadata-->
+<meta property="og:title" content="{{ $title }}">
+{{ if $isDoc }}
+<meta property="og:type" content="documentation">
+{{ end }}
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:locale" content="en_US">
+{{ if not $isHome }}
+<meta property="og:site_name" content="{{ site.Title }}">
+{{ end }}
+{{ with $description }}
+<meta property="og:description" content="{{ . }}">
+{{ end }}
+<meta name="og:type" content="{{ $pageType }}">
+<meta name="og:image" content="{{ $imageUrl }}">
+<meta name="og:image:alt" content="{{ site.Title }} project logo">
+<meta name="og:image:type" content="image/png">
+
+<link rel="canonical" content="{{ .Permalink }}">
+{{ hugo.Generator }}
