@@ -1,10 +1,13 @@
-{{ with site.Copyright }}
 {{ $year := now.Year }}
-<footer class="footer">
+{{ $copy := site.Params.copyright | markdownify }}
+<footer class="footer has-background-black">
   <div class="container">
-    <p class="title is-size-6 has-text-light has-text-weight-light">
-      &copy; {{ $year }} {{ . }}
-    </p>
+    <div class="content is-copyright has-text-light">
+      <p class="has-text-weight-bold">
+        &copy; {{ $year }} The Update Framework authors | Documentation Distributed under CC-BY-4.0
+      </p>
+
+      {{ $copy }}
+    </div>   
   </div>
 </footer>
-{{ end }}
