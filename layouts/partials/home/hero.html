@@ -10,13 +10,13 @@
         </div>
 
         <div class="column">
-          <p class="title is-size-1 is-size-2-mobile has-text-weight-bold{{ if $desc }} is-spaced{{ end }}">
+          <p class="title is-size-1 is-size-2-mobile has-text-weight-bold">
             {{ $title }}
           </p>
 
-          <hr class="thick" />
-          
           {{ with $desc }}
+          <hr class="thick" />
+
           <p class="subtitle is-size-2 is-size-3-mobile has-text-weight-light">
             {{ . }}
           </p>
