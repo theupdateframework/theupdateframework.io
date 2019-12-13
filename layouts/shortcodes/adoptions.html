@@ -1,0 +1,19 @@
+{{ $key       := .Get 0 }}
+{{ $adoptions := index site.Data.adoptions $key }}
+<br />
+
+<div class="container">
+  <div class="columns is-multiline is-vcentered is-variable is-8">
+    {{ range $adoptions }}
+    {{ $img    := .tag | lower }}
+    {{ $type   := .img_type | default "png" }}
+    {{ $alt    := .alt | default .tag }}
+    {{ $imgUrl := printf "img/logos/adoptions/%s_logo.%s" $img $type | relURL }}
+    <div class="column is-one-quarter">
+      <a href="{{ .url }}" target="_blank">
+        <img src="{{ $imgUrl }}" alt="{{ $alt }} logo">
+      </a>
+    </div>
+    {{ end }}
+  </div>
+</div>
