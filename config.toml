@@ -142,10 +142,10 @@ weight = 5
 
 [[menu.main]]
 name = "News"
-url = "/news"
+url = "/news/"
 weight = 4
 
 [[menu.main]]
 name = "Contact"
-url = "/contact"
+url = "/contact/"
 weight = 5

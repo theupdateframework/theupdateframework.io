@@ -26,7 +26,7 @@
   </div>
 </div>
 {{ else }}
-<a class="navbar-item has-text-weight-bold" href="{{ .URL }}"{{ if $isExternal }} target="_blank"{{ end }}>
+<a class="navbar-item has-text-weight-bold{{ if $isHere }} is-active{{ end }}" href="{{ .URL }}"{{ if $isExternal }} target="_blank"{{ end }}>
   {{ .Name }}
 </a>
 {{ end }}
