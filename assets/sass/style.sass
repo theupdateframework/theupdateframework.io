@@ -69,6 +69,14 @@ $colors: mergeColorMaps(("{{ .name }}": ({{ .hex }}, $white)), $colors)
 {{ end }}
 {{ end }}
 
+// Show h2 headings a bit below navbar when clicking anchors, without affecting
+// the spacing between a heading and a preceding paragraph.
+h2:before
+  height: calc(#{$navbar-height} + 2rem)
+  margin-top: calc((#{$navbar-height} + 2rem) * -1)
+  content: ""
+  display: block
+
 // Bulma core
 @import "bulma/sass/utilities/_all"
 @import "bulma/sass/base/_all"

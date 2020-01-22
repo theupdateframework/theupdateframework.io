@@ -89,22 +89,28 @@ url = "/metadata"
 weight = 2
 
 [[menu.main]]
+name = "Frequently asked questions"
+parent = "getting-started"
+url = "/faq"
+weight = 3
+
+[[menu.main]]
 name = "Specification"
 parent = "getting-started"
 url = "https://github.com/theupdateframework/specification/blob/master/tuf-spec.md#the-update-framework-specification"
-weight = 3
+weight = 4
 
 [[menu.main]]
 name = "Implementation"
 parent = "getting-started"
 url = "https://github.com/theupdateframework/tuf/blob/develop/docs/GETTING_STARTED.rst#getting-started"
-weight = 4
+weight = 5
 
 [[menu.main]]
 name = "Videos"
 parent = "getting-started"
 url = "/videos"
-weight = 5
+weight = 6
 
 [[menu.main]]
 name = "Community"
