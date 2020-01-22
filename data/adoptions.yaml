@@ -1,10 +1,8 @@
 main:
-- url: https://blog.docker.com/2015/08/content-trust-docker-1-8/
-  tag: Docker
-- url: https://flynn.io/docs/development#the-update-framework-%28tuf%29
-  tag: Flynn
-- url: https://advancedtelematic.com/en/press-releases/ats-is-integrating-the-uptane-security-framework-for-over-the-air-software-updates-to-connected-vehicles.html
-  tag: ATS
+- url: https://github.com/awslabs/tough
+  tag: Amazon
+- url: https://fuchsia.dev/
+  tag: Google
 - url: https://github.com/theupdateframework/notary
   tag: Notary
 - url: https://console.bluemix.net/docs/services/Registry/registry_trusted_content.html#registry_trustedcontent
@@ -13,10 +11,16 @@ main:
 - url: https://docs.microsoft.com/en-us/azure/container-registry/container-registry-content-trust
   tag: Azure
   img_type: jpg
-- url: https://leap.se/en/2014/darkest-night
-  tag: LEAP
+- url: https://blog.docker.com/2015/08/content-trust-docker-1-8/
+  tag: Docker
 - url: https://www.youtube.com/watch?v=2ZIu9XTvsC0
   tag: VMWare
+- url: https://advancedtelematic.com/en/press-releases/ats-is-integrating-the-uptane-security-framework-for-over-the-air-software-updates-to-connected-vehicles.html
+  tag: ATS
+- url: https://www.datadoghq.com/blog/engineering/secure-publication-of-datadog-agent-integrations-with-tuf-and-in-toto
+  tag: Datadog
+- url: https://flynn.io/docs/development#the-update-framework-%28tuf%29
+  tag: Flynn
 - url: https://www.youtube.com/watch?v=ofXHmfOTLyA
   tag: Quay
 - url: https://github.com/digitalocean/do-agent
@@ -31,6 +35,8 @@ main:
   tag: Airbiquity
 - url: https://github.com/goharbor/harbor/blob/master/docs/use_notary.md
   tag: Harbor
+- url: https://leap.se/en/2014/darkest-night
+  tag: LEAP
 ongoing:
 - url: https://github.com/pypa/interoperability-peps/blob/master/pep-0458-tuf-online-keys.rst
   tag: PyPi
