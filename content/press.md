@@ -2,6 +2,30 @@
 title: Press
 ---
 
+* [Linux Weekly News-December 19, 2019: Cloud Native Computing Foundation Announces TUF Graduation](https://lwn.net/Articles/807777/)
+
+* [DevClass-December 19, 2019: The Update Framework Becomes the Ninth Project to Graduate CNCF](https://devclass.com/2019/12/19/the-update-framework-becomes-ninth-project-to-graduate-cncf/)
+
+* [DevOps-December 18, 2019: CNCF Graduates TUF Project to Secure Software Updates](https://devops.com/cncf-graduates-tuf-project-to-secure-software-updates/)
+
+* [Linux Weekly News-July 24, 2019: Protecting update systems from nation-state attackers](https://lwn.net/Articles/794391/)
+
+* [The Drive.com-July 23, 2019: Top OTA Expert Shows How State Actors Hack into your Car and What Happens Next](https://www.thedrive.com/tech/29120/top-ota-expert-shows-how-state-actors-hack-into-your-car-and-what-happens-next-people-will-die)
+
+* [Just Auto-May 30, 2019: HERE and Uptane Team on automotive/IoT security](https://www.just-auto.com/news/here-and-uptane-team-on-automotiveiot-security_id188912.aspx)
+
+* [Traffic Technology Today-May 29,2019: HERE Technologies Joins the Uptane Alliance](https://www.traffictechnologytoday.com/news/mapping/here-technologies-joins-the-uptane-alliance-for-highly-secure-software-updates.html)
+
+* [TMCnet.com-May 28, 2019: HERE Technologies Joins the Uptane Alliance](https://www.tmcnet.com/usubmit/2019/05/28/8963021.htm)
+
+* [Airbiquity.com-December 13, 2018: Airbiquity Bolsters OTAmatic™ Security And Data Analytic Features In Latest Over-The-Air (OTA) Software And Data Management Offering For Automotive](https://www.airbiquity.com/news/press-releases/airbiquity-bolsters-otamatictm-security-and-data-analytic-features-latest-over-air-ota-software-and-data-management-offering-aut)
+
+* [Auto Cybersecurity Connected Car News-August 19, 2018: Uptane Prevents Attacks](https://www.autoconnectedcar.com/2018/08/automotive-cybersecurity-open-source-ota-crypto-market/)
+
+* [eweek.com-July 13, 2018: How The Update Framework Improves Software Distribution Security](https://www.eweek.com/security/how-the-update-framework-improves-software-distribution-security)
+
+* [eSecurity Planet.com-June 13, 2018: Container and Kubernetes Security: It's Complicated](https://www.esecurityplanet.com/applications/container-and-kubernetes-security.html)
+
 * [Airbiquity.com-January 2018: Airbiquity OTAmatic Named 2017 New Product Of The Year By Business Intelligence Group](https://www.airbiquity.com/news/press-releases/airbiquity-otamatic-named-2017-new-product-year-business-intelligence-group)
 
 * [TechCrunch-October 2017: The Cloud Native Computing Foundation Adds Two Security Projects to its Open Source Stable](https://beta.techcrunch.com/2017/10/24/the-cloud-native-computing-foundation-adds-two-security-projects-to-its-open-source-stable/)

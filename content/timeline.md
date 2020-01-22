@@ -61,6 +61,15 @@ security by *Popular Science*.
 Europe that it was adding TUF as the 14th hosted project for its Cloud Native
 Computing Foundation.
 
-**2018**: Airbiquity receives a BIG Award for Business in the 2017 New Product of
-the Year Award category for its OTAmatic over-the-air software and data management
-solution, which incorporates Uptane to secure its software updates.
+**2018**: Aktualizr, an open source C++ implementation of Uptane developed by Advanced Telematic Systems (now HERE technologies), is integrated into Automotive Grade Linux (AGL). AGL, a collaborative open source project of the Linux
+Foundation, has been adopted by a number of U.S. and international manufacturers.
+
+**2018**: NYU Tandon School of Engineering becomes an associate member of the Linux Foundation and a Bronze member of AGL on the strength of the Foundation’s adoption of Uptane and TUF projects.
+
+**2018**: The Uptane Alliance, a nonprofit entity organized under the umbrella of IEEE’s International Standards and Technology Organization (ISTO), is formed to oversee development of standards for the secure implementation/deployment of Uptane.
+
+**2019**: [IEEE-ISTO 6100.1.0.0 Uptane Standard for Design and Implementation](https://uptane.github.io/papers/ieee-isto-6100.1.0.0.uptane-standard.html) is released.
+
+**2019**: Uptane becomes a Linux Foundation Joint Development Foundation project.
+
+**2019**:  TUF is awarded graduate status within the organization, signifying completion of a series of steps needed to move the project to the highest level of maturity in the CNCF. In achieving this status, TUF becomes both the first security project and the first project led by an academic researcher to graduate within CNCF.
