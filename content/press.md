@@ -8,7 +8,7 @@ title: Press
 
 * [Container Journal-October 2017: CNCF Adds 2 Projects to Better Secure Containers](https://containerjournal.com/2017/10/24/cncf-adds-projects-better-secure-containers/)
 
-* [Enterprise Cloud News-October 2017: Cloud Native Computing Foundation Adopts 2 Security Projects](https://www.enterprisecloudnews.com/author.asp?section_id=571&doc_id=737560)
+* [Enterprise Cloud News-October 2017: Cloud Native Computing Foundation Adopts 2 Security Projects](http://www.enterprisecloudnews.com/author.asp?section_id=571&doc_id=737560)
 
 * [The New Stack-October 2017: CNCF Brings Security to the Cloud Native Stack with Notary, TUF Adoption](https://thenewstack.io/cncf-brings-security-cloud-native-stack-notary-tuf-adoption/)
 
