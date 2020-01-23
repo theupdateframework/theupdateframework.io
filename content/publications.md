@@ -8,16 +8,16 @@ security:
 
 * [Mercury: Bandwidth-Effective Prevention of Rollback Attacks Against
   Community
-  Repositories](papers/prevention-rollback-attacks-atc2017.pdf?raw=true)
+  Repositories](/papers/prevention-rollback-attacks-atc2017.pdf?raw=true)
 
 * [Diplomat: Using Delegations to Protect Community
-  Repositories](papers/protect-community-repositories-nsdi2016.pdf?raw=true)
+  Repositories](/papers/protect-community-repositories-nsdi2016.pdf?raw=true)
 
 * [Survivable Key Compromise in Software Update
-  Systems](papers/survivable-key-compromise-ccs2010.pdf?raw=true)
+  Systems](/papers/survivable-key-compromise-ccs2010.pdf?raw=true)
 
 * [A Look In the Mirror: Attacks on Package
-  Managers](papers/attacks-on-package-managers-ccs2008.pdf?raw=true)
+  Managers](/papers/attacks-on-package-managers-ccs2008.pdf?raw=true)
 
 * [Package Management
-  Security](papers/package-management-security-tr08-02.pdf?raw=true)
+  Security](/papers/package-management-security-tr08-02.pdf?raw=true)
