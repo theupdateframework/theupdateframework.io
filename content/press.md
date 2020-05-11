@@ -2,6 +2,22 @@
 title: Press
 ---
 
+* [Design2Part Magazine-April 2, 2020: Open Source Framework Helps Automakers Secure OTA Updates](https://www.d2pmagazine.com/2020/04/02/6099/)
+
+* [TechCrunch-March 11, 2020: AWS Launches Bottlerocket, a Linux-based OS for Container Hosting](https://techcrunch.com/2020/03/11/aws-launches-bottlerocket-a-linux-based-os-for-container-hosting/)
+
+* [New Jersey 101.5-March 9, 2020: People are Pretty Reluctant to Embrace Self Driving Cars, Survey Says](https://nj1015.com/people-are-pretty-reluctant-to-embrace-self-driving-cars-survey-says/)
+
+* [Python Foundation Blogspot-March 4, 2020: An Update PyPI Funded Work](https://pyfound.blogspot.com/2020/03/an-update-pypi-funded-work.html)
+
+* [S&P Global-January 9, 2020: Wireless Vehicle Updates Pose Big Cybersecurity Risk for Automakers, Consumers](https://www.spglobal.com/marketintelligence/en/news-insights/trending/Xp9n6TEIEmSe8ho9d0jX_Q2)
+
+* [MP3 Monster's Blog-January 4, 2020: Security Vulnerabilities in Solution Deployment](https://blog.mp3monster.org/2020/01/04/security-vulnerabilities-in-solution-deployment/)
+
+* [AV Network-December 27, 2019: Cloud Native Computing Foundation Announces TUF Graduation](https://www.avnetwork.com/news/cloud-native-computing-foundation-announces-tuf-graduation)
+
+* [HelpNet Security.com-December 23, 2019: The Update Framework Graduates from the Linux Foundation’s Cloud Native Computing Foundation](https://www.helpnetsecurity.com/2019/12/23/update-framework-linux-foundation/)
+
 * [Linux Weekly News-December 19, 2019: Cloud Native Computing Foundation Announces TUF Graduation](https://lwn.net/Articles/807777/)
 
 * [DevClass-December 19, 2019: The Update Framework Becomes the Ninth Project to Graduate CNCF](https://devclass.com/2019/12/19/the-update-framework-becomes-ninth-project-to-graduate-cncf/)
