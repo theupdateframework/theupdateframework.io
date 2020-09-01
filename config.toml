@@ -1,6 +1,6 @@
 title = "The Update Framework"
 disableKinds = ["section", "taxonomy", "taxonomyTerm"]
-baseURL = "https://theupdateframework.netlify.com"
+baseURL = "https://theupdateframework.io"
 
 [markup.goldmark.renderer]
 unsafe = true
