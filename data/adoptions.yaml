@@ -27,5 +27,7 @@ ongoing:
   alt: Haskell Industrial Group
 - url: https://opam.ocaml.org/blog/Signing-the-opam-repository
   tag: OPAM
+- url: https://github.com/php-tuf/php-tuf
+  tag: PHP
 - url: https://www.python.org/dev/peps/pep-0458/
   tag: PyPI
