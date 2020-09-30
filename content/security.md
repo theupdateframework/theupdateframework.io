@@ -46,10 +46,6 @@ the client is kept unaware of new files.
  with an endless stream of data, causing harm to clients (e.g. a disk partition
 filling up or memory exhaustion).
 
-* **Slow retrieval attacks**. An attacker responds to clients with a very
-slow stream of data that essentially results in the client never completing
-the update process.
-
 * **Extraneous dependencies attacks**. An attacker indicates to clients that,
  in order to install the software they want, they also need to install
  unrelated software. This extra software may be from a trusted source,
