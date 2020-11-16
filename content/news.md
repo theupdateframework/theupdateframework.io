@@ -4,6 +4,48 @@ title: News
 
 > The [press](/press) page contains a full listing of news coverage.
 
+**October 30, 2020**
+
+The Python Software Foundation live-streams a [key generation and signing ceremony](https://www.youtube.com/watch?v=jjAq7S49eow&t=3078s) that marks the first practical steps in deploying The Update Framework (TUF) to the [Python Package Index](pypi.org).  
+
+**February 15, 2020**
+
+PEP 458, Secure PyPI Downloads with Package Signing, is accepted and merged into the Python master.
+
+**December 19, 2019**
+
+TUF becomes the [first project](https://engineering.nyu.edu/news/open-source-system-secure-software-updates-graduates-protect-leading-cloud-services) led by an academic and the first specification-based project to graduate from the [Cloud Native Computing Foundation](https://www.cncf.io/). 
+
+**August 2019** 
+
+Uptane becomes joins the [Linux Foundation's Joint Development Foundation](https://www.jointdevelopment.org/), giving
+a pathway for ISO standardization of future versions of the specification.
+
+**July 31, 2019** 
+
+The IEEE/ISTO standardizes [version 1.0.0 of the Uptane specification](https://uptane.github.io/papers/ieee-isto-6100.1.0.0.uptane-standard.html).
+
+**June 3, 2019**
+
+Trishank Kuppusamy publishes a [blog post](https://www.datadoghq.com/blog/engineering/secure-publication-of-datadog-agent-integrations-with-tuf-and-in-toto/) announcing the integration of both TUF and a related framework, called [in-toto](https://in-toto.io/), into [Datadog Agent Integrations](https://docs.datadoghq.com/getting_started/integrations/).
+
+**August 16, 2018** 
+
+[NYU Tandon School of Engineering](https://engineering.nyu.edu/) becomes an associate member of the
+[Linux Foundation](https://www.linuxfoundation.org/) and a Bronze member of [Automotive Grade Linux](https://www.automotivelinux.org/) on the strength of the Foundation’s adoption of Uptane and TUF projects.
+
+
+**July 31, 2018** 
+
+The Uptane Alliance, a nonprofit entity organized under the umbrella of
+IEEE's [International Standards and Technology Organization](https://ieee-isto.org/) is formed.
+The Alliance was tasked with overseeing the setting of standards for the implementation/deployment of Uptane, as well as the advancement and improvement of the technology itself.
+
+**January 25, 2018**
+
+[Airbiquity](https://www.airbiquity.com) receives a [BIG Award for Business](https://www.airbiquity.com/news/press-releases/airbiquity-otamatic-named-2017-new-product-year-business-intelligence-group) in the 2017 New Product of the Year Award category for its
+Uptane-based OTAmatic over-the-air software and data management solution.
+
 **December 7, 2017**
 
 Justin Cappos and David Lawrence, senior security engineer at Docker, jointly
