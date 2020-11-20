@@ -10,7 +10,7 @@ The Python Software Foundation live-streams a [key generation and signing ceremo
 
 **February 15, 2020**
 
-PEP 458, Secure PyPI Downloads with Package Signing, is accepted and merged into the Python master.
+[PEP 458](https://www.python.org/dev/peps/pep-0458/), Secure PyPI Downloads with Package Signing, is accepted and merged into the Python master.
 
 **December 19, 2019**
 
