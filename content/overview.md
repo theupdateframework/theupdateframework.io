@@ -81,7 +81,7 @@ account, such as when:
 * An attacker compromises the key used to sign these files. Now you
   download a file that is properly signed, but is still malicious.
 
-The [Security](/security.md) section offers a full list of the
+The [Security](/security.html) section offers a full list of the
 attacks and updater weaknesses that TUF is designed to defend against.
 
 ### How does TUF secure updates? ###
