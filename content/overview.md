@@ -14,7 +14,7 @@ different software updaters!)
 What these very different systems have in common is that they all identify,
 locate, and download updates for software that can add new functionalities or
 address old vulnerabilities. Software is rarely ever static, and some repositories
-receive updates on software or project metadata [every few minutes](https://ssl.engineering.nyu.edu/papers/kuppusamy_nsdi_16.pdf). This
+receive updates on software or project metadata [every few minutes](/papers/protect-community-repositories-nsdi2016.pdf). This
 growing flow of updates has also created a need for better
 ways to protect the systems that manage them. Though a number of strategies have
 been introduced and used over the last decade or so to enhance the
@@ -81,7 +81,7 @@ account, such as when:
 * An attacker compromises the key used to sign these files. Now you
   download a file that is properly signed, but is still malicious.
 
-The [Security](/security.md) section offers a full list of the
+The [Security](/security.html) section offers a full list of the
 attacks and updater weaknesses that TUF is designed to defend against.
 
 ### How does TUF secure updates? ###
