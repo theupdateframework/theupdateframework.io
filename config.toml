@@ -101,16 +101,23 @@ url = "https://theupdateframework.github.io/specification/latest/"
 weight = 4
 
 [[menu.main]]
+name = "Specification index"
+parent = "getting-started"
+url = "https://theupdateframework.github.io/specification/"
+weight = 5
+
+
+[[menu.main]]
 name = "Implementation"
 parent = "getting-started"
 url = "https://github.com/theupdateframework/tuf/blob/develop/docs/GETTING_STARTED.rst#getting-started"
-weight = 5
+weight = 6
 
 [[menu.main]]
 name = "Videos"
 parent = "getting-started"
 url = "/videos"
-weight = 6
+weight = 7
 
 [[menu.main]]
 name = "Community"
