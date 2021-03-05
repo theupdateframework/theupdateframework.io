@@ -95,9 +95,9 @@ url = "/faq"
 weight = 3
 
 [[menu.main]]
-name = "Specification"
+name = "Specification (latest)"
 parent = "getting-started"
-url = "https://github.com/theupdateframework/specification/blob/master/tuf-spec.md"
+url = "https://theupdateframework.github.io/specification/latest/"
 weight = 4
 
 [[menu.main]]

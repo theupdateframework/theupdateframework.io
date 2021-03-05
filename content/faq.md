@@ -16,7 +16,7 @@ title: Frequently Asked Questions
 
   For (2), an adopter has to figure out how to ship the initial Root file, and
   implement [the TUF download and verification
-  workflow](https://github.com/theupdateframework/specification/blob/master/tuf-spec.md#detailed-client-workflow--detailed-client-workflow)
+  workflow](https://theupdateframework.github.io/specification/latest/#detailed-client-workflow)
   in their language of choice if one of the existing implementations is
   insufficient.
 
