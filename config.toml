@@ -97,7 +97,7 @@ weight = 3
 [[menu.main]]
 name = "Specification"
 parent = "getting-started"
-url = "https://github.com/theupdateframework/specification/blob/master/tuf-spec.md#the-update-framework-specification"
+url = "https://github.com/theupdateframework/specification/blob/master/tuf-spec.md"
 weight = 4
 
 [[menu.main]]
