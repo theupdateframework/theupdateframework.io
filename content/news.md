@@ -6,7 +6,7 @@ title: News
 
 **June 16, 2021**
 
-The Sigstore community live-streams [key generation and signing ceremony
+The Sigstore community live-streamed a [key generation and signing ceremony
 ](https://www.cncf.io/blog/2021/06/16/a-new-kind-of-trust-root/) for the
 Sigstore trust root, which is using The Update Framework (TUF) primitives to
 provide a PKI model with no single entity in charge of the trust root, and
