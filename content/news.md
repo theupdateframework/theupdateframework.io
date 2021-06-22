@@ -4,6 +4,16 @@ title: News
 
 > The [press](/press) page contains a full listing of news coverage.
 
+**March 5, 2021**
+
+The [TUF specification](https://theupdateframework.github.io/specification/latest/index.html)
+is now published as a rich HTML document with a table of contents, syntax
+highlighting, cross-linking, and other features.
+
+The new publication machinery also maintains a [list of all versions
+](https://theupdateframework.github.io/specification/) published since the
+format change.
+
 **October 30, 2020**
 
 The Python Software Foundation live-streams a [key generation and signing ceremony](https://www.youtube.com/watch?v=jjAq7S49eow&t=3078s) that marks the first practical steps in deploying The Update Framework (TUF) to the [Python Package Index](pypi.org).  
