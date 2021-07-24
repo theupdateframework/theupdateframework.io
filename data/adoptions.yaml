@@ -21,6 +21,8 @@ main:
   tag: Kolide
 - url: https://github.com/theupdateframework/notary
   tag: Notary
+- url: https://foundries.io/insights/blog/2018/05/25/ota-part-1/
+  tag: foundriesio
 ongoing:
 - url: https://www.well-typed.com/blog/2015/04/improving-hackage-security
   tag: Haskell
