@@ -97,13 +97,13 @@ weight = 3
 [[menu.main]]
 name = "Specification (latest)"
 parent = "getting-started"
-url = "https://theupdateframework.github.io/specification/latest/"
+url = "/specification"
 weight = 4
 
 [[menu.main]]
 name = "Specification index"
 parent = "getting-started"
-url = "https://theupdateframework.github.io/specification/"
+url = "/specification/list"
 weight = 5
 
 
