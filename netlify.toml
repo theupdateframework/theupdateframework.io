@@ -10,3 +10,15 @@ command = "make preview-build"
 
 [context.branch-deploy]
 command = "make preview-build"
+
+[[redirects]]
+from = "/specification/latest"
+to = "https://theupdateframework.github.io/specification/latest/"
+
+[[redirects]]
+from = "/specification/list"
+to = "https://theupdateframework.github.io/specification/"
+
+[[redirects]]
+from = "/specification"
+to = "https://theupdateframework.github.io/specification/latest/"
