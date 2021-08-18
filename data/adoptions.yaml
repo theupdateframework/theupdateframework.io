@@ -35,3 +35,5 @@ ongoing:
   tag: PHP
 - url: https://www.python.org/dev/peps/pep-0458/
   tag: PyPI
+- url: https://mamba.readthedocs.io/en/latest/advanced_usage/artifacts_verification.html
+  tag: mamba
