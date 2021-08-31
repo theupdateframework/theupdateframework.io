@@ -60,9 +60,9 @@ url = "/publications"
 weight = 5
 
 [[menu.main]]
-name = "People"
+name = "Project"
 parent = "about"
-url = "/people"
+url = "/project"
 weight = 5
 
 [[menu.main]]

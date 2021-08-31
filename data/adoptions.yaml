@@ -9,8 +9,12 @@ main:
   tag: CNAB
 - url: https://www.datadoghq.com/blog/engineering/secure-publication-of-datadog-agent-integrations-with-tuf-and-in-toto
   tag: Datadog
+- url: https://blog.fleetdm.com/fleet-3-10-0-released-with-agent-auto-updates-beta-f4dd61be001d
+  tag: fleetdm
 - url: https://flynn.io/docs/development#the-update-framework-%28tuf%29
   tag: Flynn
+- url: https://foundries.io/insights/blog/2018/05/25/ota-part-1/
+  tag: foundriesio
 - url: https://fuchsia.dev/fuchsia-src/concepts/system/software_update_system
   tag: Fuchsia
 - url: https://www.here.com/company/press-releases/en/2019-28-05
@@ -21,19 +25,16 @@ main:
   tag: Kolide
 - url: https://github.com/theupdateframework/notary
   tag: Notary
-- url: https://foundries.io/insights/blog/2018/05/25/ota-part-1/
-  tag: foundriesio
-- url: https://blog.fleetdm.com/fleet-3-10-0-released-with-agent-auto-updates-beta-f4dd61be001d
-  tag: fleetdm
+
 ongoing:
 - url: https://www.well-typed.com/blog/2015/04/improving-hackage-security
   tag: Haskell
   alt: Haskell Industrial Group
+- url: https://mamba.readthedocs.io/en/latest/advanced_usage/artifacts_verification.html
+  tag: mamba
 - url: https://opam.ocaml.org/blog/Signing-the-opam-repository
   tag: OPAM
 - url: https://github.com/php-tuf/php-tuf
   tag: PHP
 - url: https://www.python.org/dev/peps/pep-0458/
   tag: PyPI
-- url: https://mamba.readthedocs.io/en/latest/advanced_usage/artifacts_verification.html
-  tag: mamba
