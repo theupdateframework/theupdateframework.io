@@ -110,7 +110,7 @@ weight = 5
 [[menu.main]]
 name = "Implementation"
 parent = "getting-started"
-url = "https://github.com/theupdateframework/tuf/blob/develop/docs/GETTING_STARTED.rst#getting-started"
+url = "https://github.com/theupdateframework/python-tuf/blob/develop/docs/GETTING_STARTED.rst#getting-started"
 weight = 6
 
 [[menu.main]]
@@ -151,7 +151,7 @@ weight = 4
 [[menu.main]]
 name = "Contribute"
 parent = "community"
-url = "https://github.com/theupdateframework/tuf"
+url = "https://github.com/theupdateframework/python-tuf"
 weight = 5
 
 [[menu.main]]
