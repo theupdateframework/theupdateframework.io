@@ -19,7 +19,7 @@ community who have [contributed] to the TUF project over the years.
 Please visit the [governance page] to learn how project decisions are made, and
 for a more detailed explanation of the project roles used below.
 
-[contributed]: https://github.com/theupdateframework/tuf/blob/develop/docs/AUTHORS.txt
+[contributed]: https://github.com/theupdateframework/python-tuf/blob/develop/docs/AUTHORS.txt
 [governance page]: https://github.com/theupdateframework/specification/blob/master/GOVERNANCE.md
 [Specification]: /specification
 [Standardization process]: https://github.com/theupdateframework/taps/blob/master/tap1.md

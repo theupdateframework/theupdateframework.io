@@ -114,7 +114,7 @@ title: Frequently Asked Questions
   the bandwidth associated with downloading the large file many times can be
   saved.  The reference implementation provides an [easy way to distribute
   target files across many targets
-  metadata](https://github.com/theupdateframework/tuf/blob/d4b308ae13acfe832bfb7f993108e5e065d44c04/tuf/repository_tool.py#L2387)
+  metadata](https://github.com/theupdateframework/python-tuf/blob/d4b308ae13acfe832bfb7f993108e5e065d44c04/tuf/repository_tool.py#L2387)
   (i.e., delegating to hashed bins), which the
   [specification](https://github.com/theupdateframework/specification/blob/master/tuf-spec.md)
   refers to as path hash prefixes.
@@ -146,7 +146,7 @@ title: Frequently Asked Questions
 **13. How can I try TUF?**
 
   The [Getting
-  Started](https://github.com/theupdateframework/tuf/blob/develop/docs/GETTING_STARTED.rst)
+  Started](https://github.com/theupdateframework/python-tuf/blob/develop/docs/GETTING_STARTED.rst)
   page contains instructions to install and run the reference implementation.
   The client and repo tools can be used to quickly create TUF repositories and
   experiment with software updates.
