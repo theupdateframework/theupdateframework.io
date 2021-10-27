@@ -155,6 +155,12 @@ url = "https://github.com/theupdateframework/python-tuf"
 weight = 5
 
 [[menu.main]]
+name = "Chat (CNCF Slack)"
+parent = "community"
+url = "https://cloud-native.slack.com/archives/C8NMD3QJ3"
+weight = 6
+
+[[menu.main]]
 name = "News"
 url = "/news/"
 weight = 4
