@@ -114,10 +114,10 @@ title: Frequently Asked Questions
   the bandwidth associated with downloading the large file many times can be
   saved.  The reference implementation provides an [easy way to distribute
   target files across many targets
-  metadata](https://github.com/theupdateframework/python-tuf/blob/d4b308ae13acfe832bfb7f993108e5e065d44c04/tuf/repository_tool.py#L2387)
-  (i.e., delegating to hashed bins), which the
-  [specification](https://github.com/theupdateframework/specification/blob/master/tuf-spec.md)
-  refers to as path hash prefixes.
+  metadata](https://github.com/theupdateframework/python-tuf/blob/v0.20.0/examples/repo_example/hashed_bin_delegation.py)
+  (i.e., delegating to hashed bins), which the specification refers to as [path
+  hash
+  prefixes](https://theupdateframework.github.io/specification/latest/#path_hash_prefixes).
 
 **10. Can TUF be used with devices that lack the CPU power or memory to
   verify metadata?**
@@ -145,11 +145,12 @@ title: Frequently Asked Questions
 
 **13. How can I try TUF?**
 
-  The [Getting
-  Started](https://github.com/theupdateframework/python-tuf/blob/develop/docs/GETTING_STARTED.rst)
-  page contains instructions to install and run the reference implementation.
-  The client and repo tools can be used to quickly create TUF repositories and
-  experiment with software updates.
+  The `python-tuf` reference implementation provides a [well-documented
+  API](https://theupdateframework.readthedocs.io/en/latest/api/api-reference.html)
+  to create and manage TUF metadata on a server-side repository, and to perform
+  TUF-compliant updates on a client, as well as basic Python [code
+  examples](https://github.com/theupdateframework/python-tuf/tree/develop/examples)
+  that demonstrate the usage.
 
 **14. Is there a presentation or video about TUF?**
 

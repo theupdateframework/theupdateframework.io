@@ -108,9 +108,9 @@ weight = 5
 
 
 [[menu.main]]
-name = "Implementation"
+name = "Reference implementation"
 parent = "getting-started"
-url = "https://github.com/theupdateframework/python-tuf/blob/develop/docs/GETTING_STARTED.rst#getting-started"
+url = "https://github.com/theupdateframework/python-tuf"
 weight = 6
 
 [[menu.main]]
