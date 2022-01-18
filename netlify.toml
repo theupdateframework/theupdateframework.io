@@ -22,3 +22,12 @@ to = "https://theupdateframework.github.io/specification/"
 [[redirects]]
 from = "/specification"
 to = "https://theupdateframework.github.io/specification/latest/"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self' code.jquery.com fonts.googleapis.com fonts.gstatic.com use.fontawesome.com"
+    X-Frame-Options = "deny"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer-when-downgrade"
+    permissions-policy = "interest-cohort=()"
