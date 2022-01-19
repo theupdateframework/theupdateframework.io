@@ -19,8 +19,7 @@ Some of these issues are, or can be, related, depending on the design and
 implementation of the given software update system.
 
 * **Arbitrary software installation**. An attacker can provide arbitrary files in
-response to download requests and install anything he wants
-on the client system, yet none will be detected as illegitimate.
+response to download requests and install anything on the client system, yet none will be detected as illegitimate.
 
 * **Rollback attacks**. An attacker presents files to a software update system
 that are older than those the client has already seen. With no way
