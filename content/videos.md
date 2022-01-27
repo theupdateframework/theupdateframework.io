@@ -5,6 +5,13 @@ title: Videos
 The following are sample videos of presentations that have been given by
 project members and adopters.
 
+## Defending against attacks on package managers
+
+{{< youtube "Y9Yxst_-Cvg" >}}
+
+## Securing Content Repositories with the Update Framework (TUF)
+
+{{< youtube "Xuk3BcluYxw">}}
 
 ## Talking TUF: Securing Software Distribution
 
