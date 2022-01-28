@@ -9,7 +9,7 @@ project members and adopters.
 
 {{< youtube "Y9Yxst_-Cvg" >}}
 
-## Securing Content Repositories with the Update Framework (TUF)
+## Securing Content Repositories with The Update Framework (TUF)
 
 {{< youtube "Xuk3BcluYxw">}}
 
