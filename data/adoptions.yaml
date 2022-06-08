@@ -25,6 +25,8 @@ main:
   tag: Kolide
 - url: https://github.com/theupdateframework/notary
   tag: Notary
+- url: https://trdl.dev/
+  tag: trdl
 
 ongoing:
 - url: https://www.well-typed.com/blog/2015/04/improving-hackage-security
