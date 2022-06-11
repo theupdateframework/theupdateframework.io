@@ -25,6 +25,8 @@ main:
   tag: Kolide
 - url: https://github.com/theupdateframework/notary
   tag: Notary
+- url: https://github.com/sigstore/root-signing
+  tag: sigstore
 - url: https://trdl.dev/
   tag: trdl
 
