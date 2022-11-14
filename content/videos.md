@@ -5,6 +5,10 @@ title: Videos
 The following are sample videos of presentations that have been given by
 project members and adopters.
 
+## TUF-en Up Your Signatures
+
+{{< youtube "8sUqo36IVio" >}}
+
 ## Defending against attacks on package managers
 
 {{< youtube "Y9Yxst_-Cvg" >}}
