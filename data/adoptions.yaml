@@ -11,8 +11,6 @@ main:
   tag: Datadog
 - url: https://blog.fleetdm.com/fleet-3-10-0-released-with-agent-auto-updates-beta-f4dd61be001d
   tag: fleetdm
-- url: https://flynn.io/docs/development#the-update-framework-%28tuf%29
-  tag: Flynn
 - url: https://foundries.io/insights/blog/2018/05/25/ota-part-1/
   tag: foundriesio
 - url: https://fuchsia.dev/fuchsia-src/concepts/system/software_update_system
