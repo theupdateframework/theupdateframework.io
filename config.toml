@@ -108,9 +108,9 @@ weight = 5
 
 
 [[menu.main]]
-name = "Reference implementation"
+name = "Implementations"
 parent = "getting-started"
-url = "https://github.com/theupdateframework/python-tuf"
+url = "/implementations"
 weight = 6
 
 [[menu.main]]
