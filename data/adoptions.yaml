@@ -29,6 +29,8 @@ main:
   tag: trdl
 
 ongoing:
+- url: https://www.docker.com/blog/signing-docker-official-images-using-openpubkey/
+  tag: Docker
 - url: https://www.well-typed.com/blog/2015/04/improving-hackage-security
   tag: Haskell
   alt: Haskell Industrial Group

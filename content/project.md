@@ -40,6 +40,6 @@ PGP fingerprint: E9C0 59EC 0D32 64FA B35F  94AD 465B F9F6 F8EB 475A
 Maintainer | Email | GitHub username | PGP fingerprint
 :----------|:------|:----------------|:---------------
 Trishank Karthik Kuppusamy | trishank.karthik@datadog.com | [trishankatdatadog](https://github.com/trishankatdatadog) | 8C48 08B5 B684 53DE 06A3  08FD 5C09 0ED7 318B 6C1E
-Joshua Lock | jlock@vmware.com | [joshuagl](https://github.com/lukpueh) | 08F3 409F CF71 D87E 30FB D3C2 1671 F65C B748 32A4
+Joshua Lock | joshua.lock@uk.verizon.com | [joshuagl](https://github.com/joshuagl) | 08F3 409F CF71 D87E 30FB D3C2 1671 F65C B748 32A4
 Marina Moore | mm9693@nyu.edu | [mnm678](https://github.com/mnm678) | –
 Lukas Pühringer|  lukas.puehringer@nyu.edu | [lukpueh](https://github.com/lukpueh) | 8BA6 9B87 D43B E294 F23E  8120 89A2 AD3C 07D9 62E8
