@@ -23,8 +23,8 @@ TUF implementations provide libraries implementing the primitives and algorithms
 
 ## Systems
 
-TUF systems build on an implementation and provide an opinionated
-implementation of TUF designed to solve a for a particular use-case.
+TUF systems build on top of library implementations and provide opinionated
+signing systems designed for particular use-cases.
 
 * [Repository Service for TUF (RSTUF)
 ](https://repository-service-tuf.readthedocs.io/en/stable/) is a TUF
