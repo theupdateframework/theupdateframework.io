@@ -28,8 +28,8 @@ signing systems designed for particular use-cases.
 
 * [Repository Service for TUF (RSTUF)
 ](https://repository-service-tuf.readthedocs.io/en/stable/) is a TUF
-repository designed to integrate into an existing community package repository
-with an established artifact storage and delivery system.
+repository designed to integrate into an existing artifact repository with an
+established storage and delivery system.
 * [tuf-on-ci](https://github.com/theupdateframework/tuf-on-ci/) is a TUF
 repository and signing tool designed to operate on a CI system and guide
 signing events through Git forge workflows.
