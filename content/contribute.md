@@ -60,15 +60,15 @@ ____
 
 ### TUF Repositories
 
-- [python-tuf](https://github.com/theupdateframework/python-tuf)
-- [specification](https://github.com/theupdateframework/specification/)
-- [theupdateframework.io](https://github.com/theupdateframework/theupdateframework.io/)
-- [community](https://github.com/theupdateframework/community)
-- [taps](https://github.com/theupdateframework/taps)
-- [tuf-on-ci](https://github.com/theupdateframework/tuf-on-ci)
-- [rust-tuf](https://github.com/theupdateframework/rust-tuf)
-- [go-tuf](https://github.com/theupdateframework/go-tuf)
-- [tuf-js](https://github.com/theupdateframework/tuf-js)
+- [python-tuf](https://github.com/theupdateframework/python-tuf)  (this repository is a reference implementation written in Python)
+- [specification](https://github.com/theupdateframework/specification/) (The Update Framework specification)
+- [theupdateframework.io](https://github.com/theupdateframework/theupdateframework.io/) (Website assets for TUF)
+- [community](https://github.com/theupdateframework/community) (Community Repository of TUF)
+- [taps](https://github.com/theupdateframework/taps) (TUF Augmentation Proposals (TAPs))
+- [tuf-on-ci](https://github.com/theupdateframework/tuf-on-ci) (A TUF repository and signing tool)
+- [rust-tuf](https://github.com/theupdateframework/rust-tuf) (Rust implementation of The Update Framework (TUF))
+- [go-tuf](https://github.com/theupdateframework/go-tuf) (Go implementation of The Update Framework (TUF))
+- [tuf-js](https://github.com/theupdateframework/tuf-js) (JavaScript implementation of The Update Framework (TUF))
 ___
 
 ### Slack channel
