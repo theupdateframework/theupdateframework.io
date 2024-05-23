@@ -31,9 +31,14 @@ sizes = [300, 400, 600, 700]
 type = "monospace"
 
 [[menu.main]]
+name = "GitHub"
+url = "/github/"
+weight = 1
+
+[[menu.main]]
 name = "About"
 identifier = "about"
-weight = 1
+weight = 2
 
 [[menu.main]]
 name = "Overview"
@@ -74,7 +79,7 @@ weight = 6
 [[menu.main]]
 name = "Getting started"
 identifier = "getting-started"
-weight = 2
+weight = 3
 
 [[menu.main]]
 name = "Security"
@@ -122,7 +127,7 @@ weight = 7
 [[menu.main]]
 name = "Community"
 identifier = "community"
-weight = 3
+weight = 4
 
 [[menu.main]]
 name = "Adoptions"
@@ -163,9 +168,9 @@ weight = 6
 [[menu.main]]
 name = "News"
 url = "/news/"
-weight = 4
+weight = 5
 
 [[menu.main]]
 name = "Contact"
 url = "/contact/"
-weight = 5
+weight = 6
