@@ -1,8 +1,6 @@
 main:
-- url: https://docs.automotivelinux.org/docs/en/master/architecture/reference/security/part-8/1-FOTA.html
+- url: https://docs.automotivelinux.org/en/pike/#03_Architecture_Guides/02_Security_Blueprint/09_Update_%28Over_The_Air%29/#_top
   tag: AGL
-- url: https://www.airbiquity.com/news/press-releases/airbiquity-unveils-new-otamatictm-release-further-strengthening-over-air-ota-software-and-data-management-offering-automotive
-  tag: Airbiquity
 - url: https://github.com/bottlerocket-os/bottlerocket/tree/develop/sources/updater
   tag: Bottlerocket
 - url: https://github.com/cnabio/cnab-spec/blob/cnab-security-1.0.0-ga/300-CNAB-security.md
