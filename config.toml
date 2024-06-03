@@ -31,14 +31,9 @@ sizes = [300, 400, 600, 700]
 type = "monospace"
 
 [[menu.main]]
-name = "GitHub"
-url = "/github/"
-weight = 1
-
-[[menu.main]]
 name = "About"
 identifier = "about"
-weight = 2
+weight = 1
 
 [[menu.main]]
 name = "Overview"
@@ -59,15 +54,15 @@ url = "/timeline"
 weight = 3
 
 [[menu.main]]
-name = "Publications"
-parent = "about"
-url = "/publications"
-weight = 5
-
-[[menu.main]]
 name = "Project"
 parent = "about"
 url = "/project"
+weight = 4
+
+[[menu.main]]
+name = "Publications"
+parent = "about"
+url = "/publications"
 weight = 5
 
 [[menu.main]]
@@ -79,7 +74,7 @@ weight = 6
 [[menu.main]]
 name = "Getting started"
 identifier = "getting-started"
-weight = 3
+weight = 2
 
 [[menu.main]]
 name = "Security"
@@ -127,7 +122,7 @@ weight = 7
 [[menu.main]]
 name = "Community"
 identifier = "community"
-weight = 4
+weight = 3
 
 [[menu.main]]
 name = "Adoptions"
@@ -160,9 +155,9 @@ url = "https://github.com/theupdateframework/python-tuf"
 weight = 5
 
 [[menu.main]]
-name = "Chat (CNCF Slack)"
+name = "GitHub"
 parent = "community"
-url = "https://cloud-native.slack.com/archives/C8NMD3QJ3"
+url = "/github"
 weight = 6
 
 [[menu.main]]
