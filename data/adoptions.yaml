@@ -1,5 +1,5 @@
 main:
-- url: https://docs.automotivelinux.org/en/pike/#03_Architecture_Guides/02_Security_Blueprint/09_Update_%28Over_The_Air%29/#_top
+- url: https://docs.automotivelinux.org/en/pike/#03_Architecture_Guides/02_Security_Blueprint/09_Update_%28Over_The_Air%29/
   tag: AGL
 - url: https://github.com/bottlerocket-os/bottlerocket/tree/develop/sources/updater
   tag: Bottlerocket
