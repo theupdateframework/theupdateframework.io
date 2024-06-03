@@ -163,9 +163,9 @@ weight = 6
 [[menu.main]]
 name = "News"
 url = "/news/"
-weight = 5
+weight = 4
 
 [[menu.main]]
 name = "Contact"
 url = "/contact/"
-weight = 6
+weight = 5
