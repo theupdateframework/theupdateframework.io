@@ -40,9 +40,9 @@ Specifies the other top-level roles. When specifying these roles, the trusted
 keys for each are listed, along with the minimum number of those keys required
 to sign the role's metadata. We call this number the signature threshold.
 
-See an **example**
-
-```
+<details>
+  <summary><strong>Example Root metadata</strong></summary>
+  <pre><code>
 {
  "signatures": [
   {
@@ -150,7 +150,8 @@ See an **example**
   "version": 1
  }
 }
-``` 
+  </code></pre>
+</details>
 
 ## Targets Metadata (targets.json)
 
@@ -167,8 +168,9 @@ so in a way similar to how the Root role specifies the top-level roles: by givin
 the trusted keys and signature threshold for each role. Additionally, one or more
 [glob patterns](https://en.wikipedia.org/wiki/Glob_(programming)) will be specified to indicate the target file paths for which clients should trust each delegated role.
 
-See as an **example**
-```
+<details>
+  <summary><strong>Example Targets metadata</strong></summary>
+  <pre><code>
 {
  "signatures": [
   {
@@ -236,7 +238,8 @@ See as an **example**
   "version": 1
  }
 }
-```
+  </code></pre>
+</details>
 
 ## Delegated Targets Metadata (role1.json)
 
@@ -260,8 +263,9 @@ metadata file would be found at:
 
 /ANOTHER_ROLE.json
 
-See **example** of delegated Targets metadata 
-```
+<details>
+  <summary><strong>Example delegated Targets metadata</strong></summary>
+  <pre><code>
 {
  "signatures": [
   {
@@ -317,10 +321,12 @@ See **example** of delegated Targets metadata
   "version": 1
  }
 }
-```
-
-and **example** of a nested delegation
-```
+  </code></pre>
+</details>
+and
+<details>
+  <summary><strong>Example nested delegation</strong></summary>
+  <pre><code>
 {
  "signatures": [
   {
@@ -338,7 +344,8 @@ and **example** of a nested delegation
   "version": 1
  }
 }
-```
+  </code></pre>
+</details>
 
 ## Snapshot Metadata (snapshot.json)
 
@@ -350,8 +357,9 @@ view of all files on the repository. That is, metadata files (and thus Target
 files) that existed on the repository at different times cannot be combined
 and presented to clients by an attacker.
 
-​See **example** of Snapshot metadata.
-```
+<details>
+  <summary><strong>Example Snapshot metadata</strong></summary>
+  <pre><code>
 {
  "signatures": [
   {
@@ -379,7 +387,8 @@ and presented to clients by an attacker.
   "version": 1
  }
 }
-```
+  </code></pre>
+</details>
 
 ## Timestamp Metadata (timestamp.json)
 
@@ -403,8 +412,9 @@ keys should be used for signing the snapshot.json file so that the
 Snapshot role's keys can be kept offline, and thus more secure.
 * Timestamp.json may be given to mirrors.
 
-See **example** of Timestamp metadata.
-```
+<details>
+  <summary><strong>Example Timestamp metadata</strong></summary>
+  <pre><code>
 {
  "signatures": [
   {
@@ -430,4 +440,5 @@ See **example** of Timestamp metadata.
   "version": 1
  }
 }
-```
+  </code></pre>
+</details>
