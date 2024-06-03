@@ -106,7 +106,6 @@ parent = "getting-started"
 url = "/specification/list"
 weight = 5
 
-
 [[menu.main]]
 name = "Implementations"
 parent = "getting-started"
@@ -149,16 +148,22 @@ url = "/taps"
 weight = 4
 
 [[menu.main]]
-name = "Contribute"
-parent = "community"
-url = "https://github.com/theupdateframework/python-tuf"
-weight = 5
-
-[[menu.main]]
 name = "GitHub"
 parent = "community"
 url = "/github"
+weight = 5
+
+[[menu.main]]
+name = "Contribute"
+parent = "community"
+url = "https://github.com/theupdateframework/python-tuf"
 weight = 6
+
+[[menu.main]]
+name = "Chat (CNCF Slack)"
+parent = "community"
+url = "https://cloud-native.slack.com/archives/C8NMD3QJ3"
+weight = 7
 
 [[menu.main]]
 name = "News"
