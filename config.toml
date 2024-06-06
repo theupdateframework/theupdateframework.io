@@ -131,27 +131,27 @@ url = "/adoptions"
 weight = 1
 
 [[menu.main]]
+name = "Contribute"
+parent = "community"
+url = "/contribute"
+weight = 2
+
+[[menu.main]]
 name = "Reporting issues"
 parent = "community"
 url = "/reporting"
-weight = 2
+weight = 3
 
 [[menu.main]]
 name = "Security audits"
 parent = "community"
 url = "/audits"
-weight = 3
+weight = 4
 
 [[menu.main]]
 name = "Enhancement proposals"
 parent = "community"
 url = "/taps"
-weight = 4
-
-[[menu.main]]
-name = "Contribute"
-parent = "community"
-url = "https://github.com/theupdateframework/python-tuf"
 weight = 5
 
 [[menu.main]]
