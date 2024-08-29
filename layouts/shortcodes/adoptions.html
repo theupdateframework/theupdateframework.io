@@ -2,16 +2,16 @@
 {{ $adoptions := index site.Data.adoptions $key }}
 <br />
 
-<div class="container">
-  <div class="columns is-multiline is-vcentered is-variable is-8">
+<div class="">
+  <div class="adoptions-container">
     {{ range $adoptions }}
     {{ $img    := .tag | lower }}
     {{ $type   := .img_type | default "png" }}
     {{ $alt    := .alt | default .tag }}
-    {{ $imgUrl := printf "img/logos/adoptions/%s_logo.%s" $img $type | relURL }}
-    <div class="column is-one-quarter">
+    {{ $imgUrl := printf "img/%s.%s" $img $type }}
+    <div class="adoptions-item">
       <a href="{{ .url }}" target="_blank">
-        <img src="{{ $imgUrl }}" alt="{{ $alt }} logo">
+        <img class="adoptions-logo" src="{{ $imgUrl }}" alt="{{ $alt }} logo">
       </a>
     </div>
     {{ end }}
