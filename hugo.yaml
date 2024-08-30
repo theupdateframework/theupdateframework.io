@@ -1,0 +1,112 @@
+# cSpell:ignore docsy github goldmark linkify netlify
+
+baseURL: https://theupdateframework.io
+title: TUF
+ignoreErrors :  ["error-disable-taxonomy"]
+disableKinds: [taxonomy]
+theme: [docsy]
+enableGitInfo: true
+
+#
+# Outputs and Netlify _redirects file support
+#
+
+disableAliases: true # We do redirects via Netlify's _redirects file
+
+mediaTypes:
+  text/netlify: {}
+
+outputFormats:
+  REDIRECTS:
+    mediaType: text/netlify
+    baseName: _redirects
+    notAlternative: true
+
+outputs:
+  home: [HTML]
+  section: [HTML]
+
+#
+# Language settings
+#
+
+enableMissingTranslationPlaceholders: true
+defaultContentLanguage: en
+
+languages:
+  en:
+    languageName: English
+    languageCode: en-US
+    params:
+      description: A Framework for securing software update systems
+
+#
+# Markup and imaging
+#
+
+markup:
+  goldmark:
+    extensions:
+      linkify: false
+    parser:
+      attribute:
+        block: true
+      wrapStandAloneImageWithinParagraph: false
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false # Required for dark-mode
+  tableOfContents: { endLevel: 4 }
+
+imaging:
+  resampleFilter: CatmullRom # cspell:disable-line
+  quality: 75
+  anchor: smart
+
+params:
+  copyright:
+    authors: >-
+      The Update Framework Authors| [CC BY
+      4.0](https://creativecommons.org/licenses/by/4.0) |
+    # from_year: 2024
+  github_repo: https://github.com/theupdateframework
+  gcs_engine_id: 011217106833237091527:la2vtv2emlw # CUSTOMIZE # FIXME get an ID for the starter?
+  privacy_policy: https://www.linuxfoundation.org/legal/privacy-policy
+  ui:
+    navbar_logo: true
+    showLightDarkModeMenu: true
+    sidebar_search_disable: true
+    feedback: # CUSTOMIZE
+      enable: false # FIXME: setting to false until the feedback can be better configured
+      'yes': >-
+        Glad to hear it! Please <a
+        href="https://github.com/google/docsy/issues/new">tell us how we can
+        improve</a>.
+      'no': >-
+        Sorry to hear that. Please <a
+        href="https://github.com/google/docsy/issues/new">tell us how we can
+        improve</a>.
+  links: # CUSTOMIZE
+    user:
+      - name: TUF Google group
+        url: https://groups.google.com/g/theupdateframework
+        icon: fa-solid fa-envelope
+        desc: Sign up for TUF announcements
+      - name: Slack channel
+        url: https://communityinviter.com/apps/cloud-native/cncf
+        icon: fa-brands fa-slack
+        desc: Connect with us on CNCF Slack channel for TUF
+      - name: Community meetings
+        url: https://github.com/theupdateframework/community?tab=readme-ov-file
+        icon: fa-regular fa-calendar-days
+        desc: Join our community meetings
+    developer:
+      - name: GitHub repository
+        url: https://github.com/theupdateframework/theupdateframework.io
+        icon: fa-brands fa-github
+        desc: Development takes place here!
+
+module:
+  mounts:
+    - source: content/en
+      target: content

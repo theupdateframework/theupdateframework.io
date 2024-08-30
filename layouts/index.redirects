@@ -1,0 +1,55 @@
+# Netlify redirects. See https://www.netlify.com/docs/redirects/
+{{/* cSpell:ignore cond wordmark */ -}}
+
+{{ range $p := .Site.Pages -}}
+
+{{ range $p.Params.redirects -}}
+  {{ $from := cond (strings.HasPrefix .from "/")
+      .from
+      (print $p.RelPermalink .from) -}}
+  {{ $to := cond (strings.HasPrefix .to "/")
+      .to
+      (print $p.RelPermalink .to) -}}
+  {{ $from | printf "%-35s" }} {{ $to }}
+{{ end -}}
+
+{{ range $p.Aliases -}}
+{{ $alias := cond (strings.HasPrefix . "/")
+    .
+    (partial "relative-redirects-alias" (dict "alias" . "p" $p.Parent)) -}}
+{{ $alias | printf "%-35s" }} {{ $p.RelPermalink }}
+{{ end -}}
+
+{{ with $p.Params.redirect -}}
+  {{ $p.RelPermalink | printf "%-35s" }} {{ . }}
+{{ end -}}
+
+{{ end }}{{/* range $p */ -}}
+
+{{/*
+  Social-media image redirects. As mentioned in
+  https://developers.facebook.com/docs/sharing/webmasters/images, we need to
+  preserve og:image (and other social media image) URLs forever.
+*/ -}}
+
+{{ $og_image_current := `/img/social/logo-wordmark-001.png` -}}
+
+/featured-background.jpg  {{ $og_image_current }} {{- /* homepage og:image used prior to 2022/08 */}}
+
+{{- define "partials/relative-redirects-alias" -}}
+  {{ $result := "" }}
+  {{ if strings.HasPrefix .alias "../" }}
+    {{ $result = (partial "relative-redirects-alias"
+          (dict
+            "alias" (strings.TrimPrefix "../" .alias)
+            "p" .p.Parent ))
+    }}
+  {{ else }}
+    {{ $result = path.Join .p.RelPermalink .alias }}
+  {{ end }}
+  {{ return $result }}
+{{ end }}
+
+{{/* Multilingual support */ -}}
+
+{{/* FIXME: partial "redirects/sites.redirects" . | partial "func/trim-lines.html" */ -}}
