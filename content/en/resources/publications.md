@@ -6,7 +6,7 @@ The following papers provide detailed information on securing software updater
 systems, TUF's design, attacks on package managers, and package management
 security:
 
-- [Mercury: Bandwidth-Effective Prevention of Rollback Attacks Against Community Repositories](https://theupdateframework.io/papers/prevention-rollback-attacks-atc2017.pdf?raw=true)
+- [Mercury: Bandwidth-Effective Prevention of Rollback Attacks Against Community Repositories](/papers/prevention-rollback-attacks-atc2017.pdf)
 
 - [Diplomat: Using Delegations to Protect Community Repositories](https://theupdateframework.io/papers/protect-community-repositories-nsdi2016.pdf?raw=true)
 
