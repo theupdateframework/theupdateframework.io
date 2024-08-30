@@ -2,7 +2,6 @@
 
 baseURL: https://theupdateframework.io
 title: TUF
-ignoreErrors :  ["error-disable-taxonomy"]
 disableKinds: [taxonomy]
 theme: [docsy]
 enableGitInfo: true
