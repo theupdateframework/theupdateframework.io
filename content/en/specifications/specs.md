@@ -4,6 +4,7 @@ linkTitle: Spec
 menu: { main: { weight: 35 } }
 cascade:
   type: docs
+aliases: [/theupdateframework.github.io/specification]
 ---
 
 The following specification versions are available:

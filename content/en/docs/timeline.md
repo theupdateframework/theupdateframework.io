@@ -2,6 +2,7 @@
 title: Timeline
 weight: 19
 Description: See the project timeline
+aliases: [/timeline]
 ---
 
 **2010**: Improving upon the Thandy software updater for the Tor private

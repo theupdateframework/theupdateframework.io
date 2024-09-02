@@ -3,6 +3,7 @@ title: Project
 LinkTitle: Project
 weight: 20
 description: Learn more about the TUF project
+aliases: [/project]
 ---
 
 The TUF project consists of three components:

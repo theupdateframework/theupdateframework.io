@@ -2,6 +2,7 @@
 title: Security
 weight: 35
 description: Security properties of TUF repositories
+aliases: [/security]
 ---
 
 We can think of a software update system as "secure" if:

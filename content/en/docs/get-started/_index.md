@@ -3,6 +3,7 @@ title: Get started
 weight: 17
 # aliases: [/docs/getting-started/]
 description: Get started with TUF based on your role.
+aliases: [/getting-started]
 ---
 
 Want to learn more about TUF? Select a role to get started:
