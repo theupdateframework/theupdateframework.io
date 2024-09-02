@@ -6,23 +6,18 @@
 
 {{ T "community_using" . }}
 
-{{ with index $links "user"}} 
-    {{ template "community-links-list" . }}
-{{ end }}
+{{ with index $links "user"}} {{ template "community-links-list" . }} {{ end }}
 
 ## {{ T "community_develop" }}
 
 {{ T "community_contribute" . }}
 
-{{ with index $links "developer"}} 
-    {{ template "community-links-list" . }}
+{{ with index $links "developer"}} {{ template "community-links-list" . }}
 {{ end }}
 
 {{ T "community_how_to" . }}{{ T "community_guideline" }}.
 
-{{ define "community-links-list" -}} 
-{{ range . }}
+{{ define "community-links-list" -}} {{ range . }}
 
-- [<i class="{{ .icon }}"></i> {{ .name }}]({{ .url }}): {{ .desc -}} 
-{{ end -}} 
-{{ end }}
+- [<i class="{{ .icon }}"></i> {{ .name }}]({{ .url }}): {{ .desc -}} {{ end -}}
+  {{ end }}
