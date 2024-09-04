@@ -1,15 +1,9 @@
 [build]
 publish = "public"
-command = "make production-build"
+command = "npm run seq -- build:preview diff:check"
 
-[build.environment]
-HUGO_VERSION = "0.126.0"
-
-[context.deploy-preview]
-command = "make preview-build"
-
-[context.branch-deploy]
-command = "make preview-build"
+[context.production]
+command = "npm run seq -- build:production diff:check"
 
 [[redirects]]
 from = "/specification/latest"
