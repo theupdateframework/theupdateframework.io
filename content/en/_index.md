@@ -4,9 +4,10 @@ description: A framework for securing software update systems
 outputs:
   - HTML
   - REDIRECTS # Include this `content/en` ONLY
-developer_note:
+developer_note: |
   The blocks/cover shortcode (used below) will use as a background image any
   image file containing "background" in its name.
+  Current image source: https://www.pexels.com/photo/close-up-photo-of-programming-of-codes-546819
 ---
 
 {{% blocks/cover title="The Update Framework" image_anchor="top" color="primary" height="max" %}}
