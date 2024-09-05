@@ -3,6 +3,7 @@ title: Roles and Metadata
 LinkTitle: Metadata
 weight: 15
 description: Understand Roles and Metadata
+aliases: [/metadata]
 ---
 
 TUF uses roles to define the set of actions a party can perform. The concept of

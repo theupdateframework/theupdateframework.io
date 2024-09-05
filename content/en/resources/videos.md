@@ -2,6 +2,7 @@
 title: Videos
 description:
   Sample videos of presentations given by project members and adopters.
+aliases: [/videos]
 ---
 
 ## TUF-en Up Your Signatures

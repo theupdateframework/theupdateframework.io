@@ -1,5 +1,6 @@
 ---
 title: Publications
+aliases: [/publications]
 ---
 
 The following papers provide detailed information on securing software updater
