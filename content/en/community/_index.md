@@ -1,7 +1,7 @@
 ---
 title: Community
 menu: { main: { weight: 40 } }
-aliases: [/adoptions]
+aliases: [/community]
 cascade:
   type: docs
 # If your project has a local or external contributing page, then
