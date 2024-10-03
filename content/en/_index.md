@@ -16,7 +16,7 @@ developer_note: |
 {{% param description %}}
 {.display-6}
 
-<a class="btn btn-lg btn-primary me-3" href="docs/">Learn More</a>
+<a class="btn btn-lg btn-primary me-3" href="docs/overview/">Learn More</a>
 <a class="btn btn-lg btn-secondary" href="docs/get-started/">Get started</a>
 {.p-initial .my-5}
 
@@ -24,11 +24,7 @@ developer_note: |
 
 {{% blocks/lead color="tertiary" %}}
 
-The Update Framework (TUF) maintains the security of software update systems,
-providing protection even against attackers that compromise the repository or
-signing keys. TUF provides a flexible framework and
-[specification](https://theupdateframework.github.io/specification/latest/) that
-developers can adopt into any software update system.
+{{% param whatIsTUF %}}
 
 {{% /blocks/lead %}}
 

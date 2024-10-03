@@ -23,5 +23,6 @@ languageSettings:
     ignoreRegExpList:
       - CodeBlock
 words:
+  - Cappos
   - CNCF
   - Docsy
