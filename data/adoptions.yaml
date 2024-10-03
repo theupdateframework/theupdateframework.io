@@ -1,42 +1,42 @@
 main:
-- url: https://docs.automotivelinux.org/en/pike/#03_Architecture_Guides/02_Security_Blueprint/09_Update_%28Over_The_Air%29/
-  tag: AGL
-- url: https://github.com/bottlerocket-os/bottlerocket/tree/develop/sources/updater
-  tag: Bottlerocket
-- url: https://github.com/cnabio/cnab-spec/blob/cnab-security-1.0.0-ga/300-CNAB-security.md
-  tag: CNAB
-- url: https://www.datadoghq.com/blog/engineering/secure-publication-of-datadog-agent-integrations-with-tuf-and-in-toto
-  tag: Datadog
-- url: https://blog.fleetdm.com/fleet-3-10-0-released-with-agent-auto-updates-beta-f4dd61be001d
-  tag: fleetdm
-- url: https://foundries.io/insights/blog/2018/05/25/ota-part-1/
-  tag: foundriesio
-- url: https://fuchsia.dev/fuchsia-src/concepts/system/software_update_system
-  tag: Fuchsia
-- url: https://www.here.com/company/press-releases/en/2019-28-05
-  tag: HERE
-- url: https://goharbor.io/docs/2.0.0/working-with-projects/project-configuration/implementing-content-trust/
-  tag: Harbor
-- url: https://github.com/kolide/updater
-  tag: Kolide
-- url: https://github.com/theupdateframework/notary
-  tag: Notary
-- url: https://github.com/sigstore/root-signing
-  tag: sigstore
-- url: https://trdl.dev/
-  tag: trdl
+  - url: https://docs.automotivelinux.org/en/pike/#03_Architecture_Guides/02_Security_Blueprint/09_Update_%28Over_The_Air%29/
+    tag: AGL
+  - url: https://github.com/bottlerocket-os/bottlerocket/tree/develop/sources/updater
+    tag: Bottlerocket
+  - url: https://github.com/cnabio/cnab-spec/blob/cnab-security-1.0.0-ga/300-CNAB-security.md
+    tag: CNAB
+  - url: https://www.datadoghq.com/blog/engineering/secure-publication-of-datadog-agent-integrations-with-tuf-and-in-toto
+    tag: Datadog
+  - url: https://blog.fleetdm.com/fleet-3-10-0-released-with-agent-auto-updates-beta-f4dd61be001d
+    tag: fleetdm
+  - url: https://foundries.io/insights/blog/2018/05/25/ota-part-1/
+    tag: foundriesio
+  - url: https://fuchsia.dev/fuchsia-src/concepts/system/software_update_system
+    tag: Fuchsia
+  - url: https://www.here.com/company/press-releases/en/2019-28-05
+    tag: HERE
+  - url: https://goharbor.io/docs/2.0.0/working-with-projects/project-configuration/implementing-content-trust/
+    tag: Harbor
+  - url: https://github.com/kolide/updater
+    tag: Kolide
+  - url: https://github.com/theupdateframework/notary
+    tag: Notary
+  - url: https://github.com/sigstore/root-signing
+    tag: sigstore
+  - url: https://trdl.dev/
+    tag: trdl
 
 ongoing:
-- url: https://www.docker.com/blog/signing-docker-official-images-using-openpubkey/
-  tag: Docker
-- url: https://www.well-typed.com/blog/2015/04/improving-hackage-security
-  tag: Haskell
-  alt: Haskell Industrial Group
-- url: https://mamba.readthedocs.io/en/latest/advanced_usage/artifacts_verification.html
-  tag: mamba
-- url: https://opam.ocaml.org/blog/Signing-the-opam-repository
-  tag: OPAM
-- url: https://github.com/php-tuf/php-tuf
-  tag: PHP
-- url: https://www.python.org/dev/peps/pep-0458/
-  tag: PyPI
+  - url: https://www.docker.com/blog/signing-docker-official-images-using-openpubkey/
+    tag: Docker
+  - url: https://www.well-typed.com/blog/2015/04/improving-hackage-security
+    tag: Haskell
+    alt: Haskell Industrial Group
+  - url: https://mamba.readthedocs.io/en/latest/advanced_usage/artifacts_verification.html
+    tag: mamba
+  - url: https://opam.ocaml.org/blog/Signing-the-opam-repository
+    tag: OPAM
+  - url: https://github.com/php-tuf/php-tuf
+    tag: PHP
+  - url: https://www.python.org/dev/peps/pep-0458/
+    tag: PyPI
