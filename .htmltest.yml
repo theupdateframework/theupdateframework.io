@@ -8,3 +8,4 @@ IgnoreInternalEmptyHash: true # FIXME
 IgnoreInternalURLs: # list of paths
 IgnoreURLs: # list of regexs of paths or URLs to be ignored
   - ^https://twitter.com/docsydocs$
+  - ^/specs
