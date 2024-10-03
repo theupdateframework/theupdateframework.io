@@ -27,7 +27,7 @@
     "diff:check": "npm run _diff:check || (echo; echo 'WARNING: the files above have not been committed'; echo)",
     "fix:filenames": "npm run _filenames-to-kebab-case",
     "fix:format": "npm run _check:format -- --write",
-    "get:submodule": "npm run _get:${GET:-submodule}",
+    "get:submodule": "npm run _get:${GET:-submodule} --",
     "make:public": "git init -b main public",
     "postbuild:preview": "npm run _check:links--warn",
     "postbuild:production": "npm run _check:links--warn",

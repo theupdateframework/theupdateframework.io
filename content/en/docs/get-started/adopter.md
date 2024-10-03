@@ -1,6 +1,6 @@
 ---
 title: Adopter
-weight: 100
+weight: 15
 description: Get started with TUF as an adopter.
 ---
 

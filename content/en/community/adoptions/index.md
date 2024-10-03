@@ -2,6 +2,7 @@
 title: Adoptions
 weight: 40
 description: Explore practical adoptions of TUF
+liases: [/adoptions]
 ---
 
 Each TUF adoption listed below links to an article, presentation, or repository

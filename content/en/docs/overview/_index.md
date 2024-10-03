@@ -2,6 +2,7 @@
 title: Overview
 weight: 10
 description: Find out what TUF is all about!
+aliases: [/overview]
 ---
 
 ### Purpose, or Why Get TUF?
