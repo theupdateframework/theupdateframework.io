@@ -1,7 +1,6 @@
 ---
 title: Specification
 linkTitle: Spec
-aliases: [/theupdateframework.github.io/specification/latest]
 menu: { main: { weight: 35 } }
 cascade:
   type: docs
