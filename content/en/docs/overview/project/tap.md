@@ -1,9 +1,8 @@
 ---
 title: Enhancement Proposals
-LinkTitle: Tap
-weight: 16
-description: Learn more about TUF Augmentation Proposals
+LinkTitle: TAPs
 aliases: [/taps]
+weight: 16
 ---
 
 ### What is a TAP?
