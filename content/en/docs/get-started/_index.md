@@ -15,7 +15,7 @@ Want to learn more about TUF? Select a role to get started:
 
 </div>
 
-You can also check out our [Videos][] section to see how to implement TUF
-practically.
+You can also check out our [Videos](/resources/videos/) section to see how to
+implement TUF practically.
 
 If none of these roles apply to you, let us know.
