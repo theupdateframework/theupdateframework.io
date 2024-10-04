@@ -1,7 +1,6 @@
 ---
-title: Contributor
-weight: 17
-description: Learn how to contribute to TUF
+title: Contributing
+weight: 700
 ---
 
 There are many opportunities to contribute to TUF project. You can contribute to
@@ -12,4 +11,4 @@ For guidance on how to contribute, see the
 
 For more information on how to contribute, reach out to the
 [TUF community site](/community/) or check out areas of contribution on GitHub
-[The Update Framework](https://github.com/theupdateframework).
+[The Update Framework]({{% param github_repo %}}).
