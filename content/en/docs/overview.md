@@ -96,5 +96,5 @@ Your software update system never has to deal with this additional metadata or
 understand what's going on underneath. TUF identifies the updates, downloads
 them, and checks them against the metadata that it also downloads from the
 repository. If the downloaded target files are trustworthy, TUF hands them over
-to your software update system. See [metadata](docs/overview/metadata) for more
-information and examples.
+to your software update system. For more information and examples, see
+[Roles and metadata](docs/metadata/)

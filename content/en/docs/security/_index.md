@@ -76,8 +76,8 @@ system.
 
 To ensure systems are secure against all of the above attacks, the design and
 implementation of TUF relies on a few basic concepts. For details of how TUF
-conveys the information discussed below, see the
-[Metadata documentation](docs/overview/metadata).
+conveys the information discussed below, see
+[Roles and metadata](docs/metadata/).
 
 ### Trust
 

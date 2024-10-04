@@ -1,5 +1,5 @@
 ---
-title: Roles and Metadata
+title: Roles and metadata
 aliases: [/metadata]
 weight: 300
 ---
