@@ -82,7 +82,7 @@ params:
       TUF Authors | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
       [Funding](/docs/project/funding/) |
     # from_year: 2024
-  github_repo: https://github.com/theupdateframework
+  github_repo: &repo https://github.com/theupdateframework/theupdateframework.io
   gcs_engine_id: 011217106833237091527:la2vtv2emlw # CUSTOMIZE # FIXME get an ID for the starter?
   privacy_policy: https://www.linuxfoundation.org/legal/privacy-policy
   ui:
@@ -120,9 +120,9 @@ params:
         desc: Join our community meetings.
     developer:
       - name: GitHub repository
-        url: https://github.com/theupdateframework/theupdateframework.io
+        url: *repo
         icon: fa-brands fa-github
-        desc: Website repository.
+        desc: Website and documentation repository.
 
 module:
   mounts:
