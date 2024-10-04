@@ -100,9 +100,14 @@ params:
         href="https://github.com/ORG/PROJECT/issues/new">tell us how we can
         improve</a>.
   links:
+    google_group: &google_group https://groups.google.com/g/theupdateframework
     user:
+      - name: Contact
+        url: /community/#contact
+        icon: fa-solid fa-address-book
+        desc: Questions, feedback, and suggestions are welcome!
       - name: TUF Google group
-        url: https://groups.google.com/g/theupdateframework
+        url: *google_group
         icon: fa-solid fa-envelope
         desc: Sign up for TUF announcements.
       - name: Slack channel
