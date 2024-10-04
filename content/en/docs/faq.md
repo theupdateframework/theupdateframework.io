@@ -1,7 +1,7 @@
 ---
 title: Frequently Asked Questions
 LinkTitle: FAQ
-weight: 45
+weight: 450
 description: Get your questions answered!
 aliases: [/faq]
 ---
@@ -138,8 +138,8 @@ in [TAP 4](https://github.com/theupdateframework/taps/blob/master/tap4.md).
 
 **12. Has there been a security audit of TUF?**
 
-The [Security Audits](docs/overview/security) page links to a few of the
-security audits of TUF.
+The [Security Audits](docs/security/) page links to a few of the security audits
+of TUF.
 
 **13. How can I try TUF?**
 

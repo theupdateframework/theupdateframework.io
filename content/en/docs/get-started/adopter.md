@@ -2,11 +2,11 @@
 title: Adopter
 weight: 15
 description: Get started with TUF as an adopter.
+cSpell:ignore: RSTUF
 ---
 
-TUF provides a framework for integration of the
-[security](docs/overview/security) properties into new and existing content
-delivery systems.
+TUF provides a framework for integration of the [security](docs/security/)
+properties into new and existing content delivery systems.
 
 While some [adoptions](/community/adoptions/) integrate TUF by implementing the
 framework from scratch, others start from either a TUF implementation or from a
