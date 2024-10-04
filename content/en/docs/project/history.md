@@ -35,5 +35,4 @@ four core principles continue to be central to its design.
   reduces the risk that they can be stolen or compromised. In 2016, the TUF
   research group set up a process whereby the community could
 
-[paper]:
-  https://theupdateframework.github.io/papers/survivable-key-compromise-ccs2010.pdf?raw=true
+[paper]: /papers/survivable-key-compromise-ccs2010.pdf

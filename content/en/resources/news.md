@@ -1,6 +1,5 @@
 ---
 title: News
-description: TUF news coverage
 aliases: [/news, /press]
 ---
 
@@ -110,8 +109,8 @@ projects to be adopted by CNCF.
 
 Lukas Pühringer presented the talk "Rough Times? TUF Shines" at
 [DebConf17](https://debconf17.debconf.org/talks/153/), an "annual conference for
-Debian contributors, and users interested in improving Debian."  
-The conference took place in Montreal, Canada, August 6-12, 2017.
+Debian contributors, and users interested in improving Debian." The conference
+took place in Montreal, Canada, August 6-12, 2017.
 
 **July 3, 2017**
 

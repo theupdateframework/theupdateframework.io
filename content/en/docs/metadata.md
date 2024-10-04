@@ -1,9 +1,7 @@
 ---
-title: Roles and Metadata
-LinkTitle: Metadata
-weight: 15
-description: Understand Roles and Metadata
+title: Roles and metadata
 aliases: [/metadata]
+weight: 300
 ---
 
 TUF uses roles to define the set of actions a party can perform. The concept of
@@ -85,13 +83,13 @@ available from a given repository mirror.
 
 A delegated role file is located at:
 
-/DELEGATED_ROLE.json
+`/DELEGATED_ROLE.json`
 
 where DELEGATED_ROLE is the name of the role specified in targets.json. If this
 role further delegates trust to a role named ANOTHER_ROLE, that role's signed
 metadata file would be found at:
 
-/ANOTHER_ROLE.json
+`/ANOTHER_ROLE.json`
 
 See
 [example](https://raw.githubusercontent.com/theupdateframework/tuf/develop/tests/repository_data/repository/metadata/role1.json)
