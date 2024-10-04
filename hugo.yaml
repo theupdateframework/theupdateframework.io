@@ -44,6 +44,14 @@ languages:
         repository or signing keys. TUF provides a flexible framework and
         [specification](/specification/latest)
         that developers can adopt into any software update system.
+      funding: |
+        This material is based upon work supported by the [National Science
+        Foundation][NSF] under Grant Nos. CNS-1345049 and CNS-0959138. Any opinions,
+        findings, and conclusions or recommendations expressed in this material are
+        those of the author(s) and do not necessarily reflect the views of the National
+        Science Foundation.
+
+        [NSF]: https://www.nsf.gov
 
 #
 # Markup and imaging
@@ -72,7 +80,7 @@ params:
   copyright:
     authors: >-
       TUF Authors | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
-      [Funding](/about/#funding) |
+      [Funding](/docs/project/funding/) |
     # from_year: 2024
   github_repo: https://github.com/theupdateframework
   gcs_engine_id: 011217106833237091527:la2vtv2emlw # CUSTOMIZE # FIXME get an ID for the starter?
@@ -85,11 +93,11 @@ params:
       enable: false # FIXME: setting to false until the feedback can be better configured
       'yes': >-
         Glad to hear it! Please <a
-        href="https://github.com/google/docsy/issues/new">tell us how we can
+        href="https://github.com/ORG/PROJECT/issues/new">tell us how we can
         improve</a>.
       'no': >-
         Sorry to hear that. Please <a
-        href="https://github.com/google/docsy/issues/new">tell us how we can
+        href="https://github.com/ORG/PROJECT/issues/new">tell us how we can
         improve</a>.
   links:
     user:

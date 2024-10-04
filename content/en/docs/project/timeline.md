@@ -1,7 +1,5 @@
 ---
 title: Timeline
-weight: 419
-Description: See the project timeline
 aliases: [/timeline]
 ---
 
