@@ -42,7 +42,7 @@ languages:
         The Update Framework (TUF) maintains the security of software update
         systems, providing protection even against attackers that compromise the
         repository or signing keys. TUF provides a flexible framework and
-        [specification](/specs/)
+        [specification](/specification/latest)
         that developers can adopt into any software update system.
       projectAndGrants: |
         The TUF project is managed by the [Linux Foundation] under the [Cloud
