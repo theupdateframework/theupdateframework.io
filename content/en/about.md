@@ -10,7 +10,10 @@ menu: { main: { weight: 10 } }
 
 {{% blocks/section color="white" %}}
 
-{{% param whatIsTUF %}} [Learn more](/docs/overview/).
+{{% param whatIsTUF %}}
+
+To learn more, see [TUF overview](/docs/overview/) and
+[project details](/docs/project/).
 
 ## Governance
 
@@ -19,15 +22,11 @@ Foundation][CNCF]. The consensus builder for TUF is [Prof. Justin Cappos] of the
 [Secure Systems Lab] at [New York University](https://engineering.nyu.edu/). Project
 maintainers <sup>[[1]][[2]]</sup> are comprised of collaborators from academia and
 the industry. Contributors and maintainers are governed by the [CNCF Community Code
-of Conduct][CoC].
+of Conduct][CoC]. For details, see [Governance].
 
 ## Funding
 
-This material is based upon work supported by the [National Science
-Foundation][NSF] under Grant Nos. CNS-1345049 and CNS-0959138. Any opinions,
-findings, and conclusions or recommendations expressed in this material are
-those of the author(s) and do not necessarily reflect the views of the National
-Science Foundation.
+{{% param funding %}}
 
 [1]:
   https://github.com/theupdateframework/specification/blob/master/MAINTAINERS.md
@@ -35,8 +34,9 @@ Science Foundation.
   https://github.com/theupdateframework/python-tuf/blob/develop/docs/MAINTAINERS.txt
 [CNCF]: https://cncf.io
 [CoC]: https://github.com/cncf/foundation/blob/master/code-of-conduct.md
+[Governance]:
+  https://github.com/theupdateframework/specification/blob/master/GOVERNANCE.md
 [Linux Foundation]: https://www.linuxfoundation.org
-[NSF]: https://www.nsf.gov
 [Prof. Justin Cappos]: https://ssl.engineering.nyu.edu/personalpages/jcappos/
 [Secure Systems Lab]: https://ssl.engineering.nyu.edu
 

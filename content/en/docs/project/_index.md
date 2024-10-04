@@ -1,9 +1,7 @@
 ---
 title: Project
-LinkTitle: Project
-weight: 20
-description: Learn more about the TUF project
-liases: [/project]
+aliases: [/project]
+weight: 400
 ---
 
 The TUF project consists of three components:
@@ -25,12 +23,12 @@ academics, professional developers, and contributors from the open-source
 community. We especially acknowledge the individuals from the open-source
 community who have [contributed] to the TUF project over the years.
 
-Please visit the [governance page] to learn how project decisions are made, and for
-a more detailed explanation of the project roles used below.
+To learn how project decisions are made, and for a more detailed explanation of
+the project roles used below, see [Governance].
 
 [contributed]:
   https://github.com/theupdateframework/python-tuf/blob/develop/docs/AUTHORS.txt
-[governance page]:
+[Governance]:
   https://github.com/theupdateframework/specification/blob/master/GOVERNANCE.md
 [Specification]: https://theupdateframework.github.io/specification/latest
 [Standardization process]:
@@ -41,11 +39,9 @@ a more detailed explanation of the project roles used below.
 
 ### Justin Cappos
 
-Email: jcappos@nyu.edu
-
-GitHub username: [JustinCappos](https://github.com/justincappos)
-
-PGP fingerprint: E9C0 59EC 0D32 64FA B35F 94AD 465B F9F6 F8EB 475A
+Email: [jcappos@nyu.edu](mailto:jcappos@nyu.edu)<br> GitHub username:
+[JustinCappos](https://github.com/justincappos)<br> PGP fingerprint:
+`E9C0 59EC 0D32 64FA B35F 94AD 465B F9F6 F8EB 475A`
 
 ## Maintainers
 

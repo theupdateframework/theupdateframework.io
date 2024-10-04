@@ -4,6 +4,7 @@ aliases: [/reporting]
 ---
 
 Security issues can be reported by emailing
+[Justin Cappos](/docs/project/#justin-cappos) at
 [jcappos@nyu.edu](mailto:jcappos@nyu.edu).
 
 If at all possible, please include the following information in the report:
