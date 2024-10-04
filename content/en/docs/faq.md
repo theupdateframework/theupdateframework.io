@@ -1,7 +1,7 @@
 ---
 title: Frequently Asked Questions
 LinkTitle: FAQ
-weight: 450
+weight: 800
 description: Get your questions answered!
 aliases: [/faq]
 ---

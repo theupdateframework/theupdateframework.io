@@ -1,6 +1,6 @@
 ---
 title: Security
-weight: 300
+weight: 400
 description: Security properties of TUF repositories
 aliases: [/security]
 ---

@@ -1,7 +1,7 @@
 ---
 title: Project
 aliases: [/project]
-weight: 400
+weight: 600
 ---
 
 The TUF project consists of three components:
