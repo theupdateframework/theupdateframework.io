@@ -1,6 +1,6 @@
 ---
 title: History
-weight: 18
+weight: 418
 description: Learn TUF history and core principles
 aliases: [/history]
 ---

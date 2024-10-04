@@ -1,6 +1,6 @@
 ---
 title: Overview
-weight: 10
+weight: 100
 description: Find out what TUF is all about!
 aliases: [/overview]
 ---
@@ -80,8 +80,8 @@ account, such as when:
 - An attacker compromises the key used to sign these files. Now you download a
   file that is properly signed, but is still malicious.
 
-The [Security](docs/overview/security) section offers a full list of the attacks
-and updater weaknesses that TUF is designed to defend against.
+The [Security](docs/security/) section offers a full list of the attacks and
+updater weaknesses that TUF is designed to defend against.
 
 ### How does TUF secure updates?
 
