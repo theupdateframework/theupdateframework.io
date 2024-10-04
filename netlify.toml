@@ -6,16 +6,12 @@ command = "npm run seq -- build:preview diff:check"
 command = "npm run seq -- build:production diff:check"
 
 [[redirects]]
-from = "/specification/latest"
-to = "https://theupdateframework.github.io/specification/latest/"
-
-[[redirects]]
-from = "/specification/list"
-to = "https://theupdateframework.github.io/specification/"
-
-[[redirects]]
 from = "/specification"
-to = "https://theupdateframework.github.io/specification/latest/"
+to = "/specification/latest/"
+
+[[redirects]]
+from = "/specification/*"
+to = "https://theupdateframework.github.io/specification/:splat"
 
 [[headers]]
   for = "/*"

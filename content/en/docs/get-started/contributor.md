@@ -5,7 +5,7 @@ description: Learn how to contribute to TUF
 ---
 
 There are many opportunities to contribute to TUF project. You can contribute to
-the [specification](/specifications/) or [documentation](/docs/).
+the [specification](/specification/) or [documentation](/docs/).
 
 For guidance on how to contribute, see the
 [TUF Contributor Guide](https://github.com/theupdateframework/community/blob/main/CONTRIBUTING.md).
