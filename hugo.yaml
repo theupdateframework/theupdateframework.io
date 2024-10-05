@@ -83,7 +83,9 @@ params:
       [Funding](/docs/project/funding/) |
     # from_year: 2024
   github_repo: &repo https://github.com/theupdateframework/theupdateframework.io
-  gcs_engine_id: 011217106833237091527:la2vtv2emlw # CUSTOMIZE # FIXME get an ID for the starter?
+  ## 2024-10-05 Disabling search until we agree on a viable solution. For context
+  ## see https://github.com/theupdateframework/theupdateframework.io/pull/92
+  # gcs_engine_id: 06ecafa260afd40f9 # Also see layouts/partials/hooks/head-end.html
   privacy_policy: https://www.linuxfoundation.org/legal/privacy-policy
   ui:
     navbar_logo: true
