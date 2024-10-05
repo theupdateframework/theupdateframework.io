@@ -1,0 +1,734 @@
+{
+  "http://wiki.laptop.org/go/Canonical_JSON": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:26:20.609515-04:00"
+  },
+  "https://beta.techcrunch.com/2017/10/24/the-cloud-native-computing-foundation-adds-two-security-projects-to-its-open-source-stable/": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:16:15.048561-04:00"
+  },
+  "https://blog.docker.com/2015/08/content-trust-docker-1-8": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:14:04.585974-04:00"
+  },
+  "https://blog.fleetdm.com/fleet-3-10-0-released-with-agent-auto-updates-beta-f4dd61be001d": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:29:04.098187-04:00"
+  },
+  "https://blog.mp3monster.org/2020/01/04/security-vulnerabilities-in-solution-deployment/": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:14:38.256579-04:00"
+  },
+  "https://cloud-native.slack.com/archives/C8NMD3QJ3": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:27:33.892418-04:00"
+  },
+  "https://cncf.io": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:08:05.10939-04:00"
+  },
+  "https://code.jquery.com/jquery-3.7.1.min.js": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:07:39.200773-04:00"
+  },
+  "https://communityinviter.com/apps/cloud-native/cncf": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:08:16.078746-04:00"
+  },
+  "https://containerjournal.com/2017/10/24/cncf-adds-projects-better-secure-containers/": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:16:26.457438-04:00"
+  },
+  "https://creativecommons.org/licenses/by/4.0": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:08:32.069755-04:00"
+  },
+  "https://debconf17.debconf.org/talks/153/": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:12:36.398218-04:00"
+  },
+  "https://devclass.com/2019/12/19/the-update-framework-becomes-ninth-project-to-graduate-cncf/": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:15:00.785044-04:00"
+  },
+  "https://devops.com/cncf-graduates-tuf-project-to-secure-software-updates/": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:15:06.958212-04:00"
+  },
+  "https://docs.automotivelinux.org/en/pike/#03_Architecture_Guides/02_Security_Blueprint/09_Update_%28Over_The_Air%29/": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:28:37.688025-04:00"
+  },
+  "https://docs.datadoghq.com/getting_started/integrations/": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:11:49.225551-04:00"
+  },
+  "https://en.wikipedia.org/wiki/Glob_(programming)": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:26:36.378625-04:00"
+  },
+  "https://engineering.nyu.edu/": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:11:54.335269-04:00"
+  },
+  "https://engineering.nyu.edu/news/open-source-system-secure-software-updates-graduates-protect-leading-cloud-services": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:11:06.833386-04:00"
+  },
+  "https://events.linuxfoundation.org/events/linuxcon-north-america/program/slides": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:13:32.041776-04:00"
+  },
+  "https://foundries.io/insights/blog/2018/05/25/ota-part-1/": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:29:09.490419-04:00"
+  },
+  "https://fuchsia.dev/fuchsia-src/concepts/system/software_update_system": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:29:15.164794-04:00"
+  },
+  "https://github.com/bottlerocket-os/bottlerocket/tree/develop/sources/updater": {
+    "StatusCode": 404,
+    "LastSeen": "2024-10-05T11:43:42.573372-04:00"
+  },
+  "https://github.com/cnabio/cnab-spec/blob/cnab-security-1.0.0-ga/300-CNAB-security.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:28:48.404642-04:00"
+  },
+  "https://github.com/cncf/foundation/blob/master/code-of-conduct.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:19:06.421963-04:00"
+  },
+  "https://github.com/davedoesdev/dtuf": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:30:22.807901-04:00"
+  },
+  "https://github.com/docker/notary": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:13:54.18728-04:00"
+  },
+  "https://github.com/heartsucker/rust-tuf": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:30:28.445184-04:00"
+  },
+  "https://github.com/joshuagl": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:23:35.769233-04:00"
+  },
+  "https://github.com/justincappos": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:23:25.26779-04:00"
+  },
+  "https://github.com/kolide/updater": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:29:33.106285-04:00"
+  },
+  "https://github.com/lukpueh": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:23:46.288641-04:00"
+  },
+  "https://github.com/mnm678": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:23:41.038515-04:00"
+  },
+  "https://github.com/php-tuf/php-tuf": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:30:17.151692-04:00"
+  },
+  "https://github.com/sigstore/root-signing": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:29:44.324578-04:00"
+  },
+  "https://github.com/theupdateframework": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:22:32.290759-04:00"
+  },
+  "https://github.com/theupdateframework/community": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:08:21.453316-04:00"
+  },
+  "https://github.com/theupdateframework/community/": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:22:37.701138-04:00"
+  },
+  "https://github.com/theupdateframework/community/blob/main/CONTRIBUTING.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:22:42.951945-04:00"
+  },
+  "https://github.com/theupdateframework/go-tuf/": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:25:11.131447-04:00"
+  },
+  "https://github.com/theupdateframework/notary": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:29:38.684314-04:00"
+  },
+  "https://github.com/theupdateframework/notary/blob/master/docs/resources/cure53_tuf_notary_audit_2018_08_07.pdf": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:20:47.531754-04:00"
+  },
+  "https://github.com/theupdateframework/notary/blob/master/docs/resources/ncc_docker_notary_audit_2015_07_31.pdf": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:21:08.155489-04:00"
+  },
+  "https://github.com/theupdateframework/python-tuf": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:25:05.548961-04:00"
+  },
+  "https://github.com/theupdateframework/python-tuf/blob/develop/README.md#acknowledgements": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T12:00:02.764046-04:00"
+  },
+  "https://github.com/theupdateframework/python-tuf/blob/develop/docs/AUTHORS.txt": {
+    "StatusCode": 404,
+    "LastSeen": "2024-10-05T11:43:42.602379-04:00"
+  },
+  "https://github.com/theupdateframework/python-tuf/blob/develop/docs/MAINTAINERS.txt": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:19:00.930224-04:00"
+  },
+  "https://github.com/theupdateframework/python-tuf/blob/v0.20.0/examples/repo_example/hashed_bin_delegation.py": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:21:50.149516-04:00"
+  },
+  "https://github.com/theupdateframework/python-tuf/tree/develop/examples": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:22:11.076724-04:00"
+  },
+  "https://github.com/theupdateframework/specification/blob/master/GOVERNANCE.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:19:11.698841-04:00"
+  },
+  "https://github.com/theupdateframework/specification/blob/master/MAINTAINERS.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:18:55.547736-04:00"
+  },
+  "https://github.com/theupdateframework/specification/blob/master/tuf-spec.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:26:26.092394-04:00"
+  },
+  "https://github.com/theupdateframework/specification/issues": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:27:49.98459-04:00"
+  },
+  "https://github.com/theupdateframework/taps": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:13:08.948351-04:00"
+  },
+  "https://github.com/theupdateframework/taps/blob/master/tap1.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:23:09.262588-04:00"
+  },
+  "https://github.com/theupdateframework/taps/blob/master/tap4.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:22:00.66814-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:08:26.869281-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/commit/1a60f9e217196e19076edba9787f72019141277e": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:18:19.547637-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/commit/54cca6ae06640ad10d184f806a98172781dcb9e8": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:21:13.701008-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/commit/594a6ab705de31ac2b1475ad06f9f983d0b6979a": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:25:32.728605-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/commit/638b8a1d81632df4c27553044a2e43e3f7abe7c4": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:20:26.362325-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/commit/723e3323632abf6f52ecd44f25770e62bb523816": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:20:04.936087-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/commit/8b0f6bba08eef217c6c7fadceb75a24a8341b84a": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:09:30.506069-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/commit/8b69df3d004adafe2f29174da6635d22504343fc": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:09:09.404042-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/commit/b11cefd08a89dab8a70c09711eeff1df7d3cae1c": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:28:11.25347-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/commit/e135c87230816424c13d2c50588e0301748577d3": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:10:23.56726-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/issues/new": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:09:03.913978-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/tree/docsy/content/en/community/_index.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:27:18.055472-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/tree/docsy/content/en/community/adoptions/index.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:28:21.867462-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/tree/docsy/content/en/community/taps.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:28:00.475851-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/tree/docsy/content/en/docs/_index.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:19:27.885825-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/tree/docsy/content/en/docs/contributing.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:22:21.550917-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/tree/docsy/content/en/docs/faq.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:21:24.236761-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/tree/docsy/content/en/docs/getting-started.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:24:54.882094-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/tree/docsy/content/en/docs/metadata.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:26:04.904014-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/tree/docsy/content/en/docs/overview.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:25:43.403181-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/tree/docsy/content/en/docs/project/_index.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:22:53.456933-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/tree/docsy/content/en/docs/project/funding.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:24:39.162217-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/tree/docsy/content/en/docs/project/history.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:23:56.824613-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/tree/docsy/content/en/docs/project/timeline.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:24:18.129475-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/tree/docsy/content/en/docs/security/_index.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:20:15.590438-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/tree/docsy/content/en/docs/security/audits.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:20:36.866851-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/tree/docsy/content/en/docs/security/reporting.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:19:48.998688-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/tree/docsy/content/en/resources/_index.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:08:48.185255-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/tree/docsy/content/en/resources/news.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:10:34.295544-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/tree/docsy/content/en/resources/publications.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:09:19.939302-04:00"
+  },
+  "https://github.com/theupdateframework/theupdateframework.io/tree/docsy/content/en/resources/videos.md": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:09:41.444887-04:00"
+  },
+  "https://github.com/theupdateframework/tuf-js": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:25:16.622615-04:00"
+  },
+  "https://github.com/theupdateframework/tuf-on-ci/": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:25:27.346866-04:00"
+  },
+  "https://github.com/trishankatdatadog": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:23:30.527879-04:00"
+  },
+  "https://goharbor.io/docs/2.0.0/working-with-projects/project-configuration/implementing-content-trust/": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:29:27.54856-04:00"
+  },
+  "https://groups.google.com/g/theupdateframework": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:08:10.615508-04:00"
+  },
+  "https://ieee-isto.org/": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:12:09.925728-04:00"
+  },
+  "https://in-toto.io/": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:11:43.949881-04:00"
+  },
+  "https://it.slashdot.org/story/08/07/10/227220/package-managers-as-achilles-heel": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:18:14.188686-04:00"
+  },
+  "https://lcccna2016.sched.org/event/7JWU/when-the-going-gets-tough-get-tuf-going-riyaz-faizullabhoy-docker": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:13:20.450794-04:00"
+  },
+  "https://linuxconcontainerconeurope2016.sched.org/event/7oI1/software-update-security-when-the-going-gets-tough-get-tuf-going-riyaz-faizullabhoy-lily-guo-docker": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:12:58.232148-04:00"
+  },
+  "https://lwn.net/Articles/628343/": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:17:36.779059-04:00"
+  },
+  "https://lwn.net/Articles/629426/": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:17:46.993717-04:00"
+  },
+  "https://lwn.net/Articles/794391/": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:15:12.090388-04:00"
+  },
+  "https://lwn.net/Articles/807777/": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:14:55.143662-04:00"
+  },
+  "https://mamba.readthedocs.io/en/latest/advanced_usage/artifacts_verification.html": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:30:05.830455-04:00"
+  },
+  "https://news.ycombinator.com/item": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:17:52.425317-04:00"
+  },
+  "https://nj1015.com/people-are-pretty-reluctant-to-embrace-self-driving-cars-survey-says/": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:14:21.930772-04:00"
+  },
+  "https://opam.ocaml.org/blog/Signing-the-opam-repository": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:30:11.597628-04:00"
+  },
+  "https://pyfound.blogspot.com/2020/03/an-update-pypi-funded-work.html": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:14:27.339435-04:00"
+  },
+  "https://raw.githubusercontent.com/theupdateframework/tuf/develop/tests/repository_data/repository/metadata/role1.json": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:26:46.664351-04:00"
+  },
+  "https://raw.githubusercontent.com/theupdateframework/tuf/develop/tests/repository_data/repository/metadata/role2.json": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:26:51.824539-04:00"
+  },
+  "https://raw.githubusercontent.com/theupdateframework/tuf/develop/tests/repository_data/repository/metadata/root.json": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:26:31.255606-04:00"
+  },
+  "https://raw.githubusercontent.com/theupdateframework/tuf/develop/tests/repository_data/repository/metadata/snapshot.json": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:26:56.986426-04:00"
+  },
+  "https://raw.githubusercontent.com/theupdateframework/tuf/develop/tests/repository_data/repository/metadata/targets.json": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:26:41.524954-04:00"
+  },
+  "https://raw.githubusercontent.com/theupdateframework/tuf/develop/tests/repository_data/repository/metadata/timestamp.json": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:27:02.157132-04:00"
+  },
+  "https://repository-service-tuf.readthedocs.io/en/stable/": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:25:21.87881-04:00"
+  },
+  "https://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf": {
+    "StatusCode": 403,
+    "LastSeen": "2024-10-05T11:44:03.271684-04:00"
+  },
+  "https://slack.cncf.io/": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:27:44.625878-04:00"
+  },
+  "https://ssl.engineering.nyu.edu": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:18:50.236312-04:00"
+  },
+  "https://ssl.engineering.nyu.edu/blog/2017-04-24-DockerCon": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:12:46.673137-04:00"
+  },
+  "https://ssl.engineering.nyu.edu/personalpages/jcappos/": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:18:45.151572-04:00"
+  },
+  "https://techcrunch.com/2020/03/11/aws-launches-bottlerocket-a-linux-based-os-for-container-hosting/": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:14:16.313667-04:00"
+  },
+  "https://thenewstack.io/cncf-brings-security-cloud-native-stack-notary-tuf-adoption/": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:16:46.618827-04:00"
+  },
+  "https://thenewstack.io/docker-content-trust-can-run-containers-untrusted-networks/": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:17:26.010471-04:00"
+  },
+  "https://theupdateframework.io/papers/protect-community-repositories-nsdi2016.pdf": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:25:54.194721-04:00"
+  },
+  "https://theupdateframework.readthedocs.io/en/latest/": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:23:14.467303-04:00"
+  },
+  "https://theupdateframework.readthedocs.io/en/latest/api/api-reference.html": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:22:05.785564-04:00"
+  },
+  "https://titanous.com/posts/docker-insecurity": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:17:57.605795-04:00"
+  },
+  "https://trdl.dev/": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:29:49.815955-04:00"
+  },
+  "https://uptane.github.io": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:12:41.518956-04:00"
+  },
+  "https://uptane.github.io/": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:21:55.225541-04:00"
+  },
+  "https://uptane.github.io/papers/ieee-isto-6100.1.0.0.uptane-standard.html": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:11:33.111583-04:00"
+  },
+  "https://us.pycon.org/2015/schedule/presentation/438/": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:17:41.895061-04:00"
+  },
+  "https://us.pycon.org/2016/schedule/presentation/2187/": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:13:48.588503-04:00"
+  },
+  "https://vimeo.com/88774074": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:18:08.318982-04:00"
+  },
+  "https://www.airbiquity.com": {
+    "StatusCode": 503,
+    "LastSeen": "2024-10-05T11:43:42.415163-04:00"
+  },
+  "https://www.airbiquity.com/news/press-releases/airbiquity-bolsters-otamatictm-security-and-data-analytic-features-latest-over-air-ota-software-and-data-management-offering-aut": {
+    "StatusCode": 503,
+    "LastSeen": "2024-10-05T11:44:34.663334-04:00"
+  },
+  "https://www.airbiquity.com/news/press-releases/airbiquity-otamatic-named-2017-new-product-year-business-intelligence-group": {
+    "StatusCode": 503,
+    "LastSeen": "2024-10-05T11:44:39.80592-04:00"
+  },
+  "https://www.autoconnectedcar.com/2018/08/automotive-cybersecurity-open-source-ota-crypto-market/": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:15:46.348965-04:00"
+  },
+  "https://www.automotivelinux.org/": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:12:04.669754-04:00"
+  },
+  "https://www.avnetwork.com/news/cloud-native-computing-foundation-announces-tuf-graduation": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:14:43.557465-04:00"
+  },
+  "https://www.cncf.io": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:07:49.599321-04:00"
+  },
+  "https://www.cncf.io/": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:11:11.886807-04:00"
+  },
+  "https://www.cncf.io/blog/2021/06/16/a-new-kind-of-trust-root/": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:10:45.802449-04:00"
+  },
+  "https://www.cncf.io/projects": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:07:54.723053-04:00"
+  },
+  "https://www.csmonitor.com/World/Passcode/2017/0118/Are-software-updates-key-to-stopping-criminal-car-hacks": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:17:20.918367-04:00"
+  },
+  "https://www.d2pmagazine.com/2020/04/02/6099/": {
+    "StatusCode": 404,
+    "LastSeen": "2024-10-05T11:44:08.638724-04:00"
+  },
+  "https://www.datadoghq.com/blog/engineering/secure-publication-of-datadog-agent-integrations-with-tuf-and-in-toto": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:28:53.726942-04:00"
+  },
+  "https://www.datadoghq.com/blog/engineering/secure-publication-of-datadog-agent-integrations-with-tuf-and-in-toto/": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:11:38.61013-04:00"
+  },
+  "https://www.docker.com/blog/signing-docker-official-images-using-openpubkey/": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:29:54.95641-04:00"
+  },
+  "https://www.esecurityplanet.com/applications/container-and-kubernetes-security.html": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:15:58.707726-04:00"
+  },
+  "https://www.eweek.com/security/how-the-update-framework-improves-security-of-software-updates": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:16:58.86998-04:00"
+  },
+  "https://www.eweek.com/security/how-the-update-framework-improves-software-distribution-security": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:15:52.521441-04:00"
+  },
+  "https://www.forbes.com/sites/.../uptane-will-protect-your-connected-car-from-hackers": {
+    "StatusCode": 403,
+    "LastSeen": "2024-10-05T11:44:59.952861-04:00"
+  },
+  "https://www.helpnetsecurity.com/2019/12/23/update-framework-linux-foundation/": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:14:49.25069-04:00"
+  },
+  "https://www.here.com/company/press-releases/en/2019-28-05": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:29:21.154364-04:00"
+  },
+  "https://www.jointdevelopment.org/": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:11:22.326278-04:00"
+  },
+  "https://www.just-auto.com/news/here-and-uptane-team-on-automotiveiot-security_id188912.aspx": {
+    "StatusCode": 404,
+    "LastSeen": "2024-10-05T11:44:24.464653-04:00"
+  },
+  "https://www.linux-magazine.com/Issues/2014/160/Security-Lessons-TUF": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:18:03.032666-04:00"
+  },
+  "https://www.linuxfoundation.org": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:18:40.074709-04:00"
+  },
+  "https://www.linuxfoundation.org/": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:11:59.478413-04:00"
+  },
+  "https://www.linuxfoundation.org/cloud-containers-virtualization/cncf-host-two-security-projects-notary-tuf-specification/": {
+    "StatusCode": 404,
+    "LastSeen": "2024-10-05T11:43:58.112029-04:00"
+  },
+  "https://www.linuxfoundation.org/legal/privacy-policy": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:08:37.502115-04:00"
+  },
+  "https://www.nsf.gov": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:19:17.301536-04:00"
+  },
+  "https://www.podcastinit.com/episode-99-the-update-framework-with-justin-cappos/": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:17:09.8706-04:00"
+  },
+  "https://www.popsci.com/top-security-innovations-2017": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:16:52.728977-04:00"
+  },
+  "https://www.python.org/dev/peps/pep-0458/": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:11:01.604845-04:00"
+  },
+  "https://www.python.org/dev/peps/pep-0458/#in-the-event-of-a-key-compromise": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:21:39.739053-04:00"
+  },
+  "https://www.python.org/dev/peps/pep-0458/#metadata-scalability": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:21:44.821519-04:00"
+  },
+  "https://www.python.org/dev/peps/pep-0480/": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:24:28.574094-04:00"
+  },
+  "https://www.spglobal.com/marketintelligence/en/news-insights/trending/Xp9n6TEIEmSe8ho9d0jX_Q2": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:44:19.373128-04:00"
+  },
+  "https://www.thedrive.com/tech/29120/top-ota-expert-shows-how-state-actors-hack-into-your-car-and-what-happens-next-people-will-die": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:15:17.930598-04:00"
+  },
+  "https://www.tmcnet.com/usubmit/2019/05/28/8963021.htm": {
+    "StatusCode": 403,
+    "LastSeen": "2024-10-05T11:44:29.577708-04:00"
+  },
+  "https://www.torproject.org/": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:24:07.521061-04:00"
+  },
+  "https://www.traffictechnologytoday.com/news/mapping/here-technologies-joins-the-uptane-alliance-for-highly-secure-software-updates.html": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:15:30.078158-04:00"
+  },
+  "https://www.usenix.org/conference/nsdi16": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:13:37.762912-04:00"
+  },
+  "https://www.usenix.org/node/194973": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:13:43.377251-04:00"
+  },
+  "https://www.ustream.tv/recorded/64499822#t=1h54m0s": {
+    "StatusCode": 404,
+    "LastSeen": "2024-10-05T11:45:05.574214-04:00"
+  },
+  "https://www.well-typed.com/blog/2015/04/improving-hackage-security": {
+    "StatusCode": 206,
+    "LastSeen": "2024-10-05T11:30:00.588698-04:00"
+  },
+  "https://www.youtube.com/embed/8sUqo36IVio": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:09:51.956767-04:00"
+  },
+  "https://www.youtube.com/embed/Aryr0O6H_2U": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:10:07.488353-04:00"
+  },
+  "https://www.youtube.com/embed/J0GkcToeDiM": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:10:17.943154-04:00"
+  },
+  "https://www.youtube.com/embed/SNge7-t4JRE": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:10:12.761188-04:00"
+  },
+  "https://www.youtube.com/embed/Xuk3BcluYxw": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:10:02.303006-04:00"
+  },
+  "https://www.youtube.com/embed/Y9Yxst_-Cvg": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:09:57.135182-04:00"
+  },
+  "https://www.youtube.com/watch": {
+    "StatusCode": 200,
+    "LastSeen": "2024-10-05T11:10:51.040299-04:00"
+  }
+}
