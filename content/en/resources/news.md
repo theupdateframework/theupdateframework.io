@@ -1,6 +1,7 @@
 ---
 title: News
 aliases: [/news, /press]
+cSpell:ignore: Sigstore
 ---
 
 ## Highlights
@@ -18,14 +19,12 @@ root, and shorter root key lifespan than traditional PKI models.
 
 **March 5, 2021**
 
-The
-[TUF specification](https://theupdateframework.github.io/specification/latest/index.html)
-is now published as a rich HTML document with a table of contents, syntax
-highlighting, cross-linking, and other features.
+The [TUF specification](/specification/latest/) is now published as a rich HTML
+document with a table of contents, syntax highlighting, cross-linking, and other
+features.
 
 The new publication machinery also maintains a
-[list of all versions ](https://theupdateframework.github.io/specification/)
-published since the format change.
+[list of all versions](/specification/list/) published since the format change.
 
 **October 30, 2020**
 
