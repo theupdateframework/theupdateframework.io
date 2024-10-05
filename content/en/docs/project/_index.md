@@ -30,7 +30,7 @@ the project roles used below, see [Governance].
   https://github.com/theupdateframework/python-tuf/blob/develop/docs/AUTHORS.txt
 [Governance]:
   https://github.com/theupdateframework/specification/blob/master/GOVERNANCE.md
-[Specification]: https://theupdateframework.github.io/specification/latest
+[Specification]: /specification/latest
 [Standardization process]:
   https://github.com/theupdateframework/taps/blob/master/tap1.md
 [Reference implementation]: https://theupdateframework.readthedocs.io/en/latest/

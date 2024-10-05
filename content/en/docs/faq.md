@@ -20,7 +20,7 @@ rotate offline keys), and how to periodically update and re-sign metadata.
 
 For (2), an adopter has to figure out how to ship the initial Root file, and
 implement
-[the TUF download and verification workflow](https://theupdateframework.github.io/specification/latest/#detailed-client-workflow)
+[the TUF download and verification workflow](/specification/latest/#detailed-client-workflow)
 in their language of choice if one of the existing implementations is
 insufficient.
 
@@ -116,7 +116,7 @@ bandwidth associated with downloading the large file many times can be saved.
 The reference implementation provides an
 [easy way to distribute target files across many targets metadata](https://github.com/theupdateframework/python-tuf/blob/v0.20.0/examples/repo_example/hashed_bin_delegation.py)
 (i.e., delegating to hashed bins), which the specification refers to as
-[path hash prefixes](https://theupdateframework.github.io/specification/latest/#path_hash_prefixes).
+[path hash prefixes](/specification/latest/#path_hash_prefixes).
 
 **10. Can TUF be used with devices that lack the CPU power or memory to verify
 metadata?**
@@ -138,8 +138,8 @@ in [TAP 4](https://github.com/theupdateframework/taps/blob/master/tap4.md).
 
 **12. Has there been a security audit of TUF?**
 
-The [Security Audits](docs/security/) page links to a few of the security audits
-of TUF.
+The [Security audits](docs/security/audits/) page links to a few of the security
+audits of TUF.
 
 **13. How can I try TUF?**
 
@@ -152,5 +152,5 @@ that demonstrate the usage.
 
 **14. Is there a presentation or video about TUF?**
 
-The [Videos]() page contains links to presentations that have been given by both
-TUF developer personnel, as well as adopters.
+The [Videos](/resources/videos/) page contains links to presentations that have
+been given by both TUF developer personnel, as well as adopters.
