@@ -27,7 +27,7 @@ To learn how project decisions are made, and for a more detailed explanation of
 the project roles used below, see [Governance].
 
 [contributed]:
-  https://github.com/theupdateframework/python-tuf/blob/develop/docs/AUTHORS.txt
+  https://github.com/theupdateframework/python-tuf/blob/develop/README.md#acknowledgements
 [Governance]:
   https://github.com/theupdateframework/specification/blob/master/GOVERNANCE.md
 [Specification]: /specification/latest
