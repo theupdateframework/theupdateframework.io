@@ -1,6 +1,7 @@
 ---
 title: Specification
 linkTitle: Spec
+description: The Update Framework Specification
 menu: { main: { weight: 35 } }
 # See Netlify.toml for /specification/* redirect rules.
 ---
@@ -11,10 +12,10 @@ menu: { main: { weight: 35 } }
 
 {{% blocks/section color="white" %}}
 
-The following specification versions are available:
+{{% param description %}} versions:
 
-- [latest](/specification/latest/)
-- [draft](/specification/draft/)
+<a class="spec-btn btn btn-lg btn-secondary ms-3" href="/specification/latest/">Latest</a>
+
 - [v1.0.33](/specification/v1.0.33/)
 - [v1.0.32](/specification/v1.0.32/)
 - [v1.0.31](/specification/v1.0.31/)
@@ -31,6 +32,7 @@ The following specification versions are available:
 - [v1.0.19](/specification/v1.0.19/)
 - [v1.0.18](/specification/v1.0.18/)
 - [v1.0.17](/specification/v1.0.17/)
+- [draft](/specification/draft/)
 
 This list is also available from [Spec versions](/specification/list/).
 

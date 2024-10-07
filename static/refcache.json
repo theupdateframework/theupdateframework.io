@@ -227,42 +227,6 @@
     "StatusCode": 200,
     "LastSeen": "2024-10-05T11:08:26.869281-04:00"
   },
-  "https://github.com/theupdateframework/theupdateframework.io/commit/1a60f9e217196e19076edba9787f72019141277e": {
-    "StatusCode": 200,
-    "LastSeen": "2024-10-05T11:18:19.547637-04:00"
-  },
-  "https://github.com/theupdateframework/theupdateframework.io/commit/54cca6ae06640ad10d184f806a98172781dcb9e8": {
-    "StatusCode": 200,
-    "LastSeen": "2024-10-05T11:21:13.701008-04:00"
-  },
-  "https://github.com/theupdateframework/theupdateframework.io/commit/594a6ab705de31ac2b1475ad06f9f983d0b6979a": {
-    "StatusCode": 200,
-    "LastSeen": "2024-10-05T11:25:32.728605-04:00"
-  },
-  "https://github.com/theupdateframework/theupdateframework.io/commit/638b8a1d81632df4c27553044a2e43e3f7abe7c4": {
-    "StatusCode": 200,
-    "LastSeen": "2024-10-05T11:20:26.362325-04:00"
-  },
-  "https://github.com/theupdateframework/theupdateframework.io/commit/723e3323632abf6f52ecd44f25770e62bb523816": {
-    "StatusCode": 200,
-    "LastSeen": "2024-10-05T11:20:04.936087-04:00"
-  },
-  "https://github.com/theupdateframework/theupdateframework.io/commit/8b0f6bba08eef217c6c7fadceb75a24a8341b84a": {
-    "StatusCode": 200,
-    "LastSeen": "2024-10-05T11:09:30.506069-04:00"
-  },
-  "https://github.com/theupdateframework/theupdateframework.io/commit/8b69df3d004adafe2f29174da6635d22504343fc": {
-    "StatusCode": 200,
-    "LastSeen": "2024-10-05T11:09:09.404042-04:00"
-  },
-  "https://github.com/theupdateframework/theupdateframework.io/commit/b11cefd08a89dab8a70c09711eeff1df7d3cae1c": {
-    "StatusCode": 200,
-    "LastSeen": "2024-10-05T11:28:11.25347-04:00"
-  },
-  "https://github.com/theupdateframework/theupdateframework.io/commit/e135c87230816424c13d2c50588e0301748577d3": {
-    "StatusCode": 200,
-    "LastSeen": "2024-10-05T11:10:23.56726-04:00"
-  },
   "https://github.com/theupdateframework/theupdateframework.io/issues/new": {
     "StatusCode": 200,
     "LastSeen": "2024-10-05T11:09:03.913978-04:00"
