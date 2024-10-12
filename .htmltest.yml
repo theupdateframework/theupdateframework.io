@@ -11,7 +11,7 @@ IgnoreInternalEmptyHash: true # FIXME
 IgnoreInternalURLs: # list of paths
 IgnoreURLs: # list of regexs of paths or URLs to be ignored
   # Ignore Docsy-generated GitHub links for now
-  - ^https?://github\.com/.*?/.*?/(new|edit)/ # view-page, edit-source etc
+  - ^https://github.com/theupdateframework/theupdateframework.io/(edit|new|tree) # view, edit page src, etc
   - ^https://github\.com/theupdateframework/.*?/commit/ # last mod
 
   # TUF
