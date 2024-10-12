@@ -6,6 +6,10 @@ command = "npm run seq -- build:preview diff:check"
 command = "npm run seq -- build:production diff:check"
 
 [[redirects]]
+from = "/specification/list"
+to = "https://theupdateframework.github.io/specification/"
+
+[[redirects]]
 from = "/specification"
 to = "/specification/latest/"
 
