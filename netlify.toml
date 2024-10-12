@@ -1,32 +1,22 @@
 [build]
 publish = "public"
-command = "make production-build"
+command = "npm run seq -- build:preview diff:check"
 
-[build.environment]
-HUGO_VERSION = "0.126.0"
-
-[context.deploy-preview]
-command = "make preview-build"
-
-[context.branch-deploy]
-command = "make preview-build"
-
-[[redirects]]
-from = "/specification/latest"
-to = "https://theupdateframework.github.io/specification/latest/"
-
-[[redirects]]
-from = "/specification/list"
-to = "https://theupdateframework.github.io/specification/"
+[context.production]
+command = "npm run seq -- build:production diff:check"
 
 [[redirects]]
 from = "/specification"
-to = "https://theupdateframework.github.io/specification/latest/"
+to = "/specification/latest/"
+
+[[redirects]]
+from = "/specification/*"
+to = "https://theupdateframework.github.io/specification/:splat"
 
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src 'self' code.jquery.com fonts.googleapis.com fonts.gstatic.com use.fontawesome.com app.netlify.com netlify-cdp-loader.netlify.app youtube.com; frame-src youtube.com www.youtube.com"
+    Content-Security-Policy = "default-src 'self' code.jquery.com fonts.googleapis.com fonts.gstatic.com cse.google.com www.google.com use.fontawesome.com app.netlify.com netlify-cdp-loader.netlify.app youtube.com; frame-src youtube.com www.youtube.com"
     X-Frame-Options = "deny"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "no-referrer-when-downgrade"

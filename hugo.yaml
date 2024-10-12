@@ -1,0 +1,133 @@
+# cSpell:ignore docsy github goldmark linkify netlify
+
+baseURL: https://theupdateframework.io
+title: TUF
+disableKinds: [taxonomy]
+theme: [docsy]
+enableGitInfo: true
+
+#
+# Outputs and Netlify _redirects file support
+#
+
+disableAliases: true # We do redirects via Netlify's _redirects file
+
+mediaTypes:
+  text/netlify: {}
+
+outputFormats:
+  REDIRECTS:
+    mediaType: text/netlify
+    baseName: _redirects
+    notAlternative: true
+
+outputs:
+  home: [HTML]
+  section: [HTML]
+
+#
+# Language settings
+#
+
+enableMissingTranslationPlaceholders: true
+defaultContentLanguage: en
+
+languages:
+  en:
+    languageName: English
+    languageCode: en-US
+    params:
+      description: A Framework for securing software update systems
+      whatIsTUF: |
+        The Update Framework (TUF) maintains the security of software update
+        systems, providing protection even against attackers that compromise the
+        repository or signing keys. TUF provides a flexible framework and
+        [specification](/specification/latest)
+        that developers can adopt into any software update system.
+      funding: |
+        This material is based upon work supported by the [National Science
+        Foundation][NSF] under Grant Nos. CNS-1345049 and CNS-0959138. Any opinions,
+        findings, and conclusions or recommendations expressed in this material are
+        those of the author(s) and do not necessarily reflect the views of the National
+        Science Foundation.
+
+        [NSF]: https://www.nsf.gov
+
+#
+# Markup and imaging
+#
+
+markup:
+  goldmark:
+    extensions:
+      linkify: false
+    parser:
+      attribute:
+        block: true
+      wrapStandAloneImageWithinParagraph: false
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false # Required for dark-mode
+  tableOfContents: { endLevel: 4 }
+
+imaging:
+  resampleFilter: CatmullRom # cspell:disable-line
+  quality: 75
+  anchor: smart
+
+params:
+  copyright:
+    authors: >-
+      TUF Authors | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
+      [Funding](/docs/project/funding/) |
+    # from_year: 2024
+  github_repo: &repo https://github.com/theupdateframework/theupdateframework.io
+  github_branch: docsy # FIXME - remove once this get merged into main
+  ## 2024-10-05 Disabling search until we agree on a viable solution. For context
+  ## see https://github.com/theupdateframework/theupdateframework.io/pull/92
+  # gcs_engine_id: 06ecafa260afd40f9 # Also see layouts/partials/hooks/head-end.html
+  privacy_policy: https://www.linuxfoundation.org/legal/privacy-policy
+  ui:
+    navbar_logo: true
+    showLightDarkModeMenu: true
+    sidebar_search_disable: true
+    feedback: # CUSTOMIZE
+      enable: false # FIXME: setting to false until the feedback can be better configured
+      'yes': >-
+        Glad to hear it! Please <a
+        href="https://github.com/ORG/PROJECT/issues/new">tell us how we can
+        improve</a>.
+      'no': >-
+        Sorry to hear that. Please <a
+        href="https://github.com/ORG/PROJECT/issues/new">tell us how we can
+        improve</a>.
+  links:
+    google_group: &google_group https://groups.google.com/g/theupdateframework
+    user:
+      - name: Contact
+        url: /community/#contact
+        icon: fa-solid fa-address-book
+        desc: Questions, feedback, and suggestions are welcome!
+      - name: TUF Google group
+        url: *google_group
+        icon: fa-solid fa-envelope
+        desc: Sign up for TUF announcements.
+      - name: Slack channel
+        url: https://communityinviter.com/apps/cloud-native/cncf
+        icon: fa-brands fa-slack
+        desc: Connect with us on CNCF Slack channel for TUF.
+      - name: Community meetings
+        url: https://github.com/theupdateframework/community?tab=readme-ov-file
+        icon: fa-regular fa-calendar-days
+        desc: Join our community meetings.
+    developer:
+      - name: GitHub repository
+        url: *repo
+        icon: fa-brands fa-github
+        desc: Website and documentation repository.
+
+module:
+  mounts:
+    - source: content/en
+      target: content

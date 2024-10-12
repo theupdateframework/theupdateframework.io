@@ -1,0 +1,57 @@
+@import 'td/code-dark';
+@import 'csp';
+
+.td-navbar {
+  .navbar-brand {
+    svg {
+      height: 38px;
+    }
+    .navbar-brand__name {
+      display: none;
+    }
+  }
+}
+
+.td-home {
+  .cncf {
+    text-align: center;
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 0;
+    }
+
+    img {
+      width: 20rem;
+      padding-top: 1rem;
+      max-width: 80%;
+    }
+  }
+}
+
+.adoptions-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: -3rem;
+}
+
+.adoptions-logo {
+  max-height: 4rem;
+  max-width: 100%;
+}
+
+.adoptions-item {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+$tuf-blue: #0082ca;
+
+a.spec-btn {
+  color: white !important;
+}

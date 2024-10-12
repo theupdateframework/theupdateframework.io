@@ -1,0 +1,29 @@
+# cSpell:ignore textlintrc
+# For settings, see
+# https://www.streetsidesoftware.com/vscode-spell-checker/docs/configuration/
+version: '0.2'
+caseSensitive: true
+ignorePaths:
+  - '*.svg'
+# [TODO - add support for textlint?]
+# Words here are only listed for their spelling, if there is a certain way
+# to write a word (e.g. OpenTelemetry vs Opentelemetry or cloud native vs
+# cloud-native), edit the text-lint rules in .textlintrc.yml
+patterns:
+  - name: CodeBlock
+    pattern: |
+      /
+          ^(\s*[~`]{3,})   # code-block start
+          .*               # all languages and options, e.g. shell {hl_lines=[12]}
+          [\s\S]*?         # content
+          \1               # code-block end
+      /igmx
+languageSettings:
+  - languageId: markdown
+    ignoreRegExpList:
+      - CodeBlock
+words:
+  - Cappos
+  - CNCF
+  - Docsy
+  - Uptane

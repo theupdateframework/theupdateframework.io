@@ -1,0 +1,51 @@
+CacheExpires: 9000h # ~ 12 months
+DirectoryPath: public
+TestFilesConcurrently: true
+CheckDoctype: false # Sadly, this is false only because of `static/google*.html`
+CheckMailto: false
+IgnoreAltMissing: true # FIXME
+IgnoreDirectoryMissingTrailingSlash: true # FIXME
+IgnoreDirs:
+IgnoreEmptyHref: true # FIXME
+IgnoreInternalEmptyHash: true # FIXME
+IgnoreInternalURLs: # list of paths
+IgnoreURLs: # list of regexs of paths or URLs to be ignored
+  # Ignore Docsy-generated GitHub links for now
+  - ^https?://github\.com/.*?/.*?/(new|edit)/ # view-page, edit-source etc
+  - ^https://github\.com/theupdateframework/.*?/commit/ # last mod
+
+  # TUF
+  - ^/specification/
+  - ^https://cse.google.com
+
+  # FIXME: 4XXs reported by checker, which we ignore until we have time to fix them
+  # Get "https://events17.linuxfoundation.org/events/kubecon-and-cloudnativecon-north-america/program/schedule": x509: certificate is valid for *.cass.oregonstate.edu, not events17.linuxfoundation.org --- resources/news/index.html
+  - ^https://events17.linuxfoundation.org/events/kubecon-and-cloudnativecon-north-america/program/schedule
+  # Non-OK status: 403 --- resources/news/index.html
+  - ^https://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf
+  # Non-OK status: 403 --- resources/news/index.html
+  - ^https://www.forbes.com/sites/.../uptane-will-protect-your-connected-car-from-hackers
+  # Non-OK status: 403 --- resources/news/index.html
+  - ^https://www.tmcnet.com/usubmit/2019/05/28/8963021.htm
+  # Non-OK status: 404 --- community/adoptions/index.html
+  - ^https://github.com/bottlerocket-os/bottlerocket/tree/develop/sources/updater
+  # Non-OK status: 404 --- resources/news/index.html
+  - ^https://www.d2pmagazine.com/2020/04/02/6099/
+  # Non-OK status: 404 --- resources/news/index.html
+  - ^https://www.just-auto.com/news/here-and-uptane-team-on-automotiveiot-security_id188912.aspx
+  # Non-OK status: 404 --- resources/news/index.html
+  - ^https://www.linuxfoundation.org/cloud-containers-virtualization/cncf-host-two-security-projects-notary-tuf-specification/
+  # Non-OK status: 404 --- resources/news/index.html
+  - ^https://www.ustream.tv/recorded/64499822#t=1h54m0s
+  # Non-OK status: 503 --- resources/news/index.html
+  - ^https://www.airbiquity.com
+  # Non-OK status: 503 --- resources/news/index.html
+  - ^https://www.airbiquity.com/news/press-releases/airbiquity-bolsters-otamatictm-security-and-data-analytic-features-latest-over-air-ota-software-and-data-management-offering-aut
+  # Non-OK status: 503 --- resources/news/index.html
+  - ^https://www.airbiquity.com/news/press-releases/airbiquity-otamatic-named-2017-new-product-year-business-intelligence-group
+  # Non-OK status: 503 --- resources/news/index.html
+  - ^https://www.airbiquity.com/news/press-releases/airbiquity-otamatic-named-2017-new-product-year-business-intelligence-group
+  # request exceeded our ExternalTimeout --- docs/security/audits/index.html
+  - ^https://www.nccgroup.trust/globalassets/our-research/us/public-reports/2017/ncc-group-kolide-the-update-framework-security-assessment.pdf
+  # request exceeded our ExternalTimeout --- resources/news/index.html
+  - ^http://www.enterprisecloudnews.com/author.asp
