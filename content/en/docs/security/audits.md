@@ -6,6 +6,8 @@ aliases: [/audits]
 
 Selected publicly available audit reports:
 
+- [January 23, 2024 by IncludeSec](https://ostif.org/wp-content/uploads/2024/01/OSTIF-2023-Q3-PHP-TUF-Multi-Final-Report-Updated-v2.pdf)
+  covering PHP-TUF and Rugged.
 - [September 9, 2022 by X41](/audits/x41-python-tuf-audit-2022-09-09.pdf)
 - [August 7, 2018 by Cure53](https://github.com/theupdateframework/notary/blob/master/docs/resources/cure53_tuf_notary_audit_2018_08_07.pdf)
   covering TUF and Notary
