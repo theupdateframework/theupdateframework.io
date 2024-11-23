@@ -383,6 +383,10 @@
     "StatusCode": 206,
     "LastSeen": "2024-10-05T11:30:11.597628-04:00"
   },
+  "https://ostif.org/wp-content/uploads/2024/01/OSTIF-2023-Q3-PHP-TUF-Multi-Final-Report-Updated-v2.pdf": {
+    "StatusCode": 206,
+    "LastSeen": "2024-11-23T18:41:50.772849425-05:00"
+  },
   "https://pyfound.blogspot.com/2020/03/an-update-pypi-funded-work.html": {
     "StatusCode": 200,
     "LastSeen": "2024-10-05T11:14:27.339435-04:00"
@@ -414,6 +418,10 @@
   "https://repository-service-tuf.readthedocs.io/en/stable/": {
     "StatusCode": 200,
     "LastSeen": "2024-10-05T11:25:21.87881-04:00"
+  },
+  "https://rugged.works/": {
+    "StatusCode": 200,
+    "LastSeen": "2024-11-23T18:41:51.131883527-05:00"
   },
   "https://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf": {
     "StatusCode": 403,
@@ -550,6 +558,10 @@
   "https://www.docker.com/blog/signing-docker-official-images-using-openpubkey/": {
     "StatusCode": 206,
     "LastSeen": "2024-10-05T11:29:54.95641-04:00"
+  },
+  "https://www.drupal.org/project/infrastructure/issues/3325040": {
+    "StatusCode": 206,
+    "LastSeen": "2024-11-23T18:41:53.065557164-05:00"
   },
   "https://www.esecurityplanet.com/applications/container-and-kubernetes-security.html": {
     "StatusCode": 206,

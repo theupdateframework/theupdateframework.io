@@ -28,7 +28,6 @@ main:
   - url: https://rugged.works/
     tag: rugged
 
-
 ongoing:
   - url: https://www.docker.com/blog/signing-docker-official-images-using-openpubkey/
     tag: Docker
@@ -45,4 +44,3 @@ ongoing:
     tag: PyPI
   - url: https://www.drupal.org/project/infrastructure/issues/3325040
     tag: Drupal
-
