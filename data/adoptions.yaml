@@ -25,6 +25,8 @@ main:
     tag: sigstore
   - url: https://trdl.dev/
     tag: trdl
+  - url: https://rugged.works/
+    tag: rugged
 
 ongoing:
   - url: https://www.docker.com/blog/signing-docker-official-images-using-openpubkey/
@@ -40,3 +42,5 @@ ongoing:
     tag: PHP
   - url: https://www.python.org/dev/peps/pep-0458/
     tag: PyPI
+  - url: https://www.drupal.org/project/infrastructure/issues/3325040
+    tag: Drupal
