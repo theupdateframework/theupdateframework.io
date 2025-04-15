@@ -40,9 +40,7 @@ There may also be any number of delegated target roles.
 
 Signed by: Root role.
 
-Specifies the other top-level roles. When specifying these roles, the trusted
-keys for each are listed, along with the minimum number of those keys required
-to sign the role's metadata. We call this number the signature threshold.
+The snapshot role signs a metadata file that provides information about the latest version of all targets metadata on the repository (the top-level targets role and all delegated roles). This information allows clients to know which metadata files have been updated and also prevents mix-and-match attacks.
 
 See
 [example](https://raw.githubusercontent.com/theupdateframework/tuf/develop/tests/repository_data/repository/metadata/root.json)
