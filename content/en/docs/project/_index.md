@@ -9,11 +9,11 @@ The TUF project consists of three components:
 - [Specification] – the detailed TUF specification describes how to add TUF
   metadata to a repository and the process to arrange for clients to use that
   metadata to download and verify targets.
-- [Standardization process] – major changes to the specification, including new features,
-  are made as TUF Augmentation Proposals (TAPs).
+- [Standardization process] – major changes to the specification, including new
+  features, are made as TUF Augmentation Proposals (TAPs).
 - [Reference implementation] – python-tuf provides a reference implementation of
-  the TUF specification and is used as a vital part of the TAPs process to prototype
-  changes to the specification.
+  the TUF specification and is used as a vital part of the TAPs process to
+  prototype changes to the specification.
 
 The project is currently managed by a team of collaborators from academia and
 industry.
