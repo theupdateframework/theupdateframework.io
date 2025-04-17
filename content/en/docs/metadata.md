@@ -101,8 +101,8 @@ of a nested delegation.
 
 Signed by: Snapshot role.
 
-The snapshot.json metadata file lists version numbers of all metadata files
-other than timestamp.json. This file ensures that clients will see a consistent
+The snapshot.json metadata file lists version numbers and/or hashes of all of
+the targets metadata files. This file ensures that clients will see a consistent
 view of all files on the repository. That is, metadata files (and thus Target
 files) that existed on the repository at different times cannot be combined and
 presented to clients by an attacker.

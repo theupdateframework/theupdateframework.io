@@ -17,11 +17,12 @@ To learn more, see [TUF overview](/docs/overview/) and
 
 ## Governance
 
-The TUF project is managed by the [Linux Foundation] under the [Cloud Native Computing
-Foundation][CNCF]. The consensus builder for TUF is [Prof. Justin Cappos] of the
-[Secure Systems Lab] at [New York University](https://engineering.nyu.edu/). Project
-maintainers <sup>[[1]][[2]]</sup> are comprised of collaborators from academia and
-the industry. Contributors and maintainers are governed by the [CNCF Community Code
+The TUF project is managed by the [Linux Foundation] under the [Cloud Native
+Computing Foundation][CNCF]. The consensus builder for TUF is [Prof. Justin
+Cappos] of the [Secure Systems Lab] at
+[New York University](https://engineering.nyu.edu/). Project maintainers
+<sup>[[1]][[2]]</sup> are comprised of collaborators from academia and the
+industry. Contributors and maintainers are governed by the [CNCF Community Code
 of Conduct][CoC]. For details, see [Governance].
 
 ## Funding
