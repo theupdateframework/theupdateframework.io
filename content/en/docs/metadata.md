@@ -40,14 +40,11 @@ There may also be any number of delegated target roles.
 
 Signed by: Root role.
 
-The snapshot role signs a metadata file that provides information about the
-latest version of all targets metadata on the repository (the top-level targets
-role and all delegated roles). This information allows clients to know which
-metadata files have been updated and also prevents mix-and-match attacks.
+Specifies the other top-level roles. When specifying these roles, the trusted keys for each are listed, along with the minimum number of those keys required to sign the role's metadata. We call this number the signature threshold.
 
-See
-[example](https://raw.githubusercontent.com/theupdateframework/tuf/develop/tests/repository_data/repository/metadata/root.json)
+See [example](https://raw.githubusercontent.com/theupdateframework/tuf/develop/tests/repository_data/repository/metadata/root.json)
 of Root metadata.
+
 
 ## Targets Metadata (targets.json)
 
@@ -102,8 +99,8 @@ of a nested delegation.
 
 Signed by: Snapshot role.
 
-The snapshot.json metadata file lists version numbers of all metadata files
-other than timestamp.json. This file ensures that clients will see a consistent
+The snapshot.json metadata file lists version numbers and/or hashes of all of
+the targets metadata files. This file ensures that clients will see a consistent
 view of all files on the repository. That is, metadata files (and thus Target
 files) that existed on the repository at different times cannot be combined and
 presented to clients by an attacker.
