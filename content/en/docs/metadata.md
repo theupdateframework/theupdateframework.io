@@ -40,11 +40,13 @@ There may also be any number of delegated target roles.
 
 Signed by: Root role.
 
-Specifies the other top-level roles. When specifying these roles, the trusted keys for each are listed, along with the minimum number of those keys required to sign the role's metadata. We call this number the signature threshold.
+Specifies the other top-level roles. When specifying these roles, the trusted
+keys for each are listed, along with the minimum number of those keys required
+to sign the role's metadata. We call this number the signature threshold.
 
-See [example](https://raw.githubusercontent.com/theupdateframework/tuf/develop/tests/repository_data/repository/metadata/root.json)
+See
+[example](https://raw.githubusercontent.com/theupdateframework/tuf/develop/tests/repository_data/repository/metadata/root.json)
 of Root metadata.
-
 
 ## Targets Metadata (targets.json)
 
