@@ -127,7 +127,7 @@ DockerCon 2017.
 **October 10, 2016**
 
 Lily Guo and Riyaz Faizullabhoy from Docker gave a
-[talk](https://linuxconcontainerconeurope2016.sched.org/event/7oI1/software-update-security-when-the-going-gets-tough-get-tuf-going-riyaz-faizullabhoy-lily-guo-docker?iframe=no&w=i:100;&sidebar=yes&bg=no)
+[talk](https://linuxconcontainerconeurope2016.sched.org/event/7oI1/software-update-security-when-the-going-gets-tough-get-tuf-going-riyaz-faizullabhoy-lily-guo-docker)
 on TUF and Notary at LinuxCon+ContainerCon Europe 2016. Slides of their talk are
 available
 [here](https://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf).
