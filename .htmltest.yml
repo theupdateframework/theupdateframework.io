@@ -1,4 +1,4 @@
-CacheExpires: 9000h # ~ 12 months
+CacheExpires: 13300h # ~ 18 months
 DirectoryPath: public
 TestFilesConcurrently: true
 CheckDoctype: false # Sadly, this is false only because of `static/google*.html`
