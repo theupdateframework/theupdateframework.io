@@ -17,6 +17,8 @@ main:
     tag: HERE
   - url: https://goharbor.io/docs/2.0.0/working-with-projects/project-configuration/implementing-content-trust/
     tag: Harbor
+  - url: https://github.com/joomla-projects/docker-images/tree/updater
+    tag: Joomla!
   - url: https://github.com/kolide/updater
     tag: Kolide
   - url: https://github.com/theupdateframework/notary
