@@ -31,8 +31,6 @@ algorithms, such as the detailed client workflow, in the specification.
 
 - [php-tuf](https://github.com/php-tuf/php-tuf)
 - [tough](https://github.com/awslabs/tough), by AWS Labs
-- [Notary Project](https://github.com/notaryproject/notary), by the Notary
-  Project
 
 ## Systems
 
