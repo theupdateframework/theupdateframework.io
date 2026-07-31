@@ -59,3 +59,80 @@ a.spec-btn {
 .td-page-meta__child {
   display: none !important;
 }
+
+/* Modern Docs Cards */
+.docs-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.docs-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  background-color: var(--td-background-color, #ffffff);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.3s cubic-bezier(0.165, 0.84, 0.44, 1), border-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04);
+  height: 100%;
+}
+
+body.td-dark .docs-card,
+[data-bs-theme="dark"] .docs-card {
+  background-color: #212529; /* bootstrap dark */
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.docs-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 130, 202, 0.15); /* using TUF blue */
+  border-color: rgba(0, 130, 202, 0.4);
+}
+
+body.td-dark .docs-card:hover,
+[data-bs-theme="dark"] .docs-card:hover {
+  box-shadow: 0 12px 24px rgba(0, 130, 202, 0.25);
+}
+
+.docs-card-icon {
+  font-size: 2.2rem;
+  color: $tuf-blue;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.docs-card:hover .docs-card-icon {
+  transform: scale(1.1);
+}
+
+.docs-card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: var(--td-text-color);
+}
+
+.docs-card-desc {
+  font-size: 0.95rem;
+  color: var(--td-text-color-light, #6c757d);
+  line-height: 1.6;
+  margin-bottom: 0;
+  flex-grow: 1;
+}
+
+.docs-header {
+  margin-bottom: 2.5rem;
+}
+.docs-header-lead {
+  font-size: 1.25rem;
+  color: var(--td-text-color-light, #6c757d);
+  max-width: 800px;
+  line-height: 1.6;
+}
