@@ -59,3 +59,13 @@ a.spec-btn {
 .td-page-meta__child {
   display: none !important;
 }
+
+// Visited links color for main content to distinguish them from unvisited links
+main a:visited, .td-main a:visited {
+  color: #6a1b9a; // Purple for light mode
+}
+
+[data-bs-theme="dark"] main a:visited,
+[data-bs-theme="dark"] .td-main a:visited {
+  color: #d8b4fe; // Light purple for dark mode
+}
