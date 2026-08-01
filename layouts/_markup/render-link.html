@@ -1,0 +1,10 @@
+{{- $u := urls.Parse .Destination -}}
+{{- $baseURL := urls.Parse site.BaseURL -}}
+{{- $isExternal := and (or (eq $u.Scheme "http") (eq $u.Scheme "https")) (ne $u.Host $baseURL.Host) (ne $u.Host "localhost") -}}
+<a href="{{ .Destination | safeURL }}"
+  {{- with .Title }} title="{{ . }}"{{- end -}}
+  {{- if $isExternal }} target="_blank" rel="noopener"{{- end -}}
+>
+  {{- .Text | safeHTML -}}
+  {{- if $isExternal }} <i class="fa-solid fa-external-link-alt ms-1" style="font-size: 0.8em;" aria-hidden="true"></i>{{- end -}}
+</a>
