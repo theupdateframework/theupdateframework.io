@@ -37,7 +37,7 @@ four core principles continue to be central to its design.
 In 2016, the TUF research group set up a process whereby the community could
 have input on technical issues. Named the TUF Augmentation Proposal, or TAP,
 this series of documents also provide information to the TUF community, or
-describe new feature for TUF or its processes or environment. Through the use of
+describes new features for TUF or its processes or environment. Through the use of
 TAPs, as well as input from those who adopted the technology, the evolution of
 TUF technology can continue as security needs change.
 

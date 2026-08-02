@@ -46,7 +46,7 @@ compromised, the Root file must be re-issued out of band. If a threshold number
 of offline keys are required, a full compromise of the repo is unlikely. For a
 more in-depth discussion about the steps to follow in the event of a key
 compromise, see
-[PEP 458](https://www.python.org/dev/peps/pep-0458/#in-the-event-of-a-key-compromise),
+[PEP 458](https://peps.python.org/pep-0458/#in-the-event-of-a-key-compromise),
 which covers one way to deal with compromised keys on a community repo such as
 PyPI.
 
@@ -109,7 +109,7 @@ expire.
 
 It is possible to minimize the size and number of delegated metadata that the
 client has to download, and in doing so, reduce the associated costs. The
-[Metadata Scalability section](https://www.python.org/dev/peps/pep-0458/#metadata-scalability)
+[Metadata Scalability section](https://peps.python.org/pep-0458/#metadata-scalability)
 of PEP 458 discusses in more detail the ways in which to reduce bandwidth costs.
 For example, if one large metadata file is split into several smaller ones, the
 bandwidth associated with downloading the large file many times can be saved.
@@ -138,7 +138,7 @@ in [TAP 4](https://github.com/theupdateframework/taps/blob/master/tap4.md).
 
 **12. Has there been a security audit of TUF?**
 
-The [Security audits](docs/security/audits/) page links to a few of the security
+The [Security audits](/docs/security/audits/) page links to a few of the security
 audits of TUF.
 
 **13. How can I try TUF?**

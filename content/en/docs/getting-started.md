@@ -42,7 +42,7 @@ signing systems designed for particular use-cases.
 ### Current Systems
 
 - [Repository Service for TUF](https://repository-service-tuf.readthedocs.io/en/stable/)
-  (RSTUF) is a designed to integrate into an existing artifact repository with
+  (RSTUF) is designed to integrate into an existing artifact repository with
   an established storage and delivery system.
 - [tuf-on-ci](https://github.com/theupdateframework/tuf-on-ci/) is a TUF
   repository and signing tool designed to operate on a CI system and guide
