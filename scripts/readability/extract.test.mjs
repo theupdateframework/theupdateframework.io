@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import test, { describe } from 'node:test';
 
 import { extractProse, splitSentences, splitWords } from './extract.mjs';
-import { analyzeProse, countSyllables, gradeBand } from './metrics.mjs';
+import { analyzeProse, countSyllables, readingLoad } from './metrics.mjs';
 
 describe('extractProse', () => {
   test('drops front matter', () => {
@@ -159,11 +159,29 @@ describe('analyzeProse', () => {
   });
 });
 
-describe('gradeBand', () => {
-  test('bands grades by reading difficulty', () => {
-    assert.equal(gradeBand(7), 'plain');
-    assert.equal(gradeBand(9), 'plain');
-    assert.equal(gradeBand(11), 'firm');
-    assert.equal(gradeBand(15), 'hard');
+describe('readingLoad', () => {
+  test('bands grades by how much work the page asks of a reader', () => {
+    assert.equal(readingLoad(7), 'light');
+    assert.equal(readingLoad(9), 'light');
+    assert.equal(readingLoad(11), 'moderate');
+    assert.equal(readingLoad(15), 'heavy');
+  });
+
+  // Documents a known limitation rather than a desirable property. Changing a
+  // semicolon to a full stop adds, removes and reorders nothing, yet it moves
+  // the page a whole band. Readability scores measure density, not clarity.
+  test('improves when punctuation changes but no word does', () => {
+    const joined =
+      'The snapshot role signs metadata about the targets file; it also ' +
+      'records the version numbers of every other metadata file.';
+    const split = joined.replace('file;', 'file.');
+
+    const before = analyzeProse(joined, []);
+    const after = analyzeProse(split, []);
+
+    assert.equal(before.words, after.words);
+    assert.ok(after.fleschKincaidGrade < before.fleschKincaidGrade);
+    assert.equal(readingLoad(before.fleschKincaidGrade), 'heavy');
+    assert.equal(readingLoad(after.fleschKincaidGrade), 'moderate');
   });
 });

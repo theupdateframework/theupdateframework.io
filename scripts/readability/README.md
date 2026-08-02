@@ -7,6 +7,10 @@ This is a reporting tool, not a style guide. It has no opinion about wording. It
 answers one question: **which pages ask the most of a reader, and is that
 changing over time?**
 
+It does not measure whether an explanation is clear, and it cannot. See
+[What these numbers cannot tell you](#what-these-numbers-cannot-tell-you) before
+using a score to argue that a page got better.
+
 ## Running it
 
 ```sh
@@ -46,7 +50,7 @@ Run `npm run check:readability -- --help` for the full list.
 | `FOG`    | Gunning Fog index, roughly the years of education needed.           |
 | `LONG`   | Share of sentences longer than 25 words.                            |
 | `JARGON` | Specialist terms per 100 words, counted against `terms.json`.       |
-| `BAND`   | `plain` (grade 9 or under), `firm` (10-12), `hard` (over 12).       |
+| `LOAD`   | `light` (grade 9 or under), `moderate` (10-12), `heavy` (over 12).  |
 
 Grade 9 is the usual ceiling for writing aimed at a general audience. A page
 above grade 12 is asking for university-level reading.
@@ -75,21 +79,48 @@ Two details matter more than they look:
 - A list item is treated as one sentence even when it has no full stop, so that
   a long bulleted list is not counted as a single enormous sentence.
 
-## Limitations
+## What these numbers cannot tell you
 
-These are estimates, and worth knowing before quoting them:
+The formulas count sentence length and word complexity. That is all they count.
+They say nothing about whether a reader understood anything.
 
-- The formulas count syllables and sentence lengths. They cannot tell whether an
-  explanation is any good — only how dense it looks. Short sentences full of
-  undefined terms still score well.
+The clearest way to see this: change one semicolon to a full stop. Not one word
+is added, removed or reordered.
+
+```text
+The snapshot role signs metadata about the targets file; it also records
+the version numbers of every other metadata file.
+    grade 14.6, reading ease 26, load heavy
+
+The snapshot role signs metadata about the targets file. It also records
+the version numbers of every other metadata file.
+    grade 10.7, reading ease 36, load moderate
+```
+
+The same twenty words, the same concepts, the same unexplained terms — and
+nearly four grade levels better. Applied across a page, punctuation alone is
+enough to move it a whole band while leaving it exactly as hard to understand.
+There is a unit test pinning this behaviour so that nobody mistakes it for a
+bug.
+
+So: use the report to find the pages that ask the most of a reader. Do not use
+it as evidence that a rewrite worked. Only a reader can tell you that.
+
+Other limits worth knowing:
+
 - Syllable counting is a heuristic with a small exception list. Individual words
   can be off by one; averages over a page are stable.
+- `terms.json` is hand-maintained, so the jargon figure only reflects the terms
+  someone thought to list. A rewrite can lower it by swapping vocabulary without
+  making the idea any easier.
+- Pages under 120 words of prose are skipped, so the site average covers only
+  the pages long enough to score, not the whole site.
 - Shortcode output is not expanded, so text injected through `{{% param %}}` is
   not scored.
 - Passive-voice detection is approximate and reported as such.
 
 Treat a single number as noise. Treat a consistent gap between two pages, or a
-shift on one page across revisions, as signal.
+shift on one page across revisions, as something worth looking at by hand.
 
 ## Tests
 

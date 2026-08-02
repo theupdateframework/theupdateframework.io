@@ -130,10 +130,15 @@ export function analyzeProse(prose, jargonTerms = []) {
   };
 }
 
-// Bands used to colour the report. Grade 9 is the widely used ceiling for
-// general-audience technical writing; 12+ is university-level prose.
-export function gradeBand(grade) {
-  if (grade <= 9) return 'plain';
-  if (grade <= 12) return 'firm';
-  return 'hard';
+// How much work a page asks of a reader, derived from grade level. Grade 9 is
+// the widely used ceiling for general-audience technical writing; 12+ is
+// university-level prose.
+//
+// This describes density, not clarity. A page can be `light` and still be
+// impenetrable if the words themselves are unfamiliar, and splitting sentences
+// mechanically will move a page into `light` without helping anyone.
+export function readingLoad(grade) {
+  if (grade <= 9) return 'light';
+  if (grade <= 12) return 'moderate';
+  return 'heavy';
 }

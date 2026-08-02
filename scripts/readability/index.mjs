@@ -20,7 +20,7 @@ import { dirname, join, relative, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import { extractProse } from './extract.mjs';
-import { analyzeProse, gradeBand } from './metrics.mjs';
+import { analyzeProse, readingLoad } from './metrics.mjs';
 
 const scriptPath = fileURLToPath(import.meta.url);
 const scriptDir = dirname(scriptPath);
@@ -137,7 +137,7 @@ const COLUMNS = [
   { key: 'long', header: 'LONG', align: 'right' },
   { key: 'jargon', header: 'JARGON', align: 'right' },
   { key: 'words', header: 'WORDS', align: 'right' },
-  { key: 'band', header: 'BAND', align: 'left' },
+  { key: 'load', header: 'LOAD', align: 'left' },
   { key: 'path', header: 'PAGE', align: 'left' },
 ];
 
@@ -149,7 +149,7 @@ function toRow(page) {
     long: `${page.longSentencePercent.toFixed(0)}%`,
     jargon: page.jargonPer100Words.toFixed(1),
     words: String(page.words),
-    band: gradeBand(page.fleschKincaidGrade),
+    load: readingLoad(page.fleschKincaidGrade),
     path: shortPath(page.path),
   };
 }
@@ -185,7 +185,12 @@ const LEGEND = [
   'GRADE = Flesch-Kincaid grade level (lower is easier). ' +
     'EASE = Flesch Reading Ease (higher is easier).',
   'FOG = Gunning Fog index. LONG = share of sentences over 25 words. ' +
-    'JARGON = specialist terms per 100 words.',
+    'JARGON = specialist terms per 100 words. LOAD = grade level as a band.',
+  '',
+  'These measure sentence length and word complexity, not whether an ' +
+    'explanation is clear. Splitting sentences mechanically improves the ' +
+    'numbers without helping a reader, so use them to find heavy pages, not ' +
+    'to judge a rewrite.',
 ];
 
 function renderText(pages, summary, skipped) {
@@ -195,11 +200,12 @@ function renderText(pages, summary, skipped) {
 
   if (summary) {
     out.push(
-      `Site average (weighted by length): grade ${summary.fleschKincaidGrade}, ` +
+      `Average across the ${summary.pages} scored pages (weighted by length): ` +
+        `grade ${summary.fleschKincaidGrade}, ` +
         `reading ease ${summary.fleschReadingEase}, fog ${summary.gunningFog}, ` +
-        `jargon ${summary.jargonPer100Words} per 100 words`,
+        `jargon ${summary.jargonPer100Words} per 100 words, ` +
+        `${summary.words} words in total.`,
     );
-    out.push(`Analyzed ${summary.pages} pages, ${summary.words} words.`);
   }
   if (skipped.length > 0) {
     out.push(
@@ -214,37 +220,37 @@ function renderText(pages, summary, skipped) {
 
 function renderMarkdown(pages, summary, skipped) {
   const out = ['## Readability of content pages', ''];
-  out.push('| Page | Grade | Ease | Fog | Long | Jargon /100 | Words |');
-  out.push('| :--- | ----: | ---: | --: | ---: | ----------: | ----: |');
+  out.push('| Page | Grade | Ease | Fog | Long | Jargon /100 | Words | Load |');
+  out.push('| :--- | ----: | ---: | --: | ---: | ----------: | ----: | :--- |');
 
   for (const page of pages) {
-    const marker =
-      gradeBand(page.fleschKincaidGrade) === 'hard' ? ' :warning:' : '';
     out.push(
-      `| \`${shortPath(page.path)}\`${marker} | ` +
+      `| \`${shortPath(page.path)}\` | ` +
         `${page.fleschKincaidGrade.toFixed(1)} | ` +
         `${page.fleschReadingEase.toFixed(0)} | ` +
         `${page.gunningFog.toFixed(1)} | ` +
         `${page.longSentencePercent.toFixed(0)}% | ` +
         `${page.jargonPer100Words.toFixed(1)} | ` +
-        `${page.words} |`,
+        `${page.words} | ` +
+        `${readingLoad(page.fleschKincaidGrade)} |`,
     );
   }
 
   out.push('');
   if (summary) {
     out.push(
-      '**Site average** (weighted by page length): grade ' +
-        `**${summary.fleschKincaidGrade}**, reading ease ` +
+      `Average across the **${summary.pages} scored pages**, weighted by page ` +
+        `length: grade **${summary.fleschKincaidGrade}**, reading ease ` +
         `**${summary.fleschReadingEase}**, fog **${summary.gunningFog}**, ` +
         `jargon **${summary.jargonPer100Words}** per 100 words ` +
-        `(${summary.pages} pages, ${summary.words} words).`,
+        `(${summary.words} words in total).`,
       '',
     );
   }
   if (skipped.length > 0) {
     out.push(
-      `Skipped ${skipped.length} page(s) with too little prose to score.`,
+      `A further ${skipped.length} page(s) have too little prose to score and ` +
+        'are not included in that average.',
       '',
     );
   }
@@ -252,6 +258,11 @@ function renderMarkdown(pages, summary, skipped) {
   out.push(
     'Grade is the Flesch-Kincaid grade level: the US school year a reader ' +
       'needs in order to follow the page on a first read. Lower is easier.',
+    '',
+    'These measure sentence length and word complexity, not whether an ' +
+      'explanation is clear. Splitting sentences mechanically improves the ' +
+      'numbers without helping a reader, so they are useful for finding heavy ' +
+      'pages rather than for judging a rewrite.',
   );
 
   return out.join('\n');

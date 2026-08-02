@@ -1,9 +1,20 @@
 name: Readability
 
+# Only the content being measured and the tool doing the measuring can change
+# the result, so the job is scoped to those paths.
 on:
   merge_group:
   pull_request:
-  push: { branches: [main] }
+    paths:
+      - content/**
+      - scripts/readability/**
+      - .github/workflows/check-readability.yml
+  push:
+    branches: [main]
+    paths:
+      - content/**
+      - scripts/readability/**
+      - .github/workflows/check-readability.yml
 
 jobs:
   readability:
