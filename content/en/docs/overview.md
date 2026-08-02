@@ -1,7 +1,7 @@
 ---
 title: Overview
 weight: 100
-description: Find out what TUF is all about!
+description: How TUF defends software update systems against key compromise, rollback, freeze, and arbitrary software attacks.
 aliases: [/overview]
 ---
 
@@ -17,11 +17,11 @@ updates on software or project metadata
 
 This growing flow of updates has also created a need for better ways to protect
 the systems that manage them. Though a number of strategies have been introduced
-and used over the last decade or so to enhance the authenticity of update
+and used over the years to enhance the authenticity of update
 files—and by extension, the security of update systems—most have drawbacks that
 have left repositories vulnerable to a number of attacks.
 
-TUF was launched almost a decade ago as a way to build system resilience against
+TUF was launched over fifteen years ago as a way to build system resilience against
 key compromises and other attacks that can spread malware or compromise a
 repository. The primary goals behind its design are:
 
