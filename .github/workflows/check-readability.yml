@@ -1,0 +1,25 @@
+name: Readability
+
+on:
+  merge_group:
+  pull_request:
+  push: { branches: [main] }
+
+jobs:
+  readability:
+    name: READABILITY report
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+
+      # The tool has no dependencies, so there is nothing to install.
+      - name: Test the analyzer
+        run: npm run test:readability
+
+      - name: Report content readability
+        run: |
+          npm run -s check:readability -- --format markdown >>"$GITHUB_STEP_SUMMARY"
