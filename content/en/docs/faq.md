@@ -6,7 +6,7 @@ description: Get your questions answered!
 aliases: [/faq]
 ---
 
-**1. How difficult is it to integrate TUF?**
+## How difficult is it to integrate TUF?
 
 At a high level, all an adopter needs to do is (1) add TUF metadata to its
 software repository, and (2) arrange for clients to use TUF to fetch files from
@@ -24,7 +24,7 @@ implement
 in their language of choice if one of the existing implementations is
 insufficient.
 
-**2. Why should I use delegations?**
+## Why should I use delegations?
 
 Using delegations makes it so that users can perform actions for one another
 without needing to share keys in order to make this happen. As we state in the
@@ -37,7 +37,7 @@ It increases compromise-resilience because if the developers control their own
 project keys, an attacker cannot access them, and therefore cannot sign and
 serve malicious versions of the project.
 
-**3. What happens if the server and keys are compromised?**
+## What happens if the server and keys are compromised?
 
 The repo maintainer must revoke and replace compromised keys. If a Timestamp,
 Snapshot, Targets, or Root key is compromised, the Root role must re-sign its
@@ -50,7 +50,7 @@ compromise, see
 which covers one way to deal with compromised keys on a community repo such as
 PyPI.
 
-**4. Can I use the same keys for different roles?**
+## Can I use the same keys for different roles?
 
 In general, you shouldn't share keys. In certain cases, even sharing online keys
 (e.g., between the Timestamp and Snapshot roles) is not advised. As we recommend
@@ -59,14 +59,14 @@ keys to be placed on separate servers if need be, and prevents side channel
 attacks that compromise one key from automatically compromising the rest of the
 keys."
 
-**5. Which roles can use online keys?**
+## Which roles can use online keys?
 
 The Timestamp and Snapshot roles can use online keys to facilitate continuous
 delivery of updates on the typical repository. All other roles should rely on
 offline keys to prevent attackers from signing for malicious packages in the
 event of a repo compromise.
 
-**6. What is the point of having the Root and Snapshot roles?**
+## What is the point of having the Root and Snapshot roles?
 
 The Root role keeps track of the trusted public keys of the top-level roles, and
 can remove or add keys when needed. Its metadata is rarely updated and its
@@ -76,7 +76,7 @@ of the metadata available on a repo. The Snapshot and Root role are responsible
 for different tasks that differ in level of importance. Separation of
 responsibilities is one of TUF's design choices.
 
-**7. Can you combine Timestamp and Snapshot?**
+## Can you combine Timestamp and Snapshot?
 
 There are a few reasons why the Timestamp and Snapshot files are not combined:
 
@@ -98,14 +98,14 @@ There are a few reasons why the Timestamp and Snapshot files are not combined:
 
 - Timestamp may be given to mirrors.
 
-**8. How often should metadata expire?**
+## How often should metadata expire?
 
 The Timestamp and Snapshot metadata should normally have a short expiration (1
 day), whereas the Root and Targets metadata should expire less often (1 year). A
 good rule of thumb is the more often the metadata changes, the sooner it should
 expire.
 
-**9. Are there ways to reduce bandwidth costs?**
+## Are there ways to reduce bandwidth costs?
 
 It is possible to minimize the size and number of delegated metadata that the
 client has to download, and in doing so, reduce the associated costs. The
@@ -118,8 +118,7 @@ The reference implementation provides an
 (i.e., delegating to hashed bins), which the specification refers to as
 [path hash prefixes](/specification/latest/#path_hash_prefixes).
 
-**10. Can TUF be used with devices that lack the CPU power or memory to verify
-metadata?**
+## Can TUF be used with devices that lack the CPU power or memory to verify metadata?
 
 At a minimum, a client device must be able to verify the hashes and signatures
 on TUF metadata. If a device isn't powerful enough to perform cryptographic
@@ -130,18 +129,18 @@ to another device is not built into the framework but
 [Uptane](https://uptane.github.io/), a variant of TUF, is designed to work with
 weaker devices like the Electronic Control Units found in automobiles.
 
-**11. Can I use TUF to download files from more than one repository?**
+## Can I use TUF to download files from more than one repository?
 
 TUF can download files from multiple mirrors and repos. In fact, we offer
 guidance for conducting a secure search for files across multiple repositories
 in [TAP 4](https://github.com/theupdateframework/taps/blob/master/tap4.md).
 
-**12. Has there been a security audit of TUF?**
+## Has there been a security audit of TUF?
 
 The [Security audits](docs/security/audits/) page links to a few of the security
 audits of TUF.
 
-**13. How can I try TUF?**
+## How can I try TUF?
 
 The `python-tuf` reference implementation provides a
 [well-documented API](https://theupdateframework.readthedocs.io/en/latest/api/api-reference.html)
@@ -150,7 +149,7 @@ TUF-compliant updates on a client, as well as basic Python
 [code examples](https://github.com/theupdateframework/python-tuf/tree/develop/examples)
 that demonstrate the usage.
 
-**14. Is there a presentation or video about TUF?**
+## Is there a presentation or video about TUF?
 
 The [Videos](/resources/videos/) page contains links to presentations that have
 been given by both TUF developer personnel, as well as adopters.
