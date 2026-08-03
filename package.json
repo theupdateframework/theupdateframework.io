@@ -1,12 +1,11 @@
 {
   "name": "docsy-user-guide",
   "scripts": {
-    "__check:links": "make --keep-going check-links",
     "_build": "npm run _hugo-dev --",
     "_check:format": "npx prettier --check .",
     "_check:links--warn": "npm run _check:links || (echo; echo 'WARNING: see link-checker output for issues.'; echo)",
-    "_check:links:internal": "npm run __check:links",
-    "_check:links": "HTMLTEST_ARGS='--log-level 1' npm run __check:links",
+    "_check:links:internal": "npm run _check:links -- --offline",
+    "_check:links": "lychee-norm-cache",
     "_commit:public": "HASH=$(git rev-parse --short main); cd public && git add -A && git commit -m \"Site at $HASH\"",
     "_diff:check": "git diff --name-only --exit-code",
     "_filename-error": "echo 'ERROR: the following files violate naming conventions; fix using: `npm run fix:filenames`'; echo; npm run -s _ls-bad-filenames; exit 1",
@@ -25,11 +24,12 @@
     "check:filenames": "test -z \"$(npm run -s _ls-bad-filenames)\" || npm run -s _filename-error",
     "check:format": "npm run _check:format || (echo '[help] Run: npm run fix:format'; exit 1)",
     "check:links:internal": "npm run _check:links:internal",
-    "check:links": "npm run _check:links",
+    "check:links": "npm run _check:links --",
     "clean": "rm -Rf public",
     "diff:check": "npm run _diff:check || (echo; echo 'WARNING: the files above have not been committed'; echo)",
     "fix:filenames": "npm run _filenames-to-kebab-case",
     "fix:format": "npm run _check:format -- --write",
+    "fix:refcache": "npm run check:links",
     "get:submodule": "npm run _get:${GET:-submodule} --",
     "make:public": "git init -b main public",
     "postbuild:preview": "npm run _check:links--warn",
@@ -37,6 +37,7 @@
     "precheck:links:all": "npm run build",
     "precheck:links": "npm run build",
     "prepare": "npm run seq -- get:submodule _prepare:docsy",
+    "refcache": "refcache",
     "seq": "bash -c 'for cmd in \"$@\"; do npm run $cmd || exit 1; done' - ",
     "serve": "npm run _serve",
     "test": "npm run check:format && npm run check:links",
@@ -47,6 +48,7 @@
     "autoprefixer": "^10.4.21",
     "cspell": "^9.0.2",
     "hugo-extended": "0.147.6",
+    "link-cache": "^0.3.0",
     "postcss-cli": "^11.0.1",
     "prettier": "^3.5.3"
   },
@@ -64,5 +66,5 @@
     "proseWrap": "always",
     "singleQuote": true
   },
-  "spelling": "cSpell:ignore docsy hugo HTMLTEST pkgs netlify precheck postbuild -"
+  "spelling": "cSpell:ignore docsy hugo pkgs netlify precheck postbuild -"
 }

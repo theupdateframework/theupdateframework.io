@@ -1,0 +1,46 @@
+# Lychee link-checker config, ported from `.htmltest.yml`; run via
+# `npm run check:links`.
+
+cache = true
+max_cache_age = "555d"             # ~ .htmltest.yml CacheExpires: 13300h
+no_progress = true
+extensions = ["html"]              # built HTML only (htmltest checks .html)
+include_fragments = "full"         # htmltest anchor checking (0.24.2: enum, not bool)
+index_files = ["index.html"]       # resolve Hugo pretty-URL dir links to index.html
+
+# .htmltest.yml IgnoreURLs.
+exclude = [
+  '[?&]link-check=no',                                # opt-out query param
+  '^https?://localhost\b',
+
+  # Docsy-generated GitHub links
+  '^https://github\.com/theupdateframework/theupdateframework\.io/(edit|new|tree)', # view, edit page src, etc
+  '^https://github\.com/theupdateframework/.*?/commit/', # last mod
+
+  # TUF
+  '^file://.*/public/specification(/|$)', # served by a Netlify redirect, not in public/
+  '^https://cse\.google\.com',
+
+  # FIXME: 4XXs reported by checker, which we ignore until we have time to fix them
+  '^https://events17\.linuxfoundation\.org/events/kubecon-and-cloudnativecon-north-america/program/schedule', # x509 cert mismatch
+  '^https://schd\.ws/hosted_files/linuxconcontainerconeurope2016/',        # 403
+  '^https://www\.forbes\.com/sites/',                                      # 403
+  '^https://www\.tmcnet\.com/usubmit/2019/05/28/8963021\.htm',             # 403
+  '^https://github\.com/bottlerocket-os/bottlerocket/tree/develop/sources/updater', # 404
+  '^https://www\.d2pmagazine\.com/2020/04/02/6099/',                       # 404
+  '^https://www\.just-auto\.com/news/here-and-uptane-team-on-automotiveiot-security_id188912\.aspx', # 404
+  '^https://www\.linuxfoundation\.org/cloud-containers-virtualization/',   # 404
+  '^https://www\.ustream\.tv/recorded/64499822',                           # 404
+  '^https://www\.airbiquity\.com',                                         # 503
+  '^https://www\.nccgroup\.trust/',                                        # timeout
+  '^http://www\.enterprisecloudnews\.com/author\.asp',                     # timeout
+  '^http://wiki\.laptop\.org/go/Canonical_JSON',                           # 401 bot-wall
+  '^https://lcccna2016\.sched\.org/event/7JWU/',                           # 403 bot-wall
+  '^https://linuxconcontainerconeurope2016\.sched\.org/event/7oI1/',       # 403 bot-wall
+  '^https://www\.esecurityplanet\.com/applications/container-and-kubernetes-security\.html', # 403 bot-wall
+  '^https://www\.eweek\.com/security/how-the-update-framework-',           # 403 bot-wall
+  '^https://www\.spglobal\.com/marketintelligence/en/news-insights/trending/', # 403 bot-wall
+  '^https://www\.usenix\.org/conference/nsdi16',                           # 403 bot-wall
+  '^https://www\.usenix\.org/node/194973',                                 # 403 bot-wall
+  '^https://web\.archive\.org/web/\d+/https://docs\.automotivelinux\.org/', # SPA route hash, not an anchor
+]

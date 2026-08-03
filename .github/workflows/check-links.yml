@@ -25,4 +25,19 @@ jobs:
 
       - run: npm install --omit=optional
 
+      - name: Install lychee
+        env:
+          LYCHEE_VERSION: v0.24.2
+        run: |
+          tmp="$(mktemp -d)"
+          curl -sfL "https://github.com/lycheeverse/lychee/releases/download/lychee-${LYCHEE_VERSION}/lychee-x86_64-unknown-linux-gnu.tar.gz" \
+            | tar -xz -C "$tmp"
+          install -D "$(find "$tmp" -type f -name lychee | head -n1)" "$HOME/.local/bin/lychee"
+
       - run: npm run check:links
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
+      # The committed .lycheecache must cover every checked URL; a new uncached
+      # URL shows up as a cache diff.
+      - run: git diff --exit-code .lycheecache
