@@ -5,6 +5,10 @@ description:
 aliases: [/videos]
 ---
 
+## TUF: Secure Distribution Beyond Software
+
+{{< youtube "TxoowCvgt4w" >}}
+
 ## TUF-en Up Your Signatures
 
 {{< youtube "8sUqo36IVio" >}}
