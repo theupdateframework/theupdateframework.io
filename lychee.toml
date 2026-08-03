@@ -1,14 +1,13 @@
-# Lychee link-checker config, ported from `.htmltest.yml`; run via
-# `npm run check:links`.
+# Lychee link-checker config; run via `npm run check:links`. Ported from
+# htmltest (`.htmltest.yml`, removed 2026-08) at full parity.
 
 cache = true
-max_cache_age = "555d"             # ~ .htmltest.yml CacheExpires: 13300h
+max_cache_age = "555d"             # ~18 months, htmltest-era TTL
 no_progress = true
-extensions = ["html"]              # built HTML only (htmltest checks .html)
-include_fragments = "full"         # htmltest anchor checking (0.24.2: enum, not bool)
+extensions = ["html"]              # scan built HTML only
+include_fragments = "full"         # anchor checking (0.24.2: enum, not bool)
 index_files = ["index.html"]       # resolve Hugo pretty-URL dir links to index.html
 
-# .htmltest.yml IgnoreURLs.
 exclude = [
   '[?&]link-check=no',                                # opt-out query param
   '^https?://localhost\b',

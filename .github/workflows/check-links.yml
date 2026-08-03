@@ -38,6 +38,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
 
-      # The committed .lycheecache must cover every checked URL; a new uncached
-      # URL shows up as a cache diff.
+      # The committed .lycheecache must cover every checked URL.
       - run: git diff --exit-code .lycheecache
