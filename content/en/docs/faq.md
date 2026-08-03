@@ -154,5 +154,3 @@ that demonstrate the usage.
 
 The [Videos](/resources/videos/) page contains links to presentations that have
 been given by both TUF developer personnel, as well as adopters.
-
-[canary 404](https://theupdateframework.io/definitely-not-a-page-404-canary/)
