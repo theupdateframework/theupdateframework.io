@@ -5,6 +5,8 @@ cache = true
 max_cache_age = "555d"             # ~18 months, htmltest-era TTL
 no_progress = true
 extensions = ["html"]              # scan built HTML only
+timeout = 15
+max_retries = 0
 include_fragments = "full"         # anchor checking (0.24.2: enum, not bool)
 index_files = ["index.html"]       # resolve Hugo pretty-URL dir links to index.html
 
@@ -14,6 +16,7 @@ exclude = [
 
   # Docsy-generated GitHub links
   '^https://github\.com/theupdateframework/theupdateframework\.io/(edit|new|tree)', # view, edit page src, etc
+  '^https://github\.com/theupdateframework/theupdateframework\.io/issues/new\?', # per-page footer links, one URL per page
   '^https://github\.com/theupdateframework/.*?/commit/', # last mod
 
   # TUF
