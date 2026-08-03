@@ -113,7 +113,7 @@ params:
         icon: fa-solid fa-envelope
         desc: Sign up for TUF announcements.
       - name: Slack channel
-        url: https://communityinviter.com/apps/cloud-native/cncf
+        url: https://slack.cncf.io/
         icon: fa-brands fa-slack
         desc: Connect with us on CNCF Slack channel for TUF.
       - name: Community meetings

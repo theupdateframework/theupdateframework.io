@@ -1,5 +1,5 @@
 main:
-  - url: https://docs.automotivelinux.org/en/pike/#03_Architecture_Guides/02_Security_Blueprint/09_Update_%28Over_The_Air%29/
+  - url: https://web.archive.org/web/20230922074223/https://docs.automotivelinux.org/en/pike/#03_Architecture_Guides/02_Security_Blueprint/09_Update_%28Over_The_Air%29/
     tag: AGL
   - url: https://github.com/bottlerocket-os/bottlerocket/tree/develop/sources/updater
     tag: Bottlerocket
@@ -13,7 +13,7 @@ main:
     tag: foundriesio
   - url: https://fuchsia.dev/fuchsia-src/concepts/system/software_update_system
     tag: Fuchsia
-  - url: https://www.here.com/company/press-releases/en/2019-28-05
+  - url: https://web.archive.org/web/20200925011847/https://www.here.com/company/press-releases/en/2019-28-05
     tag: HERE
   - url: https://goharbor.io/docs/2.0.0/working-with-projects/project-configuration/implementing-content-trust/
     tag: Harbor

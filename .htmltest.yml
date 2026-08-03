@@ -27,6 +27,22 @@ IgnoreURLs: # list of regexs of paths or URLs to be ignored
   - ^https://www.forbes.com/sites/.../uptane-will-protect-your-connected-car-from-hackers
   # Non-OK status: 403 --- resources/news/index.html
   - ^https://www.tmcnet.com/usubmit/2019/05/28/8963021.htm
+  # Non-OK status: 401 --- docs/metadata/index.html
+  - ^http://wiki.laptop.org/go/Canonical_JSON
+  # Non-OK status: 403 --- resources/news/index.html
+  - ^https://lcccna2016.sched.org/event/7JWU/
+  # Non-OK status: 403 --- resources/news/index.html
+  - ^https://linuxconcontainerconeurope2016.sched.org/event/7oI1/
+  # Non-OK status: 403 --- resources/news/index.html
+  - ^https://www.esecurityplanet.com/applications/container-and-kubernetes-security.html
+  # Non-OK status: 403 --- resources/news/index.html
+  - ^https://www.eweek.com/security/how-the-update-framework-
+  # Non-OK status: 403 --- resources/news/index.html
+  - ^https://www.spglobal.com/marketintelligence/en/news-insights/trending/
+  # Non-OK status: 403 --- resources/news/index.html
+  - ^https://www.usenix.org/conference/nsdi16
+  # Non-OK status: 403 --- resources/news/index.html
+  - ^https://www.usenix.org/node/194973
   # Non-OK status: 404 --- community/adoptions/index.html
   - ^https://github.com/bottlerocket-os/bottlerocket/tree/develop/sources/updater
   # Non-OK status: 404 --- resources/news/index.html
