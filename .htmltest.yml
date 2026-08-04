@@ -22,10 +22,6 @@ IgnoreURLs: # list of regexs of paths or URLs to be ignored
   # Get "https://events17.linuxfoundation.org/events/kubecon-and-cloudnativecon-north-america/program/schedule": x509: certificate is valid for *.cass.oregonstate.edu, not events17.linuxfoundation.org --- resources/news/index.html
   - ^https://events17.linuxfoundation.org/events/kubecon-and-cloudnativecon-north-america/program/schedule
   # Non-OK status: 403 --- resources/news/index.html
-  - ^https://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf
-  # Non-OK status: 403 --- resources/news/index.html
-  - ^https://www.forbes.com/sites/.../uptane-will-protect-your-connected-car-from-hackers
-  # Non-OK status: 403 --- resources/news/index.html
   - ^https://www.tmcnet.com/usubmit/2019/05/28/8963021.htm
   # Non-OK status: 404 --- community/adoptions/index.html
   - ^https://github.com/bottlerocket-os/bottlerocket/tree/develop/sources/updater

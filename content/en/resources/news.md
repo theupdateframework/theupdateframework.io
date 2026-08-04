@@ -130,7 +130,7 @@ Lily Guo and Riyaz Faizullabhoy from Docker gave a
 [talk](https://linuxconcontainerconeurope2016.sched.org/event/7oI1/software-update-security-when-the-going-gets-tough-get-tuf-going-riyaz-faizullabhoy-lily-guo-docker)
 on TUF and Notary at LinuxCon+ContainerCon Europe 2016. Slides of their talk are
 available
-[here](https://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf).
+[here](https://web.archive.org/web/20221213210408/https://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf).
 
 **September 22, 2016**
 
@@ -230,7 +230,7 @@ For more information on the Docker + TUF integration, consult
 
 - [Python Podcast.init-March 2017: Securing your Software Updates with Justin Cappos-Episode 99, March 2017](https://www.podcastinit.com/episode-99-the-update-framework-with-justin-cappos/)
 
-- [Forbes-January 2017: Uptane Will Protect your Connected Car from Hackers](https://www.forbes.com/sites/.../uptane-will-protect-your-connected-car-from-hackers)
+- [Forbes-January 2017: Uptane Will Protect your Connected Car from Hackers](https://www.forbes.com/sites/leemathews/2017/01/19/uptane-will-protect-your-connected-car-from-hackers/)
 
 - [Christian Science Monitor-January 2017: Are Software Uodates Key to Stopping Criminal Car Hacks?](https://www.csmonitor.com/World/Passcode/2017/0118/Are-software-updates-key-to-stopping-criminal-car-hacks)
 
