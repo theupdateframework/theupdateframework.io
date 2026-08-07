@@ -85,16 +85,24 @@ updater weaknesses that TUF is designed to defend against.
 
 ### How does TUF secure updates?
 
-In a sense, TUF enhances security by adding verifiable records about the state
-of a repository or application. By adding metadata containing information about
-which signing keys are trusted, the cryptographic hashes of files, signatures on
-the metadata, metadata version numbers, and the date after which the metadata
-should be considered expired, it creates a record that can be checked to verify
-the authenticity of update files.
+TUF adds a small layer of verifiable metadata alongside the files your update
+system downloads. Before any file is trusted, TUF checks a chain of signed
+records that answer four questions:
 
-Your software update system never has to deal with this additional metadata or
-understand what's going on underneath. TUF identifies the updates, downloads
-them, and checks them against the metadata that it also downloads from the
-repository. If the downloaded target files are trustworthy, TUF hands them over
-to your software update system. For more information and examples, see
+1. **Who is allowed to sign?** A root metadata file lists the trusted signing
+   keys, so an attacker cannot introduce their own key.
+2. **What is the current version?** Every metadata file carries a version
+   number, so an attacker cannot roll you back to an older, vulnerable update.
+3. **What was signed?** The metadata contains cryptographic hashes of the
+   update files, so a file that was tampered with will not match its signed
+   hash.
+4. **Is it still valid?** Metadata is timestamped and expires, so a signed
+   update that is months old is rejected rather than silently trusted.
+
+Your software update system never has to deal with this metadata directly.
+TUF identifies the updates, downloads them, and checks them against the
+metadata that it also downloads from the repository. If the downloaded target
+files are trustworthy, TUF hands them over to your software update system.
+
+For more information and examples, see
 [Roles and metadata](docs/metadata/)
