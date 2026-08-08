@@ -30,7 +30,6 @@ exclude = [
   '^https://www\.tmcnet\.com/usubmit/2019/05/28/8963021\.htm',             # 403
   '^https://www\.d2pmagazine\.com/2020/04/02/6099/',                       # 404
   '^https://www\.just-auto\.com/news/here-and-uptane-team-on-automotiveiot-security_id188912\.aspx', # 404
-  '^https://www\.linuxfoundation\.org/cloud-containers-virtualization/',   # 404
   '^https://www\.ustream\.tv/recorded/64499822',                           # 404
   '^https://www\.airbiquity\.com',                                         # 503
   '^http://www\.enterprisecloudnews\.com/author\.asp',                     # timeout
