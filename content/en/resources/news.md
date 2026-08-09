@@ -1,5 +1,6 @@
 ---
 title: News
+description: News highlights and press coverage of The Update Framework (TUF)
 aliases: [/news, /press]
 cSpell:ignore: Sigstore
 ---

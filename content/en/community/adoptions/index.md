@@ -1,5 +1,6 @@
 ---
 title: Adoptions
+description: Projects and organizations that have adopted TUF
 aliases: [/adoptions]
 ---
 
