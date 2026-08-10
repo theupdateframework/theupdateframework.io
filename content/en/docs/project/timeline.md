@@ -1,5 +1,6 @@
 ---
 title: Timeline
+description: Key milestones in the history of The Update Framework (TUF)
 aliases: [/timeline]
 ---
 

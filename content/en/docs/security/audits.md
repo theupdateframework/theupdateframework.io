@@ -1,6 +1,7 @@
 ---
 title: Security audits
 linkTitle: Audits
+description: Publicly available third-party security audit reports for TUF
 aliases: [/audits]
 ---
 
