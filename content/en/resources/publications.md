@@ -1,6 +1,6 @@
 ---
 title: Publications
-description: Academic papers on securing software updater systems, TUF's design, and package management security
+description: Academic papers on TUF's design and software update security
 aliases: [/publications]
 ---
 
