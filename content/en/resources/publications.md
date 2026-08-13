@@ -16,3 +16,5 @@ security:
 - [A Look In the Mirror: Attacks on Package Managers](/papers/attacks-on-package-managers-ccs2008.pdf)
 
 - [Package Management Security](/papers/package-management-security-tr08-02.pdf)
+
+- [State Machine Model for The Update Framework (TUF)](https://arxiv.org/pdf/2502.18092)
