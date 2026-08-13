@@ -5,96 +5,101 @@ description: Find out what TUF is all about!
 aliases: [/overview]
 ---
 
-### Purpose, or Why Get TUF?
+## Purpose — Why Get TUF?
 
-There are thousands of different software update systems in common use today.
+There are thousands of software update systems in use around the world, and you probably rely on several without even noticing. When Firefox, your operating system, or a programming library gets a new version, it's a software update system quietly finding and installing that update for you.
+Software is never really "finished." Developers keep releasing updates to add new features, fix bugs, and patch security vulnerabilities — and some repositories push out changes every few minutes.
 
-What these systems have in common is they all identify, locate, and download
-updates for software that can add new functionalities or address old
-vulnerabilities. Software is rarely ever static, and some repositories receive
-updates on software or project metadata
-[every few minutes](https://theupdateframework.io/papers/protect-community-repositories-nsdi2016.pdf).
+That raises an important question: **how can we be sure the systems delivering these updates are safe?**
 
-This growing flow of updates has also created a need for better ways to protect
-the systems that manage them. Though a number of strategies have been introduced
-and used over the last decade or so to enhance the authenticity of update
-files—and by extension, the security of update systems—most have drawbacks that
-have left repositories vulnerable to a number of attacks.
+Over the years, people have built various security techniques to make updates more trustworthy. But these techniques often have weaknesses, and repositories can still be vulnerable to attack.
 
-TUF was launched almost a decade ago as a way to build system resilience against
-key compromises and other attacks that can spread malware or compromise a
-repository. The primary goals behind its design are:
+## What is TUF?
 
-- To provide a framework (a set of libraries, file formats, and utilities) that
-  can be used to secure new and existing software update systems.
+**TUF** stands for **The Update Framework**. It was created to make software update systems more resilient against attacks including attacks where a cryptographic key gets compromised.If an attacker successfully compromises an update repository, they could push malicious software to users, or block them from getting updates they actually need. TUF is designed to reduce that risk.
 
-- To provide the means to minimize the impact of key compromises.
+TUF isn't a standalone program it's a **framework**: a collection of libraries, file formats, and utilities that you can add to a new or existing update system.
 
-- To be flexible enough to meet the needs of a wide variety of software update
-  systems.
+TUF has four main goals:
 
-- To be easy to integrate with existing software update systems.
+**1. Secure software update systems.** TUF provides tools and rules to help protect both new and existing update systems.
 
-### Software Updates 101
+**2. Limit the damage from a compromised key.** Update systems often use cryptographic keys to prove information can be trusted. If an attacker gets hold of an important key, that's dangerous so instead of assuming keys can never be compromised, TUF is built to minimize the damage when one is.
 
-A software update system is an application (or part of an application) running
-on a client system that identifies, obtains, and installs software.
+**3. Work with many kinds of update systems.** Different projects have different needs, and TUF is designed to flex to fit a wide range of them.
 
-There are three major classes of software update systems:
+**4. Be easy to integrate.** TUF is meant to slot into existing update systems, rather than forcing every project to build a new one from scratch.
 
-- **Application updaters** internal updaters that allow an application to update
-  itself. For example, Firefox updates itself through its own application
-  updater.
+## Software Updates 101
 
-- **Library package managers** offered by many programming languages for
-  installing additional libraries. Examples include Python's pip/easy_install +
-  PyPI, Perl's CPAN, Ruby's RubyGems, and PHP's Composer.
+Before diving into TUF, it helps to understand what a software update system actually does. At a basic level, it's an application (or part of one) that helps a computer:
 
-- **System package managers** used by operating systems to update and install
-  software on a client system. Examples include Debian's APT, Red Hat's YUM and
-  openSUSE's YaST.
+1. Find out whether an update is available.
+2. Obtain that update.
+3. Install it.
 
-While these systems may vary in how they work, most follow a similar update
-procedure. Obtaining and installing an update simply means:
+There are three main types of these systems.
 
-- Knowing when an update exists.
-- Downloading the update.
-- Applying the changes introduced by the update.
+### 1. Application updaters
 
-TUF is designed to perform the first two steps of this procedure, while guarding
-against the majority of attacks that can occur during or after the update. These
-include threats that other software security strategies may not take into
-account, such as when:
+Some applications update themselves. Firefox, for example, checks whether a newer version exists and downloads it automatically through its own built-in updater.
 
-- An attacker keeps giving you the same file, so you never realize there is an
-  update.
+### 2. Library package managers
 
-- An attacker gives you an older, insecure version of a file that you already
-  have and tricks you into thinking it's newer. You download it and blindly use
-  it.
+Developers use package managers to install and update the libraries their code depends on. Python has `pip`, Perl has CPAN, Ruby has RubyGems, and PHP has Composer each one handles fetching and updating libraries for its language.
 
-- An attacker gives you a newer version of a file you have but it's still not
-  the _newest_ one. It's newer to you, but it may be insecure and exploitable by
-  the attacker.
+### 3. System package managers
 
-- An attacker compromises the key used to sign these files. Now you download a
-  file that is properly signed, but is still malicious.
+Operating systems have their own package managers too, like Debian's APT, Red Hat's YUM, and openSUSE's YaST. These install and update software across the whole OS, not just one application.
 
-The [Security](docs/security/) section offers a full list of the attacks and
-updater weaknesses that TUF is designed to defend against.
+### What do they all have in common?
 
-### How does TUF secure updates?
+They may work differently under the hood, but the basic idea is the same everywhere: check whether an update exists, download it, then install it.
+TUF focuses on the **first two steps** finding and obtaining updates and protects that process against the kinds of attacks that can happen while it's underway.
 
-In a sense, TUF enhances security by adding verifiable records about the state
-of a repository or application. By adding metadata containing information about
-which signing keys are trusted, the cryptographic hashes of files, signatures on
-the metadata, metadata version numbers, and the date after which the metadata
-should be considered expired, it creates a record that can be checked to verify
-the authenticity of update files.
+## What can go wrong?
 
-Your software update system never has to deal with this additional metadata or
-understand what's going on underneath. TUF identifies the updates, downloads
-them, and checks them against the metadata that it also downloads from the
-repository. If the downloaded target files are trustworthy, TUF hands them over
-to your software update system. For more information and examples, see
-[Roles and metadata](docs/metadata/)
+Say you're waiting for a software update. Here's what an attacker might try.
+
+### Attack 1 — Freeze you on an old version
+
+A new update is available, but every time your computer checks, an attacker keeps handing it the same old file. Your computer never sees anything new, so it assumes there's nothing to update and you stay on outdated, possibly vulnerable software without ever knowing it.
+
+### Attack 2 — Roll you back to an insecure version
+
+Say your computer already has version 2 installed, and version 1 had a known security flaw. An attacker could hand your computer version 1 and trick it into treating that as the "newer" update, quietly moving you backwards into software with a vulnerability that had already been fixed.
+
+### Attack 3 — Give you a newer version, just not the newest one
+
+Imagine four versions exist 1, 2, 3, and 4 — and you're currently on version 2. An attacker gives you version 3. At first that looks fine, since 3 is newer than what you had. But version 4 is the actual latest release, and if version 3 still has a bug that was fixed in version 4, the attacker can keep you stuck one step behind the real fix without it looking suspicious at all.
+
+### Attack 4 — Compromise a signing key
+
+Update systems often use cryptographic signatures to prove that information really came from a trusted source, created using a signing key. But if an attacker manages to steal or compromise that key, they can produce something with a perfectly valid signature even though the content itself is malicious.
+
+In other words: a valid signature doesn't automatically mean the content is safe, since the key behind it may no longer be trustworthy. This is exactly the kind of scenario TUF is built to minimize the damage from.
+
+These four examples only scratch the surface TUF's dedicated **Security** section goes into the full range of attacks and weaknesses it's designed to defend against.
+
+## How does TUF secure updates?
+
+TUF works by adding an extra layer of information that can be checked, called **metadata** essentially a set of security records about a repository or application that TUF uses to decide whether an update can be trusted.
+
+That metadata typically includes:
+
+- **Trusted signing keys** - which keys should be trusted, and which shouldn't.
+- **Cryptographic hashes** - a kind of digital fingerprint for a file. If the file changes even slightly, its hash changes too, so TUF can tell whether a file matches what it's supposed to be.
+- **Signatures** - used to verify that the metadata itself hasn't been tampered with.
+- **Metadata versions** - so TUF knows which state of the metadata it's looking at.
+- **Expiration dates** - so old metadata can't be reused indefinitely after it should have expired.
+
+Together, these records give TUF everything it needs to verify an update before trusting it.
+
+## Does the software updater need to understand all of this?
+
+No and that's the point. The software update system doesn't need to know anything about the security mechanics happening underneath; TUF handles that layer on its own.
+Here's roughly how it plays out: a repository hosts both the update files and TUF's metadata. TUF fetches both, checks the update files against the metadata, and only if everything checks out does it hand the files off to the software updater to install. If something doesn't check out, TUF rejects it before it ever reaches the updater.
+
+## Why does this matter?
+
+Software needs updates, updates have to come from somewhere, and anywhere there's a delivery pipeline, there's a chance for an attacker to interfere. TUF adds a layer of security checks to that pipeline so the update system can make better-informed decisions about what to trust all while staying flexible enough to work with very different kinds of software update systems.
