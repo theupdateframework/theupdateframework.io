@@ -16,6 +16,7 @@ https://engineering.nyu.edu/news/open-source-system-secure-software-updates-grad
 https://events.linuxfoundation.org/events/linuxcon-north-america/program/slides,200,1785781706
 https://fuchsia.dev/fuchsia-src/concepts/system/software_update_system,200,1785781705
 https://github.com/awslabs/tough,200,1785781707
+https://github.com/bottlerocket-os/bottlerocket/blob/96bf303df357ac434ebcc619d676ecffa1c9bbcb/PUBLISHING.md#roles-and-keys,200,1786993474
 https://github.com/cnabio/cnab-spec/blob/cnab-security-1.0.0-ga/300-CNAB-security.md,200,1785781708
 https://github.com/cncf/foundation/blob/master/code-of-conduct.md,200,1785781705
 https://github.com/davedoesdev/dtuf,200,1785781708
@@ -110,6 +111,8 @@ https://www.datadoghq.com/blog/engineering/secure-publication-of-datadog-agent-i
 https://www.datadoghq.com/blog/engineering/secure-publication-of-datadog-agent-integrations-with-tuf-and-in-toto/,200,1785781704
 https://www.docker.com/blog/signing-docker-official-images-using-openpubkey/,200,1785781705
 https://www.drupal.org/project/infrastructure/issues/3325040,200,1785781705
+https://www.enisa.europa.eu/,200,1786993474
+https://www.enisa.europa.eu/sites/default/files/2026-05/Draft%20-%20ENISA%20Technical%20Advisory%20-%20Update%20Mechanisms%20-%20v0.6.pdf,200,1786993474
 https://www.helpnetsecurity.com/2019/12/23/update-framework-linux-foundation/,200,1785781705
 https://www.jointdevelopment.org/,200,1785781705
 https://www.linux-magazine.com/Issues/2014/160/Security-Lessons-TUF,200,1785781704
