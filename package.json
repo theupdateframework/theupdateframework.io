@@ -7,6 +7,7 @@
     "_check:links:internal": "npm run _check:links -- --offline",
     "_check:links": "lychee-norm-cache",
     "_commit:public": "HASH=$(git rev-parse --short main); cd public && git add -A && git commit -m \"Site at $HASH\"",
+    "_diff:check:link-cache": "npm run _diff:check -- .lycheecache || (echo; echo 'ERROR: .lycheecache has changed and needs to be committed.'; exit 1)",
     "_diff:check": "git diff --name-only --exit-code",
     "_filename-error": "echo 'ERROR: the following files violate naming conventions; fix using: `npm run fix:filenames`'; echo; npm run -s _ls-bad-filenames; exit 1",
     "_filenames-to-kebab-case": "find assets content -name '*_*' ! -name '[_.]*' -exec sh -c 'mv \"$1\" \"${1//_/-}\"' _ {} \\;",
@@ -40,7 +41,7 @@
     "refcache": "refcache",
     "seq": "bash -c 'for cmd in \"$@\"; do npm run $cmd || exit 1; done' - ",
     "serve": "npm run _serve",
-    "test": "npm run check:format && npm run check:links",
+    "test": "npm run check:format && npm run check:links && npm run _diff:check:link-cache",
     "update:dep": "npm install --save-dev autoprefixer@latest postcss-cli@latest",
     "update:pkgs": "npx npm-check-updates -u"
   },
