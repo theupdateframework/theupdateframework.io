@@ -16,6 +16,7 @@ menu: { main: { weight: 35 } }
 
 <a class="spec-btn btn btn-lg btn-secondary ms-3" href="/specification/latest/">Latest</a>
 
+- [v1.0.36](/specification/v1.0.36/)
 - [v1.0.35](/specification/v1.0.35/)
 - [v1.0.34](/specification/v1.0.34/)
 - [v1.0.33](/specification/v1.0.33/)
