@@ -41,8 +41,8 @@ Used in production by various tech companies and open source organizations.
 
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fa-brands fa-github" title="Contribute" url="/docs/contributing" %}}
-Get involved! Start contributing to TUF.
+{{% blocks/feature icon="fa-solid fa-code" title="Implementations" url="/docs/getting-started/#implementations" %}}
+Discover open source libraries and systems implementing TUF.
 
 {{% /blocks/feature %}}
 
