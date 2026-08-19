@@ -138,7 +138,7 @@ in [TAP 4](https://github.com/theupdateframework/taps/blob/master/tap4.md).
 
 **12. Has there been a security audit of TUF?**
 
-The [Security audits](docs/security/audits/) page links to a few of the security
+The [Security audits](/docs/security/audits/) page links to a few of the security
 audits of TUF.
 
 **13. How can I try TUF?**
