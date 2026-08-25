@@ -109,11 +109,10 @@ Austin, Texas, December 6-8, 2017.
 
 **October 24, 2017**
 
-[The Linux Foundation](https://www.linuxfoundation.org/) announced at Open
-Source Summit Europe that TUF would become the
-[latest hosted project](https://www.cncf.io/announcements/2017/10/24/cncf-host-two-security-projects-notary-tuf-specification/)
-of the Cloud Native Computing Foundation. TUF and Notary are the first security
-projects to be adopted by CNCF.
+The [Cloud Native Computing Foundation](https://www.cncf.io/) announced at Open
+Source Summit Europe that TUF would become its
+[latest hosted project](https://www.cncf.io/announcements/2017/10/24/cncf-host-two-security-projects-notary-tuf-specification/).
+TUF and Notary are the first security projects to be adopted by CNCF.
 
 **August 10, 2017**
 
